@@ -48,8 +48,8 @@ function App() {
       <hr style={{ margin: "3rem 0", opacity: 0.3 }} />
 
       <div>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
-          <div style={{ flexGrow: 1 }}>
+        <div className="mk-resume-data">
+          <div className="mk-resume-data__item">
             <h2 style={{ color: "#777" }}>Exprience</h2>
             <div>
               <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
@@ -128,7 +128,7 @@ function App() {
             </div>
           </div>
 
-          <div style={{ flexGrow: 1 }}>
+          <div className="mk-resume-data__item">
             <h2 style={{ color: "#777" }}>Education</h2>
             <div>
               <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
@@ -154,6 +154,164 @@ function App() {
               >
                 2014-2018
               </span>
+            </div>
+          </div>
+
+          <div className="mk-resume-data__item">
+            <h2 style={{ color: "#777" }}>Exprience</h2>
+            <div>
+              <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
+                Buzzjective Company
+              </h3>
+              <span
+                style={{
+                  display: "block",
+                  fontSize: "1.17rem",
+                  color: "#777",
+                  marginBottom: ".25rem",
+                }}
+              >
+                Software Developer &nbsp;{" "}
+                <span style={{ fontSize: "1rem" }}>|</span> &nbsp; 2022 -
+                Present
+              </span>
+              <ul
+                style={{
+                  fontSize: "1.17rem",
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  color: "#333",
+                }}
+              >
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Started and scaled design team to 6 product designers
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Implemented a web application desgin System
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Scaled Business to a $120m/yr business
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
+                Apple introduce
+              </h3>
+              <span
+                style={{
+                  display: "block",
+                  fontSize: "1.17rem",
+                  color: "#777",
+                  marginBottom: ".25rem",
+                }}
+              >
+                Software Engineer Team Lead &nbsp;{" "}
+                <span style={{ fontSize: "1rem" }}>|</span> &nbsp; 1998 - 2020
+              </span>
+              <ul
+                style={{
+                  fontSize: "1.17rem",
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  color: "#333",
+                }}
+              >
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Started and scaled design team to 6 product designers
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Implemented a web application desgin System
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Scaled Business to a $120m/yr business
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Lorem Ipsum is created by my in apple company
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mk-resume-data__item">
+            <h2 style={{ color: "#777" }}>Exprience</h2>
+            <div>
+              <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
+                Buzzjective Company
+              </h3>
+              <span
+                style={{
+                  display: "block",
+                  fontSize: "1.17rem",
+                  color: "#777",
+                  marginBottom: ".25rem",
+                }}
+              >
+                Software Developer &nbsp;{" "}
+                <span style={{ fontSize: "1rem" }}>|</span> &nbsp; 2022 -
+                Present
+              </span>
+              <ul
+                style={{
+                  fontSize: "1.17rem",
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  color: "#333",
+                }}
+              >
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Started and scaled design team to 6 product designers
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Implemented a web application desgin System
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Scaled Business to a $120m/yr business
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 style={{ color: "#333", marginBottom: ".25rem" }}>
+                Apple introduce
+              </h3>
+              <span
+                style={{
+                  display: "block",
+                  fontSize: "1.17rem",
+                  color: "#777",
+                  marginBottom: ".25rem",
+                }}
+              >
+                Software Engineer Team Lead &nbsp;{" "}
+                <span style={{ fontSize: "1rem" }}>|</span> &nbsp; 1998 - 2020
+              </span>
+              <ul
+                style={{
+                  fontSize: "1.17rem",
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  color: "#333",
+                }}
+              >
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Started and scaled design team to 6 product designers
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Implemented a web application desgin System
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Scaled Business to a $120m/yr business
+                </li>
+                <li style={{ marginBottom: "0.25rem" }}>
+                  - Lorem Ipsum is created by my in apple company
+                </li>
+              </ul>
             </div>
           </div>
         </div>

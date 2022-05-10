@@ -3,3 +3,14 @@
   padding: 5rem 0;
   max-width: 1360px;
 }
+
+.mk-resume-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mk-resume-data__item {
+  flex-grow: 1;
+  width: 50%;
+  margin-bottom: 3rem;
+}
