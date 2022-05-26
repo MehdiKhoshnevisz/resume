@@ -4,7 +4,7 @@ type Props = {
   children: React.ReactChild | React.ReactChild[];
 };
 
-export default function ExprienceWrapper({ children }: Props) {
+export default function ItemWrapper({ children }: Props) {
   return (
     <div className="mk-resume-data__item">
       <h2 style={{ color: "#777" }}>Exprience</h2>
