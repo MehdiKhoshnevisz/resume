@@ -39,7 +39,7 @@ const Details = ({ details }: any) => {
     >
       {details.map((item: string, index: number) => (
         <li key={index} style={{ marginBottom: "0.25rem" }}>
-          - {item}
+          {details.length > 1 && "-"} {item}
         </li>
       ))}
     </ul>
