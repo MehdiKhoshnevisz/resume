@@ -1,13 +1,14 @@
 import React from "react";
 
 type Props = {
+  title: string;
   children: React.ReactChild | React.ReactChild[];
 };
 
-export default function ItemWrapper({ children }: Props) {
+export default function ItemWrapper({ title, children }: Props) {
   return (
     <div className="mk-resume-data__item">
-      <h2 style={{ color: "#777" }}>Exprience</h2>
+      <h2 style={{ color: "#777" }}>{title}</h2>
       {children}
     </div>
   );
