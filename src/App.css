@@ -5,12 +5,12 @@
 }
 
 .mk-resume-data {
-  gap: 2.5rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .mk-resume-data__item {
-  flex-grow: 1;
+  flex: 1 0 auto;
   max-width: 50%;
+  flex-basis: 50%;
 }
