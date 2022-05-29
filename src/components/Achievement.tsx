@@ -1,8 +1,8 @@
 type Props = {
-  item: string;
+  description: string;
 };
 
-export default function Achievement({ item }: Props) {
+export default function Achievement({ description }: Props) {
   return (
     <div
       style={{
@@ -14,7 +14,7 @@ export default function Achievement({ item }: Props) {
         marginBottom: "0.25rem",
       }}
     >
-      {item}
+      {description}
     </div>
   );
 }
