@@ -1,4 +1,18 @@
-const Header = () => {
+import cleanURL from "../utils/cleanURL";
+
+type Props = {
+  fullName: string;
+  title: string;
+  website: string;
+  description: string;
+};
+
+export default function Biography({
+  fullName,
+  title,
+  website,
+  description,
+}: Props) {
   return (
     <header>
       <h1
@@ -10,18 +24,17 @@ const Header = () => {
           color: "#333",
         }}
       >
-        Mehdi Khoshnevis
+        {fullName}
       </h1>
       <span
         style={{ display: "block", fontSize: "1.5rem", marginBottom: "2rem" }}
       >
-        Senior Software Developer &nbsp;{" "}
-        <span style={{ fontSize: "1.2rem" }}>|</span> &nbsp;{" "}
+        {title} &nbsp; <span style={{ fontSize: "1.2rem" }}>|</span> &nbsp;{" "}
         <a
           href="https://imehdi.dev"
           style={{ color: "#333", textDecoration: "none" }}
         >
-          imehdi.dev
+          {cleanURL(website)}
         </a>
       </span>
       <p
@@ -32,14 +45,8 @@ const Header = () => {
           margin: 0,
         }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate
-        repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
-        distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat
-        ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
-        distinctio nihil quod iure at ad, tempora odit mollitia. Amet.
+        {description}
       </p>
     </header>
   );
-};
-
-export default Header;
+}
