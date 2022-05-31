@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Biography from "./components/Biography";
 import Exprience from "./components/Exprience";
 import Education from "./components/Education";
 import Achievement from "./components/Achievement";
@@ -8,7 +8,16 @@ import ItemWrapper from "./components/ItemWrapper";
 function App() {
   return (
     <main id="app">
-      <Header />
+      <Biography
+        fullName="Mehdi Khoshnevis"
+        title="Senior Software Developer"
+        website="https://imehdi.dev"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate
+        repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
+        distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat
+        ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
+        distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+      />
 
       <hr style={{ margin: "3rem 0", opacity: 0.3 }} />
 
