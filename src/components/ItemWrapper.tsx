@@ -9,7 +9,7 @@ export default function ItemWrapper({ title, children }: Props) {
   return (
     <div className="mk-resume-data__item">
       <h2 style={{ fontSize: "1.3rem", color: "#777", margin: 0 }}>{title}</h2>
-      {children}
+      <div className="mk-item-wrapper__children">{children}</div>
     </div>
   );
 }
