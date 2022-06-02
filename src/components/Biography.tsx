@@ -41,7 +41,7 @@ export default function Biography({
         style={{
           fontSize: "1rem",
           lineHeight: 1.8,
-          color: "#a1a1a1",
+          color: "#777",
           margin: 0,
         }}
       >
