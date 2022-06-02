@@ -4,6 +4,7 @@ import Exprience from "./components/Exprience";
 import Education from "./components/Education";
 import Achievement from "./components/Achievement";
 import ItemWrapper from "./components/ItemWrapper";
+import LineSeparator from "./components/LineSeparator";
 
 function App() {
   return (
@@ -19,74 +20,65 @@ function App() {
         distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
       />
 
-      <hr style={{ margin: "1.5rem 0", opacity: 0.3 }} />
+      <LineSeparator />
 
-      <div className="mk-resume-data">
-        <ItemWrapper title="Exprience">
-          <Exprience
-            company="Apple Company"
-            position="Technical lead"
-            startDate="2021"
-            details={[
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-            ]}
-          />
+      <ItemWrapper title="Work Exprience">
+        <Exprience
+          company="Apple Company"
+          position="Technical lead"
+          startDate="2021"
+          details={[
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
+          ]}
+        />
 
-          <Exprience
-            company="Google"
-            position="Senior Software Developer"
-            startDate="2018"
-            endDate="2020"
-            details={[
-              "Started and scaled design team to 6 product designers",
-              "Implemented a web application desgin System",
-            ]}
-          />
+        <Exprience
+          company="Google"
+          position="Senior Software Developer"
+          startDate="2018"
+          endDate="2020"
+          details={[
+            "Started and scaled design team to 6 product designers",
+            "Implemented a web application desgin System",
+          ]}
+        />
 
-          <Exprience
-            company="Buzzjective Company"
-            position="Software Developer"
-            startDate="2016"
-            endDate="2018"
-            details={[
-              "Started and scaled design team to 6 product designers",
-              "Implemented a web application desgin System",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            ]}
-          />
-        </ItemWrapper>
+        <Exprience
+          company="Buzzjective Company"
+          position="Software Developer"
+          startDate="2016"
+          endDate="2018"
+          details={[
+            "Started and scaled design team to 6 product designers",
+            "Implemented a web application desgin System",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          ]}
+        />
+      </ItemWrapper>
 
-        <ItemWrapper title="Education">
-          <Education
-            title="Sharif University"
-            field="Computer Science &nbsp; - &nbsp; Software Engineering"
-            startDate="2018"
-            endDate="2022"
-          />
+      <LineSeparator />
 
-          <Education
-            title="Shahab Danesh University"
-            field="Computer Engineer &nbsp; - &nbsp; Information Technology"
-            startDate="2014"
-            endDate="2018"
-          />
-        </ItemWrapper>
+      <ItemWrapper title="Education">
+        <Education
+          title="Sharif University"
+          field="Computer Science &nbsp; - &nbsp; Software Engineering"
+          startDate="2018"
+          endDate="2022"
+        />
 
-        <ItemWrapper title="Exprience">
-          <Exprience
-            company="Apple Company"
-            position="Technical lead"
-            startDate="2021"
-            details={[
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-            ]}
-          />
-        </ItemWrapper>
+        <Education
+          title="Shahab Danesh University"
+          field="Computer Engineer &nbsp; - &nbsp; Information Technology"
+          startDate="2014"
+          endDate="2018"
+        />
+      </ItemWrapper>
 
-        <ItemWrapper title="Achievement">
-          <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
-        </ItemWrapper>
-      </div>
+      <LineSeparator />
+
+      <ItemWrapper title="Achievement">
+        <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
+      </ItemWrapper>
     </main>
   );
 }
