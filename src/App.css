@@ -4,11 +4,11 @@
   max-width: 920px;
 }
 
-.mk-resume-data {
-  display: block;
+.mk-item-wrapper__children {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.mk-resume-data__item {
-  flex: 1 0 auto;
-  margin-bottom: 2rem;
+.mk-item-wrapper__children > * {
+  flex: 1 1 50%;
 }
