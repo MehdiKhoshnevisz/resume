@@ -17,9 +17,9 @@ export default function Biography({
     <header>
       <h1
         style={{
-          fontSize: "3.5rem",
+          fontSize: "2rem",
           marginTop: 0,
-          marginBottom: "1rem",
+          marginBottom: ".8rem",
           lineHeight: 1,
           color: "#333",
         }}
@@ -27,9 +27,9 @@ export default function Biography({
         {fullName}
       </h1>
       <span
-        style={{ display: "block", fontSize: "1.5rem", marginBottom: "2rem" }}
+        style={{ display: "block", fontSize: "1.3rem", marginBottom: "1rem" }}
       >
-        {title} &nbsp; <span style={{ fontSize: "1.2rem" }}>|</span> &nbsp;{" "}
+        {title} &nbsp; <span style={{ fontSize: "1.1rem" }}>|</span> &nbsp;{" "}
         <a
           href="https://imehdi.dev"
           style={{ color: "#333", textDecoration: "none" }}
@@ -39,8 +39,8 @@ export default function Biography({
       </span>
       <p
         style={{
-          fontSize: "1.2rem",
-          lineHeight: 2,
+          fontSize: "1rem",
+          lineHeight: 1.8,
           color: "#a1a1a1",
           margin: 0,
         }}

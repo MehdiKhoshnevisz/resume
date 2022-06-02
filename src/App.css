@@ -1,16 +1,14 @@
 #app {
   margin: auto;
   padding: 5rem 0;
-  max-width: 1360px;
+  max-width: 920px;
 }
 
 .mk-resume-data {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .mk-resume-data__item {
   flex: 1 0 auto;
-  max-width: 50%;
-  flex-basis: 50%;
+  margin-bottom: 2rem;
 }

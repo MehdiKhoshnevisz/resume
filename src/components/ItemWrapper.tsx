@@ -8,10 +8,8 @@ type Props = {
 export default function ItemWrapper({ title, children }: Props) {
   return (
     <div className="mk-resume-data__item">
-      <div style={{ padding: "1rem" }}>
-        <h2 style={{ color: "#777", margin: 0 }}>{title}</h2>
-        {children}
-      </div>
+      <h2 style={{ fontSize: "1.3rem", color: "#777", margin: 0 }}>{title}</h2>
+      {children}
     </div>
   );
 }

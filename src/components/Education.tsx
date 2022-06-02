@@ -6,7 +6,9 @@ type Props = {
 };
 
 const Title = ({ title }: any) => (
-  <h3 style={{ color: "#333", marginBottom: ".25rem" }}>{title}</h3>
+  <h3 style={{ fontSize: "1rem", color: "#333", marginBottom: ".25rem" }}>
+    {title}
+  </h3>
 );
 
 const Field = ({ field, startDate, endDate }: any) => {
@@ -14,7 +16,7 @@ const Field = ({ field, startDate, endDate }: any) => {
     <span
       style={{
         display: "block",
-        fontSize: "1.17rem",
+        fontSize: "1rem",
         color: "#777",
         marginBottom: ".25rem",
       }}

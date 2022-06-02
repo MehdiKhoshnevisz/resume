@@ -19,7 +19,7 @@ function App() {
         distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
       />
 
-      <hr style={{ margin: "3rem 0", opacity: 0.3 }} />
+      <hr style={{ margin: "1.5rem 0", opacity: 0.3 }} />
 
       <div className="mk-resume-data">
         <ItemWrapper title="Exprience">

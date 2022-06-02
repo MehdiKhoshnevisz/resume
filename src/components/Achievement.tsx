@@ -6,7 +6,7 @@ export default function Achievement({ description }: Props) {
   return (
     <div
       style={{
-        fontSize: "1.17rem",
+        fontSize: "1rem",
         listStyle: "none",
         padding: 0,
         margin: 0,
