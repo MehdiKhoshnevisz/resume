@@ -29,9 +29,9 @@ const Field = ({ field, startDate, endDate }: any) => {
 
 export default function Education({ title, field, startDate, endDate }: Props) {
   return (
-    <>
+    <div>
       <Title title={title} />
       <Field field={field} startDate={startDate} endDate={endDate} />
-    </>
+    </div>
   );
 }

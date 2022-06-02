@@ -56,10 +56,10 @@ export default function Exprience({
   details,
 }: Props) {
   return (
-    <>
+    <div>
       <Company title={company} />
       <Position title={position} startDate={startDate} endDate={endDate} />
       {details && <Details details={details} />}
-    </>
+    </div>
   );
 }
