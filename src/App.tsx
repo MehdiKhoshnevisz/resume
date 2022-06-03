@@ -22,6 +22,10 @@ function App() {
 
       <LineSeparator />
 
+      <ItemWrapper title="Skills">helloo</ItemWrapper>
+
+      <LineSeparator />
+
       <ItemWrapper title="Work Exprience">
         <Exprience
           company="Apple Company"
