@@ -5,10 +5,11 @@
 }
 
 .mk-item-wrapper__children {
+  gap: 0.5rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .mk-item-wrapper__children > * {
-  flex: 1 1 50%;
+  flex: 1 1 48%;
 }
