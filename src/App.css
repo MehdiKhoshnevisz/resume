@@ -2,6 +2,7 @@
   margin: auto;
   padding: 5rem 0;
   max-width: 920px;
+  letter-spacing: 0.04rem;
 }
 
 .mk-item-wrapper__children {
