@@ -1,7 +1,7 @@
 #app {
   margin: auto;
   max-width: 920px;
-  padding: 4rem 1.8rem;
+  padding: 5rem 0;
   letter-spacing: 0.04rem;
 }
 
@@ -13,4 +13,14 @@
 
 .mk-item-wrapper__children > * {
   flex: 1 1 48%;
+}
+
+@media (max-width: 920px) {
+  #app {
+    padding: 2rem 1.5rem;
+  }
+
+  .mk-item-wrapper__children > * {
+    flex: 1 1 100%;
+  }
 }
