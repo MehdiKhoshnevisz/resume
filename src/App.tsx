@@ -1,4 +1,5 @@
 import "./App.css";
+import Skills from "./components/Skills";
 import Biography from "./components/Biography";
 import Exprience from "./components/Exprience";
 import Education from "./components/Education";
@@ -22,7 +23,11 @@ function App() {
 
       <LineSeparator />
 
-      <ItemWrapper title="Skills">helloo</ItemWrapper>
+      <ItemWrapper title="Skills">
+        <Skills
+          list={["HTML5", "CSS3", "Javascript", "Vuejs", "Reactjs", "Nodejs"]}
+        />
+      </ItemWrapper>
 
       <LineSeparator />
 
