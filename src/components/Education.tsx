@@ -5,18 +5,7 @@ type Props = {
   endDate?: string;
 };
 
-const Title = ({ title }: any) => (
-  <h3
-    style={{
-      fontSize: "1rem",
-      color: "#333",
-      margin: 0,
-      marginBottom: ".25rem",
-    }}
-  >
-    {title}
-  </h3>
-);
+const Title = ({ title }: any) => <h3 className="mk-general-title">{title}</h3>;
 
 const Field = ({ field, startDate, endDate }: any) => {
   return (

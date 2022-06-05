@@ -3,18 +3,5 @@ type Props = {
 };
 
 export default function Achievement({ description }: Props) {
-  return (
-    <div
-      style={{
-        fontSize: "1rem",
-        listStyle: "none",
-        padding: 0,
-        margin: 0,
-        color: "#333",
-        marginBottom: "0.25rem",
-      }}
-    >
-      {description}
-    </div>
-  );
+  return <div className="mk-general-title">{description}</div>;
 }

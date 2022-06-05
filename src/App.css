@@ -5,6 +5,13 @@
   letter-spacing: 0.04rem;
 }
 
+.mk-general-title {
+  margin: 0;
+  color: #333;
+  font-size: "1rem";
+  margin-bottom: ".25rem";
+}
+
 .mk-item-wrapper__children {
   gap: 0.5rem;
   display: flex;
