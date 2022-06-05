@@ -8,8 +8,8 @@
 .mk-general-title {
   margin: 0;
   color: #333;
-  font-size: "1rem";
-  margin-bottom: ".25rem";
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .mk-item-wrapper__children {
