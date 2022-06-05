@@ -3,7 +3,7 @@ type Props = {
   position: string;
   startDate: string;
   endDate?: string;
-  details?: string[];
+  description?: string;
 };
 
 const Company = ({ title }: any) => (
@@ -19,9 +19,9 @@ const Position = ({ title, startDate, endDate }: any) => {
   );
 };
 
-const Details = ({ details }: any) => {
+const Description = ({ description }: any) => {
   return (
-    <ul
+    <p
       style={{
         fontSize: "1rem",
         listStyle: "none",
@@ -30,12 +30,8 @@ const Details = ({ details }: any) => {
         color: "#333",
       }}
     >
-      {details.map((item: string, index: number) => (
-        <li key={index} style={{ marginBottom: "0.25rem" }}>
-          {details.length > 1 && "-"} {item}
-        </li>
-      ))}
-    </ul>
+      {description}
+    </p>
   );
 };
 
@@ -44,13 +40,13 @@ export default function Exprience({
   position,
   startDate,
   endDate,
-  details,
+  description,
 }: Props) {
   return (
     <div>
       <Company title={company} />
       <Position title={position} startDate={startDate} endDate={endDate} />
-      {details && <Details details={details} />}
+      {description && <Description description={description} />}
     </div>
   );
 }

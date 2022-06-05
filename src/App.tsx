@@ -37,9 +37,7 @@ function App() {
           company="Apple Company"
           position="Technical lead"
           startDate="2021"
-          details={[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-          ]}
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
         />
 
         <Exprience
@@ -47,10 +45,7 @@ function App() {
           position="Senior Software Developer"
           startDate="2018"
           endDate="2020"
-          details={[
-            "Started and scaled design team to 6 product designers",
-            "Implemented a web application desgin System",
-          ]}
+          description="Started and scaled design team to 6 product designers and Implemented a web application desgin System"
         />
 
         <Exprience
@@ -58,11 +53,7 @@ function App() {
           position="Software Developer"
           startDate="2016"
           endDate="2018"
-          details={[
-            "Started and scaled design team to 6 product designers",
-            "Implemented a web application desgin System",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          ]}
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunf."
         />
       </ItemWrapper>
 
@@ -102,13 +93,6 @@ function App() {
 
         <Project
           title="Project 2"
-          startDate="2020"
-          endDate="2022"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
-        />
-
-        <Project
-          title="Project 3"
           startDate="2020"
           endDate="2022"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
