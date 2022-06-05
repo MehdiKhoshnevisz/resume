@@ -12,7 +12,8 @@ function App() {
   return (
     <main id="app">
       <Biography
-        fullName="Mehdi Khoshnevis"
+        firstName="Mehdi"
+        lastName="Khoshnevis"
         title="Senior Software Developer"
         website="https://imehdi.dev"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate
