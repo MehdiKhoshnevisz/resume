@@ -20,13 +20,15 @@
 }
 
 .mk-item-wrapper__children {
-  gap: 0.5em;
+  gap: 1em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .mk-item-wrapper__children > * {
-  flex: 1 1 48%;
+  flex: 1 1 auto;
+  width: calc(50% - 1em);
 }
 
 @media (max-width: 920px) {
