@@ -1,20 +1,32 @@
 import cleanURL from "../utils/cleanURL";
 
 type Props = {
-  fullName: string;
+  firstName: string;
+  lastName?: string;
   title: string;
   website: string;
   description: string;
 };
 
 export default function Biography({
-  fullName,
+  firstName,
+  lastName,
   title,
   website,
   description,
 }: Props) {
   return (
     <header>
+      <span
+        style={{
+          display: "block",
+          fontSize: "1em",
+          marginBottom: ".25rem",
+          letterSpacing: "4px",
+        }}
+      >
+        HELLO! {"  "}I'M
+      </span>
       <h1
         style={{
           fontSize: "2em",
@@ -25,7 +37,7 @@ export default function Biography({
           color: "#333",
         }}
       >
-        {fullName}
+        {firstName} <br /> {lastName || ""}
       </h1>
       <span
         style={{ display: "block", fontSize: "1.3em", marginBottom: ".25em" }}
