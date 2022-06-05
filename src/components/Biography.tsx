@@ -42,13 +42,13 @@ export default function Biography({
       <span
         style={{ display: "block", fontSize: "1.3em", marginBottom: ".25em" }}
       >
-        {title} &nbsp; <span style={{ fontSize: "1.1em" }}>|</span> &nbsp;{" "}
-        <a
+        {title}
+        {/* <a
           href="https://imehdi.dev"
           style={{ color: "#333", textDecoration: "none" }}
         >
           {cleanURL(website)}
-        </a>
+        </a> */}
       </span>
       <p
         style={{
