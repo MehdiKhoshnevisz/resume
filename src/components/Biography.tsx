@@ -20,7 +20,7 @@ export default function Biography({
           fontSize: "2em",
           fontWeight: "900",
           marginTop: 0,
-          marginBottom: ".8em",
+          marginBottom: ".25em",
           lineHeight: 1,
           color: "#333",
         }}
@@ -28,7 +28,7 @@ export default function Biography({
         {fullName}
       </h1>
       <span
-        style={{ display: "block", fontSize: "1.3em", marginBottom: "1em" }}
+        style={{ display: "block", fontSize: "1.3em", marginBottom: ".25em" }}
       >
         {title} &nbsp; <span style={{ fontSize: "1.1em" }}>|</span> &nbsp;{" "}
         <a
