@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Company = ({ title }: any) => (
-  <h3 className="mk-general-title">{title}</h3>
+  <h3 className="mk-general-item-title">{title}</h3>
 );
 
 const Position = ({ title, startDate, endDate }: any) => {

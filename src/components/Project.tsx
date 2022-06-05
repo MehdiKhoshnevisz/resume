@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Title = ({ title, url }: any) => (
-  <h3 className="mk-general-title">
+  <h3 className="mk-general-item-title">
     <a href={url || "#"} style={{ color: "#333", textDecoration: "none" }}>
       {title}
     </a>
