@@ -11,8 +11,8 @@ export default function ItemWrapper({ title, children }: Props) {
       <h2
         style={{
           fontSize: "1.3em",
-          fontWeight: "bold",
-          color: "#777",
+          fontWeight: "900",
+          color: "#333",
           margin: 0,
           marginBottom: ".5em",
         }}
