@@ -20,14 +20,7 @@ const Title = ({ title, url }: any) => (
 
 const Date = ({ startDate, endDate }: any) => {
   return (
-    <span
-      style={{
-        display: "block",
-        fontSize: "1rem",
-        color: "#777",
-        marginBottom: ".25rem",
-      }}
-    >
+    <span className="mk-general-item-sub-title">
       {startDate} - {endDate || "Present"}
     </span>
   );
