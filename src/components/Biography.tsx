@@ -18,6 +18,7 @@ export default function Biography({
       <h1
         style={{
           fontSize: "2rem",
+          fontWeight: "900",
           marginTop: 0,
           marginBottom: ".8rem",
           lineHeight: 1,
