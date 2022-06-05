@@ -1,5 +1,6 @@
 import "./App.css";
 import Skills from "./components/Skills";
+import Project from "./components/Project";
 import Biography from "./components/Biography";
 import Exprience from "./components/Exprience";
 import Education from "./components/Education";
@@ -87,6 +88,31 @@ function App() {
 
       <ItemWrapper title="Achievement">
         <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
+      </ItemWrapper>
+
+      <LineSeparator />
+
+      <ItemWrapper title="Projects">
+        <Project
+          title="Project 1"
+          startDate="2020"
+          endDate="2022"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+        />
+
+        <Project
+          title="Project 2"
+          startDate="2020"
+          endDate="2022"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+        />
+
+        <Project
+          title="Project 3"
+          startDate="2020"
+          endDate="2022"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+        />
       </ItemWrapper>
     </main>
   );
