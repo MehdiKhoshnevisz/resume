@@ -12,7 +12,7 @@ const Title = ({ title, url }: any) => (
       {title}
     </a>
     &nbsp;
-    <span style={{ fontSize: "0.8rem", color: "#aaa", fontWeight: "500" }}>
+    <span style={{ fontSize: "0.8em", color: "#aaa", fontWeight: "500" }}>
       github
     </span>
   </h3>
@@ -33,7 +33,7 @@ const Description = ({ description }: any) => {
         padding: 0,
         margin: 0,
         color: "#333",
-        fontSize: "1rem",
+        fontSize: "1em",
       }}
     >
       {description}

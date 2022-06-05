@@ -13,7 +13,7 @@ const Company = ({ title }: any) => (
 const Position = ({ title, startDate, endDate }: any) => {
   return (
     <span className="mk-general-item-sub-title">
-      {title} &nbsp; <span style={{ fontSize: "0.9rem" }}>|</span> &nbsp;{" "}
+      {title} &nbsp; <span style={{ fontSize: "0.9em" }}>|</span> &nbsp;{" "}
       {startDate} - {endDate || "Present"}
     </span>
   );
@@ -23,7 +23,7 @@ const Description = ({ description }: any) => {
   return (
     <p
       style={{
-        fontSize: "1rem",
+        fontSize: "1em",
         listStyle: "none",
         padding: 0,
         margin: 0,

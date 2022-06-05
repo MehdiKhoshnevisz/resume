@@ -10,9 +10,9 @@ export default function Skills({ list }: Props) {
           key={index}
           style={{
             display: "inline-block",
-            marginRight: "0.5rem",
-            marginBottom: "0.5rem",
-            padding: ".2rem 0.5rem",
+            marginRight: "0.5em",
+            marginBottom: "0.5em",
+            padding: ".2em 0.5em",
             backgroundColor: "#ebebeb",
           }}
         >

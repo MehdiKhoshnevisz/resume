@@ -10,11 +10,11 @@ export default function ItemWrapper({ title, children }: Props) {
     <div className="mk-resume-data__item">
       <h2
         style={{
-          fontSize: "1.3rem",
+          fontSize: "1.3em",
           fontWeight: "bold",
           color: "#777",
           margin: 0,
-          marginBottom: ".5rem",
+          marginBottom: ".5em",
         }}
       >
         {title}
