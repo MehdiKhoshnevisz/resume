@@ -1,3 +1,5 @@
+import cleanURL from "../utils/cleanURL";
+
 type Props = {
   title: string;
   url?: string;
@@ -8,13 +10,20 @@ type Props = {
 
 const Title = ({ title, url }: any) => (
   <h3 className="mk-general-item-title">
-    <a href={url || "#"} style={{ color: "#333", textDecoration: "none" }}>
-      {title}
-    </a>
-    &nbsp;
-    <span style={{ fontSize: "0.8em", color: "#aaa", fontWeight: "500" }}>
-      github
-    </span>
+    <span style={{ display: "block", color: "#333" }}>{title}</span>
+    {url && (
+      <a
+        href={url}
+        style={{
+          textDecoration: "none",
+          fontSize: "0.8em",
+          color: "#aaa",
+          fontWeight: "500",
+        }}
+      >
+        {cleanURL(url)}
+      </a>
+    )}
   </h3>
 );
 
