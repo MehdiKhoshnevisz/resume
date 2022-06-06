@@ -93,12 +93,6 @@ function App() {
 
         <LineSeparator />
 
-        <ItemWrapper title="Achievement">
-          <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
-        </ItemWrapper>
-
-        <LineSeparator />
-
         <ItemWrapper title="Projects">
           <Project
             title="vue-splash"
@@ -115,6 +109,12 @@ function App() {
             endDate="2022"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
           />
+        </ItemWrapper>
+
+        <LineSeparator />
+
+        <ItemWrapper title="Achievement">
+          <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
         </ItemWrapper>
       </main>
 
