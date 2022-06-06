@@ -9,11 +9,15 @@ export default function Skills({ list }: Props) {
         <span
           key={index}
           style={{
-            display: "inline-block",
+            color: "#333",
+            fontSize: "0.9em",
+            fontWeight: "bold",
             marginRight: "0.5em",
             marginBottom: "0.5em",
-            padding: ".2em 0.5em",
-            backgroundColor: "#ebebeb",
+            padding: ".05em 0.5em",
+            display: "inline-block",
+            border: "2px solid #333",
+            verticalAlign: "middle",
           }}
         >
           {item}
