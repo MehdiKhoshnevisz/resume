@@ -1,13 +1,31 @@
+import cleanURL from "../utils/cleanURL";
+
 type Props = {
   company: string;
   position: string;
   startDate: string;
   endDate?: string;
+  website?: string;
   description?: string;
 };
 
-const Company = ({ title }: any) => (
-  <h3 className="mk-general-item-title">{title}</h3>
+const Company = ({ title, website }: any) => (
+  <h3 className="mk-general-item-title">
+    {title} &nbsp;
+    {website && (
+      <a
+        href={website}
+        style={{
+          textDecoration: "none",
+          fontSize: "0.8em",
+          color: "#aaa",
+          fontWeight: "500",
+        }}
+      >
+        {cleanURL(website)}
+      </a>
+    )}
+  </h3>
 );
 
 const Position = ({ title, startDate, endDate }: any) => {
@@ -40,11 +58,12 @@ export default function Exprience({
   position,
   startDate,
   endDate,
+  website,
   description,
 }: Props) {
   return (
     <div>
-      <Company title={company} />
+      <Company title={company} website={website} />
       <Position title={position} startDate={startDate} endDate={endDate} />
       {description && <Description description={description} />}
     </div>
