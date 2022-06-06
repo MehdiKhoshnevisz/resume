@@ -13,16 +13,6 @@ export default function Biography({
 }: Props) {
   return (
     <header>
-      <span
-        style={{
-          display: "block",
-          fontSize: "1em",
-          marginBottom: ".25rem",
-          letterSpacing: "4px",
-        }}
-      >
-        HELLO! {"  "}I'M
-      </span>
       <h1
         style={{
           fontSize: "3em",
