@@ -29,12 +29,13 @@ export default function Biography({
       </span>
       <h1
         style={{
-          fontSize: "2em",
+          fontSize: "3em",
           fontWeight: "900",
           marginTop: 0,
           marginBottom: ".25em",
           lineHeight: 1,
           color: "#333",
+          transform: "translateX(-2px)",
         }}
       >
         {firstName} <br /> {lastName || ""}
