@@ -51,6 +51,7 @@ function App() {
             company="Apple Company"
             position="Technical lead"
             startDate="2021"
+            website="https://apple.com"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
           />
 
@@ -59,6 +60,7 @@ function App() {
             position="Senior Software Developer"
             startDate="2018"
             endDate="2020"
+            website="https://google.com"
             description="Started and scaled design team to 6 product designers and Implemented a web application desgin System"
           />
 
@@ -99,14 +101,16 @@ function App() {
 
         <ItemWrapper title="Projects">
           <Project
-            title="Project 1"
+            title="vue-splash"
+            url="https://github.com/MehdiKhoshnevisz/vue-splash"
             startDate="2020"
             endDate="2022"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
           />
 
           <Project
-            title="Project 2"
+            title="simple-resume-builder"
+            url="https://github.com/MehdiKhoshnevisz/simple-resume-builder"
             startDate="2020"
             endDate="2022"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
