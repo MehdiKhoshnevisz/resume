@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 import Biography from "./components/Biography";
 import Exprience from "./components/Exprience";
 import Education from "./components/Education";
@@ -17,13 +18,23 @@ function App() {
           firstName="Mehdi"
           lastName="Khoshnevis"
           title="Senior Software Developer"
-          website="https://imehdi.dev"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate
-        repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
-        distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat
-        ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
-        distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+          repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
+          distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat
+          ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde
+          distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
         />
+
+        <LineSeparator />
+
+        <ItemWrapper title="Contact">
+          <Contact
+            phone="+98 910 965 7619"
+            email="mkhnsz1996@gmail.com"
+            website="https://imehdi.dev"
+            location="Iran"
+          />
+        </ItemWrapper>
 
         <LineSeparator />
 
