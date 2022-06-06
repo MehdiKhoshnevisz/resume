@@ -1,10 +1,7 @@
-import cleanURL from "../utils/cleanURL";
-
 type Props = {
   firstName: string;
   lastName?: string;
   title: string;
-  website: string;
   description: string;
 };
 
@@ -12,7 +9,6 @@ export default function Biography({
   firstName,
   lastName,
   title,
-  website,
   description,
 }: Props) {
   return (
@@ -44,12 +40,6 @@ export default function Biography({
         style={{ display: "block", fontSize: "1.3em", marginBottom: ".1em" }}
       >
         {title}
-        {/* <a
-          href="https://imehdi.dev"
-          style={{ color: "#333", textDecoration: "none" }}
-        >
-          {cleanURL(website)}
-        </a> */}
       </span>
       <p
         style={{
