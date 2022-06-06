@@ -7,7 +7,11 @@ export default function Footer() {
       }}
     >
       <span style={{ color: "#333", fontSize: "0.9em", fontWeight: 300 }}>
-        Made With <span style={{ verticalAlign: "middle" }}>❤︎</span> by{" "}
+        Made With{" "}
+        <span style={{ verticalAlign: "middle" }} title="keyboard">
+          ⌨️
+        </span>{" "}
+        by{" "}
         <a
           href="https://imehdi.dev"
           style={{ textDecoration: "none", color: "#333", fontWeight: "bold" }}
