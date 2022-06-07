@@ -121,10 +121,6 @@ function App() {
         <ItemWrapper title="Achievement">
           <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
         </ItemWrapper>
-
-        <LineSeparator />
-
-        <ItemWrapper title="Where to find me">haha</ItemWrapper>
       </main>
 
       <Footer />
