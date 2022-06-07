@@ -2,29 +2,38 @@ import cleanURL from "../utils/cleanURL";
 
 type Props = {
   title: string;
+  type?: string;
   url?: string;
   startDate: string;
   endDate?: string;
   description?: string;
 };
 
-const Title = ({ title, url }: any) => (
+const Title = ({ title, type }: any) => (
   <h3 className="mk-general-item-title">
-    <span style={{ display: "block", color: "#333" }}>{title}</span>
-    {url && (
-      <a
-        href={url}
-        style={{
-          textDecoration: "none",
-          fontSize: "0.8em",
-          color: "#aaa",
-          fontWeight: "500",
-        }}
-      >
-        {cleanURL(url)}
-      </a>
+    {title}{" "}
+    {type && (
+      <span style={{ color: "#aaa", fontWeight: "normal", fontSize: "0.8em" }}>
+        {type}
+      </span>
     )}
   </h3>
+);
+
+const ProjectURL = ({ url }: any) => (
+  <div>
+    <a
+      href={url}
+      style={{
+        textDecoration: "none",
+        fontSize: "0.8em",
+        color: "#aaa",
+        fontWeight: "500",
+      }}
+    >
+      {cleanURL(url)}
+    </a>
+  </div>
 );
 
 const Date = ({ startDate, endDate }: any) => {
@@ -52,6 +61,7 @@ const Description = ({ description }: any) => {
 
 export default function Projects({
   title,
+  type,
   url,
   startDate,
   endDate,
@@ -59,9 +69,10 @@ export default function Projects({
 }: Props) {
   return (
     <div>
-      <Title title={title} url={url} />
+      <Title title={title} type={type} />
       <Date startDate={startDate} endDate={endDate} />
       {description && <Description description={description} />}
+      {url && <ProjectURL url={url} />}
     </div>
   );
 }
