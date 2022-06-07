@@ -49,6 +49,7 @@ function App() {
         <ItemWrapper title="Work Exprience">
           <Exprience
             company="Apple Company"
+            type="Full-Time"
             position="Technical lead"
             startDate="2021"
             website="https://apple.com"
@@ -57,6 +58,7 @@ function App() {
 
           <Exprience
             company="Google"
+            type="Full-Time"
             position="Senior Software Developer"
             startDate="2018"
             endDate="2020"
@@ -66,6 +68,7 @@ function App() {
 
           <Exprience
             company="Buzzjective Company"
+            type="Contract"
             position="Software Developer"
             startDate="2016"
             endDate="2018"
@@ -96,6 +99,7 @@ function App() {
         <ItemWrapper title="Projects">
           <Project
             title="vue-splash"
+            type="Personal"
             url="https://github.com/MehdiKhoshnevisz/vue-splash"
             startDate="2020"
             endDate="2022"
@@ -104,6 +108,7 @@ function App() {
 
           <Project
             title="simple-resume-builder"
+            type="Freelance"
             url="https://github.com/MehdiKhoshnevisz/simple-resume-builder"
             startDate="2020"
             endDate="2022"
@@ -116,6 +121,10 @@ function App() {
         <ItemWrapper title="Achievement">
           <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
         </ItemWrapper>
+
+        <LineSeparator />
+
+        <ItemWrapper title="Where to find me">haha</ItemWrapper>
       </main>
 
       <Footer />
