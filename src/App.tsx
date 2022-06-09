@@ -1,4 +1,5 @@
 import "./App.css";
+import Links from "./components/Links";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
@@ -120,6 +121,36 @@ function App() {
 
         <ItemWrapper title="Achievement">
           <Achievement description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget." />
+        </ItemWrapper>
+
+        <LineSeparator />
+
+        <ItemWrapper title="Links">
+          <Links
+            items={[
+              { title: "Telegram", url: "https://t.me/MehdiKhoshnevis" },
+              {
+                title: "Instagram",
+                url: "https://instagram.com/mehdi_khoshnevisz",
+              },
+              {
+                title: "LinkedIn",
+                url: "https://linkedin.com/in/mehdi-khoshnevisz",
+              },
+              {
+                title: "Github",
+                url: "https://github.com/MehdiKhoshnevisz",
+              },
+              {
+                title: "Twitter",
+                url: "https://twitter.com/imehdi96",
+              },
+              {
+                title: "Unsplash",
+                url: "https://unsplash.com/@mehdi_khoshnevisz",
+              },
+            ]}
+          />
         </ItemWrapper>
       </main>
 
