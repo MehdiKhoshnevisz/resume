@@ -128,7 +128,7 @@ function App() {
         <ItemWrapper title="Links">
           <Links
             items={[
-              { title: "Telegram", url: "https://t.me/MehdiKhoshnevis" },
+              { title: "Telegram", url: "https://t.me/MehdiKhoshnevisz" },
               {
                 title: "Instagram",
                 url: "https://instagram.com/mehdi_khoshnevisz",
