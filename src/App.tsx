@@ -145,9 +145,18 @@ function App() {
                 title: "Twitter",
                 url: "https://twitter.com/imehdi96",
               },
+
+              {
+                title: "Stackoverflow",
+                url: "https://stackoverflow.com/users/9087806/mehdi-khoshnevisz",
+              },
               {
                 title: "Unsplash",
                 url: "https://unsplash.com/@mehdi_khoshnevisz",
+              },
+              {
+                title: "Virgool",
+                url: "https://virgool.io/@mehdi_khoshnevisz",
               },
             ]}
           />
