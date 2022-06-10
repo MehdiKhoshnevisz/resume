@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, FC } from "react";
 import { cleanURL, getIcon, originURL } from "../utils";
 
 type Props = {
   items: object[];
 };
 
-export default function Contact({ items }: Props) {
+const Contact: FC<Props> = ({ items }) => {
   const linkList: any = [];
   const [links, setLinks] = useState(linkList);
 
@@ -33,4 +33,6 @@ export default function Contact({ items }: Props) {
   }, [items]);
 
   return <>{links}</>;
-}
+};
+
+export default Contact;

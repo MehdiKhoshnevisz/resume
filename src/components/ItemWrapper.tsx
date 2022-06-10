@@ -1,25 +1,24 @@
-import React from "react";
+import { FC, ReactNode } from "react";
 
 type Props = {
   title: string;
-  children: React.ReactChild | React.ReactChild[];
+  children: ReactNode | ReactNode[];
 };
 
-export default function ItemWrapper({ title, children }: Props) {
-  return (
-    <div className="mk-resume-data__item">
-      <h2
-        style={{
-          fontSize: "1.3em",
-          fontWeight: "900",
-          color: "#333",
-          margin: 0,
-          marginBottom: ".5em",
-        }}
-      >
-        {title}
-      </h2>
-      <div className="mk-item-wrapper__children">{children}</div>
-    </div>
-  );
-}
+const ItemWrapper: FC<Props> = ({ title, children }) => (
+  <div className="mk-resume-data__item">
+    <h2
+      style={{
+        fontSize: "1.3em",
+        fontWeight: "900",
+        color: "#333",
+        margin: 0,
+        marginBottom: ".5em",
+      }}
+    >
+      {title}
+    </h2>
+    <div className="mk-item-wrapper__children">{children}</div>
+  </div>
+);
+export default ItemWrapper;

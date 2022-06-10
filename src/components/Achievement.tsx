@@ -1,7 +1,11 @@
+import { FC } from "react";
+
 type Props = {
   description: string;
 };
 
-export default function Achievement({ description }: Props) {
-  return <div className="mk-general-item-title">{description}</div>;
-}
+const Achievement: FC<Props> = ({ description }) => (
+  <div className="mk-general-item-title">{description}</div>
+);
+
+export default Achievement;

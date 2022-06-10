@@ -1,3 +1,4 @@
+import { FC } from "react";
 import cleanURL from "../utils/cleanURL";
 
 type Props = {
@@ -59,20 +60,20 @@ const Description = ({ description }: any) => {
   );
 };
 
-export default function Projects({
+const Project: FC<Props> = ({
   title,
   type,
   url,
   startDate,
   endDate,
   description,
-}: Props) {
-  return (
-    <div>
-      <Title title={title} type={type} />
-      <Date startDate={startDate} endDate={endDate} />
-      {description && <Description description={description} />}
-      {url && <ProjectURL url={url} />}
-    </div>
-  );
-}
+}) => (
+  <div>
+    <Title title={title} type={type} />
+    <Date startDate={startDate} endDate={endDate} />
+    {description && <Description description={description} />}
+    {url && <ProjectURL url={url} />}
+  </div>
+);
+
+export default Project;

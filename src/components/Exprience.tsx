@@ -1,3 +1,4 @@
+import { FC } from "react";
 import cleanURL from "../utils/cleanURL";
 
 type Props = {
@@ -58,7 +59,7 @@ const Description = ({ description }: any) => (
   </p>
 );
 
-export default function Exprience({
+const Exprience: FC<Props> = ({
   company,
   type,
   position,
@@ -66,13 +67,13 @@ export default function Exprience({
   endDate,
   website,
   description,
-}: Props) {
-  return (
-    <div>
-      <Company title={company} type={type} />
-      <Position title={position} startDate={startDate} endDate={endDate} />
-      {description && <Description description={description} />}
-      {website && <Website website={website} />}
-    </div>
-  );
-}
+}) => (
+  <div>
+    <Company title={company} type={type} />
+    <Position title={position} startDate={startDate} endDate={endDate} />
+    {description && <Description description={description} />}
+    {website && <Website website={website} />}
+  </div>
+);
+
+export default Exprience;
