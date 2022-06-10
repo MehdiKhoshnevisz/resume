@@ -33,6 +33,23 @@
   width: calc(50% - 1em);
 }
 
+.mk-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mk-link-list__url {
+  width: 100%;
+}
+
+.mk-link-list__icon {
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.5em;
+  filter: grayscale(1);
+}
+
 @media (max-width: 920px) {
   #app {
     padding: 2em 1.5em;
@@ -40,5 +57,14 @@
 
   .mk-item-wrapper__children > * {
     flex: 1 1 100%;
+  }
+
+  .mk-link-list {
+    align-items: baseline;
+  }
+
+  .mk-link-list__icon {
+    width: 1em;
+    height: 1em;
   }
 }
