@@ -1,4 +1,6 @@
 import { FC } from "react";
+
+import Skills from "./Skills";
 import cleanURL from "../utils/cleanURL";
 
 type Props = {
@@ -9,6 +11,7 @@ type Props = {
   endDate?: string;
   website?: string;
   description?: string;
+  skills?: string[];
 };
 
 const Company = ({ title, type }: any) => (
@@ -27,10 +30,12 @@ const Website = ({ website }: any) => (
     <a
       href={website}
       style={{
+        display: "inline-block",
         textDecoration: "none",
         fontSize: "0.8em",
         color: "#aaa",
         fontWeight: "500",
+        marginBottom: ".5em",
       }}
     >
       {cleanURL(website)}
@@ -67,12 +72,14 @@ const Exprience: FC<Props> = ({
   endDate,
   website,
   description,
+  skills,
 }) => (
   <div>
     <Company title={company} type={type} />
     <Position title={position} startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
     {website && <Website website={website} />}
+    {skills && <Skills list={skills} size="sm" />}
   </div>
 );
 
