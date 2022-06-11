@@ -55,6 +55,7 @@ function App() {
             startDate="2021"
             website="https://apple.com"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+            skills={["HTML5", "CSS3", "Javascript", "Vuejs", "Nodejs"]}
           />
 
           <Exprience
@@ -65,6 +66,7 @@ function App() {
             endDate="2020"
             website="https://google.com"
             description="Started and scaled design team to 6 product designers and Implemented a web application desgin System"
+            skills={["HTML5", "CSS3", "Javascript"]}
           />
 
           <Exprience
