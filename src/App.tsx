@@ -21,6 +21,10 @@ const App: FC = () => {
   const projects: object[] = t("projects", { returnObjects: true });
   const socials: object[] = t("socials", { returnObjects: true });
 
+  useEffect(() => {
+    document.title = `${t("bio.firstName")} ${t("bio.lastName")} Resume`;
+  }, [t]);
+
   if (!ready) return <></>;
 
   return (
