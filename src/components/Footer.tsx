@@ -19,7 +19,6 @@ const Footer: FC = () => (
       >
         Mehdi
       </a>
-      {"  "}at home
     </span>
   </footer>
 );
