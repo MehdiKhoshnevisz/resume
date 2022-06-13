@@ -3,11 +3,11 @@ import { FC } from "react";
 type Props = {
   firstName: string;
   lastName?: string;
-  title: string;
-  description: string;
+  jobTitle: string;
+  about: string;
 };
 
-const Biography: FC<Props> = ({ firstName, lastName, title, description }) => (
+const Biography: FC<Props> = ({ firstName, lastName, jobTitle, about }) => (
   <header>
     <h1
       style={{
@@ -23,7 +23,7 @@ const Biography: FC<Props> = ({ firstName, lastName, title, description }) => (
       {firstName} <br /> {lastName || ""}
     </h1>
     <span style={{ display: "block", fontSize: "1.3em", marginBottom: ".1em" }}>
-      {title}
+      {jobTitle}
     </span>
     <p
       style={{
@@ -33,7 +33,7 @@ const Biography: FC<Props> = ({ firstName, lastName, title, description }) => (
         margin: 0,
       }}
     >
-      {description}
+      {about}
     </p>
   </header>
 );
