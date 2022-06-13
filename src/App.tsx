@@ -1,3 +1,4 @@
+import { FC, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import "./App.css";
@@ -12,7 +13,7 @@ import Education from "./components/Education";
 import ItemWrapper from "./components/ItemWrapper";
 import LineSeparator from "./components/LineSeparator";
 
-function App() {
+const App: FC = () => {
   const { t, ready } = useTranslation();
   const skills: string[] = t("skills", { returnObjects: true });
   const experiences: object[] = t("experiences", { returnObjects: true });
@@ -73,6 +74,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App;
