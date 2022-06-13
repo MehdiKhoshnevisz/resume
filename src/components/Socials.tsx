@@ -2,22 +2,22 @@ import { useState, useEffect, FC } from "react";
 import { cleanURL, getIcon, originURL } from "../utils";
 
 type Props = {
-  items: object[];
+  list: object[];
 };
 
-const Contact: FC<Props> = ({ items }) => {
+const Socials: FC<Props> = ({ list }) => {
   const linkList: any = [];
   const [links, setLinks] = useState(linkList);
 
   useEffect(() => {
-    items.forEach((item: any, index) => {
+    list.forEach((item: any, index) => {
       const icon = getIcon(originURL(item.url));
 
       const listItem = (
         <div className="mk-link-list" key={index}>
           <img src={icon} className="mk-link-list__icon" alt=" " />
           <h3 className="mk-general-item-title" style={{ marginRight: ".3em" }}>
-            {item.title}
+            {item.name}
           </h3>
           <a
             href={item.url}
@@ -30,9 +30,9 @@ const Contact: FC<Props> = ({ items }) => {
 
       setLinks((oldArray: any) => [...oldArray, listItem]);
     });
-  }, [items]);
+  }, [list]);
 
   return <>{links}</>;
 };
 
-export default Contact;
+export default Socials;
