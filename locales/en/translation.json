@@ -1,0 +1,158 @@
+{
+  "bio": {
+    "firstName": "Mehdi",
+    "lastName": "Khoshnevis",
+    "jobTitle": "Software Engineer",
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+  },
+
+  "contact": {
+    "phone": "+98 910 965 7619",
+    "email": "mkhnsz1996@gmail.com",
+    "website": "https://imehdi.dev",
+    "location": "Tehran, Iran"
+  },
+
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "SCSS",
+    "Bootstrap",
+    "Javascript",
+    "Reactjs",
+    "Vuejs",
+    "Nodejs"
+  ],
+
+  "experiences": [
+    {
+      "company": "Google",
+      "type": "Full-time",
+      "position": "Senior Software Engineer",
+      "startDate": "Jan 2020",
+      "endDate": "",
+      "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System.",
+      "website": "https://www.google.com",
+      "skills": ["HTML5", "CSS3", "Javascript"]
+    },
+    {
+      "company": "Apple Company",
+      "type": "Full-time",
+      "position": "Technical lead",
+      "startDate": "Jun 2019",
+      "endDate": "Feb 2020",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
+      "website": "https://www.apple.com",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]
+    },
+    {
+      "company": "Buzzjective",
+      "type": "Full-time Remote",
+      "position": "Software Developer ",
+      "startDate": "Jun 2021",
+      "endDate": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunf.",
+      "website": "",
+      "skills": []
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Tehran University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "startDate": "Sep 2019",
+      "endDate": "Jun 2021"
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "vue-splash",
+      "type": "Open-source",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
+      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
+      "startDate": "Jun 2021",
+      "endDate": ""
+    },
+    {
+      "name": "simple-resume-builder",
+      "type": "Open-source",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
+      "website": "https://github.com/MehdiKhoshnevisz/simple-resume-builder",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
+      "startDate": "Jun 2021",
+      "endDate": ""
+    },
+    {
+      "name": "Rangisho",
+      "type": "freelance",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue.",
+      "website": "https://rangisho.com",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
+      "startDate": "Jun 2021",
+      "endDate": ""
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    }
+  ],
+
+  "interests": ["Coding", "Traveling"],
+
+  "references": [
+    {
+      "name": "John Doe",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+    }
+  ],
+
+  "achievements": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+  ],
+
+  "socials": [
+    {
+      "name": "Github",
+      "url": "https://github.com/MehdiKhoshnevisz"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz-b8a8b8a4/"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/imehdi96"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/mehdi_khoshnevisz/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/imehdi.khoshnevisz"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/mehdi-khoshnevisz"
+    },
+    {
+      "name": "Stackoverflow",
+      "url": "https://stackoverflow.com/users/9087806/mehdi-khoshnevisz"
+    }
+  ]
+}
