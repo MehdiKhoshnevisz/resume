@@ -2,17 +2,17 @@ import { FC } from "react";
 import cleanURL from "../utils/cleanURL";
 
 type Props = {
-  title: string;
+  name: string;
   type?: string;
-  url?: string;
+  website?: string;
   startDate: string;
   endDate?: string;
   description?: string;
 };
 
-const Title = ({ title, type }: any) => (
+const Name = ({ name, type }: any) => (
   <h3 className="mk-general-item-title">
-    {title}{" "}
+    {name}{" "}
     {type && (
       <span style={{ color: "#aaa", fontWeight: "normal", fontSize: "0.8em" }}>
         {type}
@@ -21,10 +21,10 @@ const Title = ({ title, type }: any) => (
   </h3>
 );
 
-const ProjectURL = ({ url }: any) => (
+const Website = ({ website }: any) => (
   <div>
     <a
-      href={url}
+      href={website}
       style={{
         textDecoration: "none",
         fontSize: "0.8em",
@@ -32,7 +32,7 @@ const ProjectURL = ({ url }: any) => (
         fontWeight: "500",
       }}
     >
-      {cleanURL(url)}
+      {cleanURL(website)}
     </a>
   </div>
 );
@@ -61,18 +61,18 @@ const Description = ({ description }: any) => {
 };
 
 const Project: FC<Props> = ({
-  title,
+  name,
   type,
-  url,
+  website,
   startDate,
   endDate,
   description,
 }) => (
   <div>
-    <Title title={title} type={type} />
+    <Name name={name} type={type} />
     <Date startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
-    {url && <ProjectURL url={url} />}
+    {website && <Website website={website} />}
   </div>
 );
 
