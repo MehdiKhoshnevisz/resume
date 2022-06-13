@@ -1,28 +1,44 @@
 import { FC } from "react";
 
 type Props = {
-  title: string;
+  school: string;
+  degree?: string;
   field: string;
   startDate: string;
   endDate?: string;
 };
 
-const Title = ({ title }: any) => (
-  <h3 className="mk-general-item-title">{title}</h3>
+const School = ({ school }: any) => (
+  <h3 className="mk-general-item-title">{school}</h3>
 );
 
-const Field = ({ field, startDate, endDate }: any) => {
+const Degree = ({ degree }: any) => {
+  return <span>{degree} - &nbsp;</span>;
+};
+
+const Field = ({ field }: any) => {
+  return <span>{field}</span>;
+};
+
+const Date = ({ startDate, endDate }: any) => {
   return (
-    <span className="mk-general-item-sub-title">
-      {field} <br />
+    <span className="mk-general-item-sub-title" style={{ display: "block" }}>
       {startDate} - {endDate || "Present"}
     </span>
   );
 };
 
-const Education: FC<Props> = ({ title, field, startDate, endDate }) => (
+const Education: FC<Props> = ({
+  school,
+  degree,
+  field,
+  startDate,
+  endDate,
+}) => (
   <div>
-    <Title title={title} />
+    <School school={school} />
+    <Date startDate={startDate} endDate={endDate} />
+    {degree && <Degree degree={degree} />}
     <Field field={field} startDate={startDate} endDate={endDate} />
   </div>
 );
