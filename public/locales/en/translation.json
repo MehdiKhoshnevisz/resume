@@ -1,11 +1,10 @@
 {
-  "firstName": "Mehdi",
-
-  "lastName": "Khoshnevis",
-
-  "jobTitle": "Software Engineer",
-
-  "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet.",
+  "bio": {
+    "firstName": "Mehdi",
+    "lastName": "Khoshnevis",
+    "jobTitle": "Software Engineer",
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+  },
 
   "contact": {
     "phone": "+98 910 965 7619",
@@ -25,7 +24,7 @@
     "Nodejs"
   ],
 
-  "WorkExperience": [
+  "experiences": [
     {
       "company": "Google",
       "type": "Full-time",
@@ -43,7 +42,7 @@
       "startDate": "Jun 2019",
       "endDate": "Feb 2020",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://www.google.com",
+      "website": "https://www.apple.com",
       "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]
     },
     {
@@ -62,7 +61,7 @@
     {
       "school": "Tehran University",
       "degree": "Bachelor of Science",
-      "fieldOfStudy": "Computer Science",
+      "field": "Computer Science",
       "startDate": "Sep 2019",
       "endDate": "Jun 2021"
     }
@@ -122,20 +121,38 @@
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
   ],
 
-  "social": {
-    "facebook": "https://www.facebook.com/imehdi.khoshnevis",
-    "twitter": "https://twitter.com/imehdi_khoshnevis",
-    "instagram": "https://www.instagram.com/imehdi_khoshnevis",
-    "linkedin": "https://www.linkedin.com/in/imehdi-khoshnevis-b8a8b8a4/",
-    "github": "https://github.com/MehdiKhoshnevisz",
-    "youtube": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-    "codepen": "https://codepen.io/MehdiKhoshnevisz",
-    "dribbble": "https://dribbble.com/MehdiKhoshnevisz",
-    "behance": "https://www.behance.net/MehdiKhoshnevisz",
-    "devto": "https://dev.to/MehdiKhoshnevisz",
-    "medium": "https://medium.com/@MehdiKhoshnevisz",
-    "stackoverflow": "https://stackoverflow.com/users/9087/mehdi-khoshnevisz",
-    "quora": "https://www.quora.com/profile/Mehdi-Khoshnevisz",
-    "freecodecamp": "https://www.freecodecamp.org/mehdi-khoshnevisz"
-  }
+  "socials": [
+    {
+      "name": "Github",
+      "url": "https://github.com/MehdiKhoshnevisz"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz-b8a8b8a4/"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/imehdi96"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/mehdi_khoshnevisz/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/imehdi.khoshnevisz"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/mehdi-khoshnevisz"
+    },
+    {
+      "name": "Stackoverflow",
+      "url": "https://stackoverflow.com/users/9087806/mehdi-khoshnevisz"
+    }
+  ]
 }
