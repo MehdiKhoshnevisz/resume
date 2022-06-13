@@ -41,7 +41,7 @@ const Skills: FC<Props> = ({ list, size }) => {
           style={{
             color: "#333",
             fontSize: fontSize,
-            fontWeight: "bold",
+            fontWeight: fontWeight,
             marginRight: marginRight,
             marginBottom: "0.5em",
             padding: padding,
