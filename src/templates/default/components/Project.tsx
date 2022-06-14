@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 import Skills from "./Skills";
-import cleanURL from "../utils/cleanURL";
+import cleanURL from "../../../utils/cleanURL";
 
 type Props = {
   name: string;

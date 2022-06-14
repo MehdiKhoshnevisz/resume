@@ -1,5 +1,5 @@
 import { FC } from "react";
-import cleanURL from "../utils/cleanURL";
+import cleanURL from "../../../utils/cleanURL";
 
 type Props = {
   phone: string;

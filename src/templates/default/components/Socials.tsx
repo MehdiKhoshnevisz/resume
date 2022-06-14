@@ -1,5 +1,5 @@
 import { useState, useEffect, FC } from "react";
-import { cleanURL, getIcon, originURL } from "../utils";
+import { cleanURL, getIcon, originURL } from "../../../utils";
 
 type Props = {
   list: object[];
