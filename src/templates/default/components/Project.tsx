@@ -78,7 +78,11 @@ const Project: FC<Props> = ({
     <Date startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
     {website && <Website website={website} />}
-    {skills && <Skills list={skills} size="sm" />}
+    {skills && (
+      <div style={{ marginTop: "0.5em" }}>
+        <Skills list={skills} size="sm" />
+      </div>
+    )}
   </div>
 );
 
