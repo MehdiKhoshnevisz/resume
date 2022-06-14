@@ -110,13 +110,6 @@
 
   "interests": ["Coding", "Traveling"],
 
-  "references": [
-    {
-      "name": "John Doe",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
-    }
-  ],
-
   "achievements": [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
   ],
