@@ -2,8 +2,8 @@
   "bio": {
     "firstName": "Mehdi",
     "lastName": "Khoshnevis",
-    "jobTitle": "Software Engineer",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+    "jobTitle": "Front-End Developer",
+    "about": "I've been working for at least 4 years as a front end developer. I worked in small and large-scale companies with different products. I learned team working and how to work with the team."
   },
 
   "contact": {
@@ -18,40 +18,49 @@
     "CSS3",
     "SCSS",
     "Bootstrap",
+    "Tailwind CSS",
     "Javascript",
-    "Reactjs",
+    "EcmaScript",
+    "TypeScript",
     "Vuejs",
-    "Nodejs"
+    "Vuetify",
+    "Nuxtjs",
+    "Reactjs",
+    "GraphQL",
+    "Git",
+    "Github",
+    "API REST",
+    "Remote Work"
   ],
 
   "experiences": [
     {
-      "company": "Google",
-      "type": "Full-time",
-      "position": "Senior Software Engineer",
-      "startDate": "Jan 2020",
-      "endDate": "",
-      "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System.",
-      "website": "https://www.google.com",
-      "skills": ["HTML5", "CSS3", "Javascript"]
-    },
-    {
-      "company": "Apple Company",
-      "type": "Full-time",
-      "position": "Technical lead",
-      "startDate": "Jun 2019",
-      "endDate": "Feb 2020",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://www.apple.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]
-    },
-    {
-      "company": "Buzzjective",
+      "company": "Buzzjective ",
       "type": "Full-time Remote",
-      "position": "Software Developer ",
-      "startDate": "Jun 2021",
+      "position": "Software Developer",
+      "startDate": "Sep 2021",
       "endDate": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunf.",
+      "description": "",
+      "website": "https://www.buzzjective.com",
+      "skills": []
+    },
+    {
+      "company": "Basalam",
+      "type": "Full-time",
+      "position": "Front-End Developer",
+      "startDate": "Jan 2018",
+      "endDate": "Jun 2021",
+      "description": "",
+      "website": "https://www.basalam.com",
+      "skills": []
+    },
+    {
+      "company": "Navac Asia",
+      "type": "Full-time",
+      "position": "Junior Web Developer",
+      "startDate": "Jul 2016",
+      "endDate": "Aug 2017",
+      "description": "",
       "website": "",
       "skills": []
     }
@@ -59,41 +68,72 @@
 
   "education": [
     {
-      "school": "Tehran University",
-      "degree": "Bachelor of Science",
-      "field": "Computer Science",
-      "startDate": "Sep 2019",
-      "endDate": "Jun 2021"
+      "school": "Shahab Danesh University",
+      "degree": "Bachelor's Degree",
+      "field": "Information Technology",
+      "startDate": "2014",
+      "endDate": "2018"
     }
   ],
 
   "projects": [
     {
-      "name": "vue-splash",
+      "name": "Simple Resume Builder",
       "type": "Open-source",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
+      "description": "Simple and minimal resume builder with react and typescript",
+      "website": "https://github.com/MehdiKhoshnevisz/resume",
+      "skills": [],
+      "startDate": "May 2022",
       "endDate": ""
     },
     {
-      "name": "simple-resume-builder",
+      "name": "Vue Splash",
       "type": "Open-source",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://github.com/MehdiKhoshnevisz/simple-resume-builder",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
+      "description": "splash plugin for vue js",
+      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
+      "skills": [],
+      "startDate": "Jun 2020",
+      "endDate": ""
+    },
+    {
+      "name": "Personal Website (imehdi.dev)",
+      "type": "Personal and Open-source",
+      "description": "Personal website with React js",
+      "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "JSX"],
+      "startDate": "April 2022",
       "endDate": ""
     },
     {
       "name": "Rangisho",
-      "type": "freelance",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue.",
+      "type": "Freelance",
+      "description": "a platform to connect painters and artisans",
       "website": "https://rangisho.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
-      "endDate": ""
+      "skills": [
+        "Cascading Style Sheets (CSS)",
+        "Responsive",
+        "Remote Teamwork",
+        "Git",
+        "ECMAScript",
+        "Scss",
+        "BEM",
+        "Laravel-mix",
+        "jQuery",
+        "Gitlab",
+        "Webpack",
+        "Teamwork"
+      ],
+      "startDate": "Jul 2021",
+      "endDate": "Oct 2021"
+    },
+    {
+      "name": "Online Qom Bookstore",
+      "type": "Freelance",
+      "description": "Website for a company that sells books in Qom",
+      "website": "http://ketabeqom.com/",
+      "skills": ["jQuery", "CSS3", "Responsive", "Remote Teamwork"],
+      "startDate": "Apr 2018",
+      "endDate": "Jul 2018"
     }
   ],
 
@@ -108,10 +148,6 @@
     }
   ],
 
-  "achievements": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
-  ],
-
   "socials": [
     {
       "name": "Github",
@@ -119,31 +155,19 @@
     },
     {
       "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz-b8a8b8a4/"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/imehdi96"
+      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz/"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/mehdi_khoshnevisz/"
     },
     {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/imehdi.khoshnevisz"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
-    },
-    {
-      "name": "Medium",
-      "url": "https://medium.com/mehdi-khoshnevisz"
+      "name": "Twitter",
+      "url": "https://twitter.com/imehdi96"
     },
     {
       "name": "Stackoverflow",
-      "url": "https://stackoverflow.com/users/9087806/mehdi-khoshnevisz"
+      "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
     }
   ]
 }
