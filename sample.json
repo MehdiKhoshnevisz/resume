@@ -1,16 +1,16 @@
 {
   "bio": {
-    "firstName": "Mehdi",
-    "lastName": "Khoshnevis",
-    "jobTitle": "Software Engineer",
+    "firstName": "John",
+    "lastName": "Doe",
+    "jobTitle": "Senior Software Engineer",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
   },
 
   "contact": {
     "phone": "+98 910 123 456",
-    "email": "mkhnsz1996@gmail.com",
-    "website": "https://imehdi.dev",
-    "location": "Tehran, Iran"
+    "email": "example@mail.com",
+    "website": "https://example.com",
+    "location": "Berlin, Germany"
   },
 
   "skills": [
@@ -33,7 +33,7 @@
       "endDate": "",
       "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System.",
       "website": "https://www.google.com",
-      "skills": ["HTML5", "CSS3", "Javascript"]
+      "skills": ["C++", "C#", "Javascript"]
     },
     {
       "company": "Apple Company",
@@ -44,16 +44,6 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
       "website": "https://www.apple.com",
       "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]
-    },
-    {
-      "company": "Buzzjective",
-      "type": "Full-time Remote",
-      "position": "Software Developer ",
-      "startDate": "Jun 2021",
-      "endDate": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunf.",
-      "website": "",
-      "skills": []
     }
   ],
 
@@ -69,28 +59,19 @@
 
   "projects": [
     {
-      "name": "vue-splash",
+      "name": "Your Project Name 1",
       "type": "Open-source",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
-      "endDate": ""
+      "website": "https://example.com",
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]],
+      "startDate": "Jun 2019",
+      "endDate": "May 2020"
     },
     {
-      "name": "simple-resume-builder",
-      "type": "Open-source",
+      "name": "Your Project Name 2",
+      "type": "Freelance",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://github.com/MehdiKhoshnevisz/simple-resume-builder",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
-      "endDate": ""
-    },
-    {
-      "name": "Rangisho",
-      "type": "freelance",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue.",
-      "website": "https://rangisho.com",
+      "website": "https://another-example.com",
       "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
       "startDate": "Jun 2021",
       "endDate": ""
@@ -111,23 +92,23 @@
   "socials": [
     {
       "name": "Github",
-      "url": "https://github.com/MehdiKhoshnevisz"
+      "url": "https://github.com/johndoe"
     },
     {
       "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz-b8a8b8a4/"
+      "url": "https://www.linkedin.com/in/johndoe"
     },
     {
       "name": "Twitter",
-      "url": "https://twitter.com/imehdi96"
+      "url": "https://twitter.com/johndoe"
     },
     {
       "name": "Instagram",
-      "url": "https://www.instagram.com/mehdi_khoshnevisz/"
+      "url": "https://www.instagram.com/johndoe"
     },
     {
       "name": "Facebook",
-      "url": "https://www.facebook.com/imehdi.khoshnevisz"
+      "url": "https://www.facebook.com/johndoe"
     },
     {
       "name": "Youtube",
@@ -135,11 +116,11 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/mehdi-khoshnevisz"
+      "url": "https://medium.com/@johndoe"
     },
     {
       "name": "Stackoverflow",
-      "url": "https://stackoverflow.com/users/9087806/mehdi-khoshnevisz"
+      "url": "https://stackoverflow.com/users/12345"
     }
   ]
 }
