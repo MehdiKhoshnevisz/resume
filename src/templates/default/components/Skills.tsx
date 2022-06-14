@@ -11,6 +11,7 @@ const Skills: FC<Props> = ({ list, size }) => {
   let padding = ".05em 0.5em";
   let marginRight = "0.5em";
   let fontWeight = "bold";
+  let lineHeight = 1.7;
 
   switch (size) {
     case "sm":
@@ -19,14 +20,7 @@ const Skills: FC<Props> = ({ list, size }) => {
       border = "";
       marginRight = "0.7em";
       fontWeight = "normal";
-      break;
-
-    case "lg":
-      fontSize = "0.9em";
-      border = "2px solid #333";
-      padding = ".05em 0.5em";
-      marginRight = "0.5em";
-      fontWeight = "bold";
+      lineHeight = 1;
       break;
 
     default:
@@ -34,7 +28,7 @@ const Skills: FC<Props> = ({ list, size }) => {
   }
 
   return (
-    <div>
+    <div style={{ lineHeight }}>
       {list.map((item: string, index: number) => (
         <span
           key={index}
