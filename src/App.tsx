@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Biography from "./components/Biography";
 import Exprience from "./components/Exprience";
 import Education from "./components/Education";
+import Languages from "./components/Languages";
 import ItemWrapper from "./components/ItemWrapper";
 import LineSeparator from "./components/LineSeparator";
 
@@ -20,6 +21,7 @@ const App: FC = () => {
   const education: object[] = t("education", { returnObjects: true });
   const projects: object[] = t("projects", { returnObjects: true });
   const socials: object[] = t("socials", { returnObjects: true });
+  const languages: object[] = t("languages", { returnObjects: true });
 
   useEffect(() => {
     document.title = `${t("bio.firstName")} ${t("bio.lastName")} Resume`;
@@ -66,6 +68,12 @@ const App: FC = () => {
           {projects.map((item: any) => {
             return <Project {...item} />;
           })}
+        </ItemWrapper>
+
+        <LineSeparator />
+
+        <ItemWrapper title="Languages">
+          <Languages list={languages} />
         </ItemWrapper>
 
         <LineSeparator />
