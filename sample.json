@@ -63,7 +63,7 @@
       "type": "Open-source",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
       "website": "https://example.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]],
+      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
       "startDate": "Jun 2019",
       "endDate": "May 2020"
     },
