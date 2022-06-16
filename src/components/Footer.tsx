@@ -8,7 +8,7 @@ const Footer: FC = () => (
     }}
   >
     <span style={{ color: "#333", fontSize: "0.9em", fontWeight: 300 }}>
-      Made With{" "}
+      Made with{" "}
       <span style={{ verticalAlign: "middle" }} title="keyboard">
         ⌨️
       </span>{" "}
