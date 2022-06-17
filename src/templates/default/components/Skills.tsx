@@ -7,7 +7,7 @@ type Props = {
 
 const Skills: FC<Props> = ({ list, size }) => {
   let fontSize = "0.9em";
-  let border = "2px solid #333";
+  let border = "1px solid #333";
   let padding = ".05em 0.5em";
   let marginRight = "0.5em";
   let fontWeight = "bold";
