@@ -1,6 +1,6 @@
-# Simple and minimal resume builder
+# Simple and minimal resume builder 📄
 Create your free and open-source resume just by edit a **JSON file**!\
-This project was bootstraped by **Reacjs library** and **Typescript language**.
+This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [**Typescript language**](https://www.typescriptlang.org/).
 
 ![](https://mehdikhoshnevisz.github.io/resume/preview.png)
 
@@ -22,7 +22,7 @@ You can download and install it simplicity from **Google**!.
 <br/>
 <br/>
 
-# How can I use it? (SETP by STEP)
+# How can I use it? 🤔 (SETP by STEP)
 1. Fork this repo (by click on ``Fork`` button)
 2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/resume```)
 3. Run command ```npm install```
@@ -35,21 +35,21 @@ You can download and install it simplicity from **Google**!.
 <br/>
 <br/>
 
-# See your resume online
+# Launch your resume 🚀
 You can see your resume created by [Github Page](https://pages.github.com/) here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/resume```
 
 But before that you should create your github page by doing these steps (or see the screenshot):
 1. Go to your repo settings (by click on **Settings** tab)
 2. Click on **Pages** tab in the left sidebar.
 3. Below the **Source** select ```gh-pages``` branch and save it.
-4. Yayy! Now you can see your online resume from the link.
+4. Yayy! 🥳 Now you can see your online resume from the link.
 
 ![](https://filebin.net/rxyg1c39kzunhjgb/screen-recorder-fri-jun-17-2022-21-15-13.gif)
 
 <br/>
 <br/>
 
-# Contributing
+# Contributing ✨
 If you want to contribute to the project and make it better follow these steps:
 
 1. Fork the repo on GitHub
