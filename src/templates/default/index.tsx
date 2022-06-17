@@ -2,6 +2,7 @@ import { FC, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import "./styles/index.css";
+
 import Skills from "./components/Skills";
 import Socials from "./components/Socials";
 import Project from "./components/Project";
@@ -14,13 +15,31 @@ import ItemWrapper from "./components/ItemWrapper";
 import LineSeparator from "./components/LineSeparator";
 
 const DefaultTemplate: FC = () => {
-  const { t, ready } = useTranslation();
+  const { i18n, t, ready } = useTranslation();
+
+  const bio: any = t("bio", { returnObjects: true });
+  const isExistBio = i18n.exists("bio");
+
+  const contact: any = t("contact", { returnObjects: true });
+  const isExistContact = i18n.exists("contact");
+
   const skills: string[] = t("skills", { returnObjects: true });
+  const isExistSkills = i18n.exists("skills");
+
   const experiences: object[] = t("experiences", { returnObjects: true });
+  const isExistExperiences = i18n.exists("experiences");
+
   const education: object[] = t("education", { returnObjects: true });
+  const isExistEducation = i18n.exists("education");
+
   const projects: object[] = t("projects", { returnObjects: true });
-  const socials: object[] = t("socials", { returnObjects: true });
+  const isExistProjects = i18n.exists("projects");
+
   const languages: object[] = t("languages", { returnObjects: true });
+  const isExistLanguages = i18n.exists("languages");
+
+  const socials: object[] = t("socials", { returnObjects: true });
+  const isExistSocials = i18n.exists("socials");
 
   useEffect(() => {
     document.title = `${t("bio.firstName")} ${t("bio.lastName")} Resume`;
@@ -30,58 +49,83 @@ const DefaultTemplate: FC = () => {
 
   return (
     <main id="app">
-      <Biography {...t("bio", { returnObjects: true })} />
+      {isExistBio && (
+        <>
+          <Biography {...bio} /> <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistContact && (
+        <>
+          <ItemWrapper title="Contact">
+            <Contact {...contact} />
+          </ItemWrapper>
 
-      <ItemWrapper title="Contact">
-        <Contact {...t("contact", { returnObjects: true })} />
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistSkills && (
+        <>
+          <ItemWrapper title="Skills">
+            <Skills list={skills} />
+          </ItemWrapper>
 
-      <ItemWrapper title="Skills">
-        <Skills list={skills} />
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistExperiences && (
+        <>
+          <ItemWrapper title="Work Exprience">
+            {experiences.map((item: any, index: number) => {
+              return <Exprience {...item} key={index} />;
+            })}
+          </ItemWrapper>
 
-      <ItemWrapper title="Work Exprience">
-        {experiences &&
-          experiences.map((item: any, index: number) => {
-            return <Exprience {...item} key={index} />;
-          })}
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistEducation && (
+        <>
+          <ItemWrapper title="Education">
+            {education.map((item: any, index: number) => {
+              return <Education {...item} key={index} />;
+            })}
+          </ItemWrapper>
 
-      <ItemWrapper title="Education">
-        {education &&
-          education.map((item: any, index: number) => {
-            return <Education {...item} key={index} />;
-          })}
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistProjects && (
+        <>
+          <ItemWrapper title="Projects">
+            {projects.map((item: any, index: number) => {
+              return <Project {...item} key={index} />;
+            })}
+          </ItemWrapper>
 
-      <ItemWrapper title="Projects">
-        {projects &&
-          projects.map((item: any, index: number) => {
-            return <Project {...item} key={index} />;
-          })}
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
+      {isExistLanguages && (
+        <>
+          <ItemWrapper title="Languages">
+            <Languages list={languages} />
+          </ItemWrapper>
 
-      <ItemWrapper title="Languages">
-        <Languages list={languages} />
-      </ItemWrapper>
+          <LineSeparator />
+        </>
+      )}
 
-      <LineSeparator />
-
-      <ItemWrapper title="Socials">
-        <Socials list={socials} />
-      </ItemWrapper>
+      {isExistSocials && (
+        <ItemWrapper title="Socials">
+          <Socials list={socials} />
+        </ItemWrapper>
+      )}
     </main>
   );
 };
