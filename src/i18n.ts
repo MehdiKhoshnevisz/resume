@@ -16,7 +16,6 @@ i18n
     react: {
       useSuspense: false,
     },
-    keySeparator: false,
   });
 
 export default i18n;
