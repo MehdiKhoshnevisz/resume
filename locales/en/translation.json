@@ -9,7 +9,8 @@
   "contact": {
     "phone": "+98 910 965 7619",
     "email": "mkhnsz1996@gmail.com",
-    "website": "https://imehdi.dev"
+    "website": "https://imehdi.dev",
+    "location": "Iran"
   },
 
   "skills": [
@@ -201,14 +202,6 @@
     {
       "name": "Linkedin",
       "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://instagram.com/mehdi_khoshnevisz/"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/imehdi96"
     },
     {
       "name": "Stackoverflow",
