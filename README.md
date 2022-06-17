@@ -5,7 +5,6 @@ This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [
 ![](https://mehdikhoshnevisz.github.io/resume/preview.png)
 
 <br/>
-<br/>
 
 # Requirements
 You should have installed **nodejs**, **npm**, and (of course) git on your machine.
@@ -20,7 +19,6 @@ git           | latest
 You can download and install it simplicity from **Google**!.
 
 <br/>
-<br/>
 
 # How can I use it? 🤔 (SETP by STEP)
 1. Fork this repo (by click on ``Fork`` button)
@@ -32,7 +30,6 @@ You can download and install it simplicity from **Google**!.
 
 > NOTE: You can run ```npm start``` after step 5 to see the preview in your local host.
 
-<br/>
 <br/>
 
 # Launch your resume 🚀
@@ -47,6 +44,12 @@ But before that you should create your github page by doing these steps (or see 
 ![](https://filebin.net/rxyg1c39kzunhjgb/screen-recorder-fri-jun-17-2022-21-15-13.gif)
 
 <br/>
+
+# Donation 💵
+If you like this project and want to support me to make more projects like this, you can support me with bitcoin.\
+my bitcoin wallet: ```bc1qxx8397gg9367n3lwft0pz70wgs8x9waehcy8lc```.\
+Also you can [Buy Me a Coffee](https://www.buymeacoffee.com/imehdi) :)
+
 <br/>
 
 # Contributing ✨
