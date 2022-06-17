@@ -47,25 +47,28 @@ const DefaultTemplate: FC = () => {
       <LineSeparator />
 
       <ItemWrapper title="Work Exprience">
-        {experiences.map((item: any, index: number) => {
-          return <Exprience {...item} key={index} />;
-        })}
+        {experiences &&
+          experiences.map((item: any, index: number) => {
+            return <Exprience {...item} key={index} />;
+          })}
       </ItemWrapper>
 
       <LineSeparator />
 
       <ItemWrapper title="Education">
-        {education.map((item: any, index: number) => {
-          return <Education {...item} key={index} />;
-        })}
+        {education &&
+          education.map((item: any, index: number) => {
+            return <Education {...item} key={index} />;
+          })}
       </ItemWrapper>
 
       <LineSeparator />
 
       <ItemWrapper title="Projects">
-        {projects.map((item: any, index: number) => {
-          return <Project {...item} key={index} />;
-        })}
+        {projects &&
+          projects.map((item: any, index: number) => {
+            return <Project {...item} key={index} />;
+          })}
       </ItemWrapper>
 
       <LineSeparator />
