@@ -75,7 +75,7 @@ const Exprience: FC<Props> = ({
   description,
   skills,
 }) => (
-  <div>
+  <div style={{ width: "100%" }}>
     <Company title={company} type={type} />
     <Position title={position} startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
