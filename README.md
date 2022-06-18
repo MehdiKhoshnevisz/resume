@@ -30,6 +30,8 @@ You can download and install it simplicity from **Google**!.
 
 > NOTE: You can run ```npm start``` after step 5 to see the preview in your local host.
 
+> NOTE: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
+
 <br/>
 
 # Launch your resume 🚀
