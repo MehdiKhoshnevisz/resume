@@ -48,8 +48,8 @@ But before that you should create your github page by doing these steps (or see 
 <br/>
 
 # Donation 💵
-If you like this project and want to support me to make more projects like this, you can support me with bitcoin.\
-my bitcoin wallet: ```bc1qxx8397gg9367n3lwft0pz70wgs8x9waehcy8lc```.\
+If you like this project and want to support me to make more projects like this, you can support me with SOL coin.\
+my SOLANA wallet: ```4BjqDB5hGmZVkiRuBa5JkhceLVaTokYg4Gqe4fkV6Lby```.\
 Also you can [Buy Me a Coffee](https://www.buymeacoffee.com/imehdi) :)
 
 <br/>
