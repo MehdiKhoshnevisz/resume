@@ -28,9 +28,9 @@ You can download and install it simplicity from **Google**!.
 5. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
 6. Run command ```npm run deploy``` to build and deploy it in your github page.
 
-> NOTE: You can run ```npm start``` after step 5 to see the preview in your local host.
+> NOTE 1: You can run ```npm start``` after step 5 to see the preview in your local host.
 
-> NOTE: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
+> NOTE 2: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
 
 <br/>
 
