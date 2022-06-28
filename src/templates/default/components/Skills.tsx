@@ -6,25 +6,20 @@ type Props = {
 };
 
 const Skills: FC<Props> = ({ list, size }) => {
-  let fontSize = "0.9em";
-  let border = "1px solid #333";
-  let padding = ".05em 0.5em";
-  let marginRight = "0.5em";
-  let fontWeight = "bold";
   let lineHeight = 1.7;
+  let fontSize = "0.9em";
+  let fontWeight = "bold";
+  let marginRight = "0.5em";
+  let padding = ".05em 0.5em";
+  let border = "1px solid #333";
 
-  switch (size) {
-    case "sm":
-      fontSize = "0.7em";
-      padding = "0";
-      border = "";
-      marginRight = "0.7em";
-      fontWeight = "normal";
-      lineHeight = 1;
-      break;
-
-    default:
-      break;
+  if (size === "sm") {
+    border = "";
+    padding = "0";
+    lineHeight = 1;
+    fontSize = "0.7em";
+    fontWeight = "normal";
+    marginRight = "0.7em";
   }
 
   return (
@@ -34,14 +29,14 @@ const Skills: FC<Props> = ({ list, size }) => {
           key={index}
           style={{
             color: "#333",
+            border: border,
+            padding: padding,
             fontSize: fontSize,
+            marginBottom: "0.5em",
+            display: "inline-block",
+            verticalAlign: "middle",
             fontWeight: fontWeight,
             marginRight: marginRight,
-            marginBottom: "0.5em",
-            padding: padding,
-            display: "inline-block",
-            border: border,
-            verticalAlign: "middle",
           }}
         >
           {item}
