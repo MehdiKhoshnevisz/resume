@@ -6,7 +6,7 @@ This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [
 
 <br/>
 
-# Requirements
+# Requirements 😷
 You should have installed **nodejs**, **npm**, and (of course) **git** on your machine.
 
 title         | version
