@@ -28,7 +28,7 @@ You can download and install it simplicity from **Google**!.
 5. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
 6. Run command ```npm run deploy``` to build and deploy it in your github page.
 
-> NOTE 1: You can run ```npm start``` after step 5 to see the preview in your local host.
+> NOTE 1: You can run ```npm start``` after step 5 to see the preview in your localhost.
 
 > NOTE 2: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
 
@@ -37,7 +37,7 @@ You can download and install it simplicity from **Google**!.
 # Launch your resume 🚀
 You can see your resume created by [Github Page](https://pages.github.com/) here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/resume```
 
-But before that you should create your github page by doing these steps (or see the screenshot):
+But before that you should create your github page by doing these steps (or see the screenshot below):
 1. Go to your repo settings (by click on **Settings** tab)
 2. Click on **Pages** tab in the left sidebar.
 3. Below the **Source** title, select ```gh-pages``` branch and save it.
