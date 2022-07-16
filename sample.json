@@ -3,7 +3,8 @@
     "firstName": "John",
     "lastName": "Doe",
     "jobTitle": "Senior Software Engineer",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet.",
+    "avatar": "https://visittomalta.com/wp-content/uploads/2020/06/avatar-4.jpg"
   },
 
   "contact": {
