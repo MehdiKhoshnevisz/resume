@@ -50,6 +50,25 @@
   filter: grayscale(1);
 }
 
+.mk-biography__header-top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mk-biography__avatar {
+  margin-right: 1em;
+  margin-bottom: 0.5rem;
+}
+
+.mk-biography__avatar img {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  vertical-align: middle;
+  object-position: center;
+  filter: grayscale(100%);
+}
+
 @media (max-width: 920px) {
   #app {
     padding: 2em 1.5em;
@@ -66,5 +85,21 @@
   .mk-link-list__icon {
     width: 1em;
     height: 1em;
+  }
+}
+
+@media (max-width: 520px) {
+  .mk-biography__header-top {
+    display: block;
+  }
+
+  .mk-biography__avatar {
+    margin-right: 0;
+  }
+
+  .mk-biography__avatar img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0.5rem;
   }
 }

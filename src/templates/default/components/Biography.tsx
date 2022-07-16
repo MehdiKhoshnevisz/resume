@@ -20,31 +20,10 @@ const Biography: FC<Props> = ({
 
   return (
     <header>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "flex-end",
-        }}
-      >
+      <div className="mk-biography__header-top">
         {avatar && (
-          <div
-            style={{
-              marginRight: "1em",
-              marginBottom: "0.5rem",
-            }}
-          >
-            <img
-              src={avatar}
-              style={{
-                width: "135px",
-                height: "135px",
-                objectFit: "cover",
-                verticalAlign: "middle",
-                objectPosition: "center",
-                filter: "grayscale(100%)",
-              }}
-              alt={fullName}
-            />
+          <div className="mk-biography__avatar">
+            <img src={avatar} alt={fullName} />
           </div>
         )}
 
