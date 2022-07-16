@@ -32,9 +32,7 @@ const Biography: FC<Props> = ({
             className="mk-biography__title"
             dangerouslySetInnerHTML={{ __html: fullNameNewLine }}
           />
-          <span style={{ display: "block", fontSize: "1.3em" }}>
-            {jobTitle}
-          </span>
+          <span className="mk-biography__job-title">{jobTitle}</span>
         </div>
       </div>
 

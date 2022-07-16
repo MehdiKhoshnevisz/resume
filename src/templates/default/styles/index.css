@@ -60,6 +60,11 @@
   transform: translateX(-2px);
 }
 
+.mk-biography__job-title {
+  display: block;
+  font-size: 1.3em;
+}
+
 .mk-biography__header-top {
   display: flex;
   align-items: flex-end;
