@@ -29,9 +29,7 @@ const Biography: FC<Props> = ({
         {avatar && (
           <div
             style={{
-              padding: "0.4em",
               marginRight: "1em",
-              border: "1px solid",
               marginBottom: "0.5rem",
             }}
           >
