@@ -65,6 +65,13 @@
   font-size: 1.3em;
 }
 
+.mk-biography__about {
+  margin: 0;
+  color: #777;
+  font-size: 1em;
+  line-height: 1.8;
+}
+
 .mk-biography__header-top {
   display: flex;
   align-items: flex-end;

@@ -36,16 +36,7 @@ const Biography: FC<Props> = ({
         </div>
       </div>
 
-      <p
-        style={{
-          fontSize: "1em",
-          lineHeight: 1.8,
-          color: "#777",
-          margin: 0,
-        }}
-      >
-        {about}
-      </p>
+      <p className="mk-biography__about">{about}</p>
     </header>
   );
 };
