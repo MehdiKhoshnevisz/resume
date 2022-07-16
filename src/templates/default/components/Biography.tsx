@@ -29,15 +29,7 @@ const Biography: FC<Props> = ({
 
         <div>
           <h1
-            style={{
-              fontSize: "3em",
-              fontWeight: "900",
-              marginTop: 0,
-              marginBottom: ".1em",
-              lineHeight: 1,
-              color: "#333",
-              transform: "translateX(-2px)",
-            }}
+            className="mk-biography__title"
             dangerouslySetInnerHTML={{ __html: fullNameNewLine }}
           />
           <span style={{ display: "block", fontSize: "1.3em" }}>
