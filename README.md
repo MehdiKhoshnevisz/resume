@@ -38,7 +38,7 @@ You can download and install it simplicity from **Google**!.
 
 
 You should create your [Github Page](https://pages.github.com/) by doing these steps (or see the screenshot below):
-1. Go to your repo settings (by click on **Settings** tab)
+1. Go to your repo settings (by clicking on **Settings** tab)
 2. Click on **Pages** tab in the left sidebar.
 3. Below the **Source** title, select ```gh-pages``` branch and save it.
 4. Yayy! 🥳 Now you can see your online resume from the link below.
