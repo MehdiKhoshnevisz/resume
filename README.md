@@ -22,7 +22,7 @@ You can download and install it simplicity from **Google**!.
 
 # How can I use it? 🤔 (SETP by STEP)
 1. Fork this repo (by click on ``Fork`` button)
-2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/resume```)
+2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME> or 'resume'```)
 3. Run command ```npm install```
 4. Create the translation file with the path ```locales/en/translation.json``` in ```public``` directory.
 5. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
