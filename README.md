@@ -45,7 +45,7 @@ You should create your [Github Page](https://pages.github.com/) by doing these s
 
 Now you can see your online resume here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/<YOUR_FORKED_REPO_NAME> or 'resume'```
 
-![](https://filebin.net/rxyg1c39kzunhjgb/screen-recorder-fri-jun-17-2022-21-15-13.gif)
+![](https://mehdikhoshnevisz.github.io/resume/create-github-page.gif)
 
 <br/>
 
