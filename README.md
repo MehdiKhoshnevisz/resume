@@ -22,7 +22,7 @@ You can download and install it simplicity from **Google**!.
 
 # How can I use it? 🤔 (SETP by STEP)
 1. Fork this repo (by click on ``Fork`` button)
-2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME> or 'resume'```)
+2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME>```)
 3. Run command ```npm install```
 4. Create the translation file with the path ```locales/en/translation.json``` in ```public``` directory.
 5. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
@@ -43,7 +43,8 @@ You should create your [Github Page](https://pages.github.com/) by doing these s
 3. Below the **Source** title, select ```gh-pages``` branch and save it.
 4. Yayy! 🥳 Now you can see your online resume from the link below.
 
-Now you can see your online resume here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/<YOUR_FORKED_REPO_NAME> or 'resume'```
+Now you can see your online resume here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/<YOUR_FORKED_REPO_NAME>```\
+For example: https://mehdikhoshnevisz.github.io/resume
 
 ![](https://mehdikhoshnevisz.github.io/resume/create-github-page.gif)
 
