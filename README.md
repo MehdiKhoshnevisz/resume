@@ -41,7 +41,7 @@ You should create your [Github Page](https://pages.github.com/) by doing these s
 1. Go to your repo settings (by clicking on **Settings** tab)
 2. Click on **Pages** tab in the left sidebar.
 3. Below the **Source** title, select ```gh-pages``` branch and save it.
-4. Yayy! 🥳 Now you can see your online resume from the link below.
+4. Yayy! 🥳
 
 Now you can see your online resume here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/<YOUR_FORKED_REPO_NAME>```\
 For example: https://mehdikhoshnevisz.github.io/resume
