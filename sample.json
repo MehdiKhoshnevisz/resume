@@ -29,6 +29,7 @@
     {
       "company": "Google",
       "type": "Full-time",
+      "icon": "",
       "position": "Senior Software Engineer",
       "startDate": "Jan 2020",
       "endDate": "",
@@ -39,6 +40,7 @@
     {
       "company": "Apple Company",
       "type": "Full-time",
+      "icon": "",
       "position": "Technical lead",
       "startDate": "Jun 2019",
       "endDate": "Feb 2020",
