@@ -77,7 +77,7 @@ const DefaultTemplate: FC = () => {
 
       {isExistExperiences && (
         <>
-          <ItemWrapper title="Work Exprience">
+          <ItemWrapper title="Work Experience">
             {experiences.map((item: any, index: number) => {
               return <Exprience {...item} key={index} />;
             })}
