@@ -23,6 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 
 package-lock.json
-
-# translated locale files
-/public/locales/**/*.json
