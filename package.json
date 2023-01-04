@@ -26,7 +26,9 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build",
+    "create-locales": "cd public && mkdir locales && cd locales && mkdir en  && cd ../.. && cp ./sample.json ./public/locales/en && mv ./public/locales/en/sample.json ./public/locales/en/translation.json",
+    "dev": "npm run create-locales && npm start"
   },
   "eslintConfig": {
     "extends": [
