@@ -7,6 +7,7 @@ import cleanURL from "@/utils/cleanURL";
 type Props = {
   company: string;
   type?: string;
+  icon?: string;
   position: string;
   startDate: string;
   endDate?: string;
@@ -15,11 +16,16 @@ type Props = {
   skills?: string[];
 };
 
-const Company = ({ title, type }: any) => (
+const Company = ({ title, type, icon }: any) => (
   <h3 className="mk-general-item-title">
+    {icon && (
+      <span className="mk-general-item-icon">
+        <img src={icon} alt={title} />
+      </span>
+    )}
     {title}{" "}
     {type && (
-      <span style={{ color: "#aaa", fontWeight: "normal", fontSize: "0.8em" }}>
+      <span style={{ color: "#999", fontWeight: "normal", fontSize: "0.8em" }}>
         {type}
       </span>
     )}
@@ -68,6 +74,7 @@ const Description = ({ description }: any) => (
 const Exprience: FC<Props> = ({
   company,
   type,
+  icon,
   position,
   startDate,
   endDate,
@@ -76,7 +83,7 @@ const Exprience: FC<Props> = ({
   skills,
 }) => (
   <div style={{ width: "100%" }}>
-    <Company title={company} type={type} />
+    <Company title={company} type={type} icon={icon}/>
     <Position title={position} startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
     {website && <Website website={website} />}

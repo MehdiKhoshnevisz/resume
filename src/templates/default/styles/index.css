@@ -7,9 +7,20 @@
 
 .mk-general-item-title {
   margin: 0;
-  color: #333;
+  color: #336;
   font-size: 1em;
   margin-bottom: 0;
+}
+
+.mk-general-item-icon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+    object-fit: cover;
+    vertical-align: middle;
+    object-position: center;
+    filter: grayscale(50%);
+    border-radius: 50%;
 }
 
 .mk-general-item-sub-title {
@@ -23,7 +34,7 @@
 
 .mk-item-wrapper__title {
   margin: 0;
-  color: #333;
+  color: #336;
   font-size: 1.3em;
   font-weight: 900;
   margin-bottom: 0.5em;
@@ -59,7 +70,7 @@
 }
 
 .mk-biography__title {
-  color: #333;
+  color: #336;
   margin-top: 0;
   line-height: 1;
   font-size: 3em;
@@ -96,7 +107,8 @@
   object-fit: cover;
   vertical-align: middle;
   object-position: center;
-  filter: grayscale(100%);
+  filter: grayscale(5%);
+  border-radius: 5px;
 }
 
 @media (max-width: 920px) {
