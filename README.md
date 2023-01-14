@@ -24,7 +24,7 @@ You can download and install it simplicity from **Google**!.
 1. Fork this repo (by click on ``Fork`` button)
 2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME>```)
 3. Run command ```npm install```
-4. (You can skip step 5,6 and just type ```npm run create-locales```)
+4. (You can skip step 5,6 and just type ```npm run dev```)
 5. Create the translation file with the path ```locales/en/translation.json``` in ```public``` directory.
 6. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
 7. Run command ```npm run deploy``` to build and deploy it in your github page.
