@@ -1,6 +1,6 @@
 # Simple and minimal resume builder 📄
 Create your free and open-source resume just by editing a **JSON file**!\
-This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [**Typescript language**](https://www.typescriptlang.org/).
+This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [**Typescript language**](https://www.typescriptlang.org/)
 
 ![](https://mehdikhoshnevisz.github.io/resume/preview.png)
 
@@ -15,8 +15,7 @@ node js       | >= 12.0.0
 npm           | >= 4.0.0
 git           | latest
 
-> NOTE: If you don't have nodejs and npm installed on your system, I recommend you install them with nvm(node version manager) on your system.
-You can download and install it simplicity from **Google**!.
+> NOTE: If you don't have nodejs and npm installed on your system, I recommend you install them with nvm(node version manager).
 
 <br/>
 
