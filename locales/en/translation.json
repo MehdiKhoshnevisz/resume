@@ -3,8 +3,7 @@
     "firstName": "Mehdi",
     "lastName": "Khoshnevis",
     "jobTitle": "Front-End Developer",
-    "about": "I've been working for more than 4 years as a front-end developer. I worked in small and large-scale companies with different products. Knowledgeable in development, debugging and maintenance process. Proficient in an assortment of technologies, including Javascript, Vue and React. Familiar with UI/UX principles and best practices. I'm a self-starter and I'm always learning new things. I'm always looking for new challenges and trying to improve my skills.",
-    "avatar": "https://avatars.githubusercontent.com/u/20888050?v=4"
+    "about": "I've been working for more than 4 years as a front-end developer. I worked in small and large-scale companies with different products. Knowledgeable in development, debugging and maintenance process. Proficient in an assortment of technologies, including Javascript, Vue and React. Familiar with UI/UX principles and best practices. I'm a self-starter and I'm always learning new things. I'm always looking for new challenges and trying to improve my skills."
   },
 
   "contact": {
@@ -22,31 +21,25 @@
     "Bootstrap",
     "Tailwind CSS",
     "Javascript",
-    "EcmaScript",
     "TypeScript",
     "Vuejs",
     "Vuetify",
     "Nuxtjs",
     "Reactjs",
     "JSX",
-    "GraphQL",
     "Git",
     "Github",
     "NPM",
     "Webpack",
-    "Linux",
     "Clean Code",
     "Pixel Perfect",
-    "API REST",
-    "Teamwork",
-    "Remote Work"
+    "API REST"
   ],
 
   "experiences": [
     {
       "company": "Buzzjective ",
-      "type": "Full-time Remote",
-      "position": "Software Developer",
+      "position": "Senior Front-End Developer",
       "startDate": "Sep 2021",
       "endDate": "",
       "description": "Started working as a full-time remote software developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with different and international colleagues around the world.",
@@ -71,7 +64,6 @@
     },
     {
       "company": "Basalam",
-      "type": "Full-time",
       "position": "Front-End Developer",
       "startDate": "Jan 2018",
       "endDate": "Jun 2021",
@@ -102,7 +94,6 @@
     },
     {
       "company": "Navac Asia",
-      "type": "Full-time",
       "position": "Junior Web Developer",
       "startDate": "Jul 2016",
       "endDate": "Aug 2017",
