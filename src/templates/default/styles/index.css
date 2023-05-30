@@ -35,6 +35,12 @@
   justify-content: space-between;
 }
 
+.mk-item-wrapper__children--row {
+  gap: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
 .mk-item-wrapper__children > * {
   flex: 1 1 auto;
   width: calc(50% - 1em);
@@ -87,6 +93,10 @@
     flex: 1 1 100%;
   }
 
+  .mk-item-wrapper__children--row {
+    flex-wrap: wrap;
+  }
+
   .mk-link-list {
     align-items: baseline;
   }
@@ -100,5 +110,9 @@
 @media (max-width: 520px) {
   .mk-biography__header-top {
     display: block;
+  }
+
+  .mk-item-wrapper__children--row > * {
+    flex: 1 1 100%;
   }
 }

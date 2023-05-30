@@ -57,7 +57,7 @@ const DefaultTemplate: FC = () => {
 
       {isExistContact && (
         <>
-          <ItemWrapper title="Contact">
+          <ItemWrapper row>
             <Contact {...contact} />
           </ItemWrapper>
 
