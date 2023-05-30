@@ -14,14 +14,13 @@ const Biography: FC<Props> = ({
   about,
 }) => {
   const fullName = `${firstName} ${lastName || ""}`;
-  const fullNameNewLine = `${firstName} <br /> ${lastName || ""}`;
 
   return (
     <header>
       <div className="mk-biography__header-top">
           <h1
             className="mk-biography__title"
-            dangerouslySetInnerHTML={{ __html: fullNameNewLine }}
+            dangerouslySetInnerHTML={{ __html: fullName }}
           />
           <span className="mk-biography__job-title">{jobTitle}</span>
       </div>
