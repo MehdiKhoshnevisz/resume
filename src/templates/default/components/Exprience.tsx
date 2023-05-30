@@ -1,16 +1,11 @@
 import { FC } from "react";
 
-import Skills from "./Skills";
-
-import cleanURL from "@/utils/cleanURL";
-
 type Props = {
   company: string;
   position: string;
   startDate: string;
   endDate?: string;
   description?: string;
-  skills?: string[];
 };
 
 const Company = ({ title }: any) => (
@@ -46,13 +41,11 @@ const Exprience: FC<Props> = ({
   startDate,
   endDate,
   description,
-  skills,
 }) => (
   <div style={{ width: "100%" }}>
     <Company title={company} />
     <Position title={position} startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
-    {skills && <Skills list={skills} size="sm" />}
   </div>
 );
 
