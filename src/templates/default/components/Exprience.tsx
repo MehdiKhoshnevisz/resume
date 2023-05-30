@@ -6,42 +6,17 @@ import cleanURL from "@/utils/cleanURL";
 
 type Props = {
   company: string;
-  type?: string;
   position: string;
   startDate: string;
   endDate?: string;
-  website?: string;
   description?: string;
   skills?: string[];
 };
 
-const Company = ({ title, type }: any) => (
+const Company = ({ title }: any) => (
   <h3 className="mk-general-item-title">
     {title}{" "}
-    {type && (
-      <span style={{ color: "#aaa", fontWeight: "normal", fontSize: "0.8em" }}>
-        {type}
-      </span>
-    )}
   </h3>
-);
-
-const Website = ({ website }: any) => (
-  <div>
-    <a
-      href={website}
-      style={{
-        display: "inline-block",
-        textDecoration: "none",
-        fontSize: "0.8em",
-        color: "#aaa",
-        fontWeight: "500",
-        marginBottom: ".5em",
-      }}
-    >
-      {cleanURL(website)}
-    </a>
-  </div>
 );
 
 const Position = ({ title, startDate, endDate }: any) => (
@@ -67,19 +42,16 @@ const Description = ({ description }: any) => (
 
 const Exprience: FC<Props> = ({
   company,
-  type,
   position,
   startDate,
   endDate,
-  website,
   description,
   skills,
 }) => (
   <div style={{ width: "100%" }}>
-    <Company title={company} type={type} />
+    <Company title={company} />
     <Position title={position} startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
-    {website && <Website website={website} />}
     {skills && <Skills list={skills} size="sm" />}
   </div>
 );
