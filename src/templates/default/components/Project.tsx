@@ -25,22 +25,6 @@ const Name = ({ name, website }: any) => (
   </h3>
 );
 
-const Website = ({ website }: any) => (
-  <div>
-    <a
-      href={website}
-      style={{
-        textDecoration: "none",
-        fontSize: "0.8em",
-        color: "#aaa",
-        fontWeight: "500",
-      }}
-    >
-      {cleanURL(website)}
-    </a>
-  </div>
-);
-
 const Date = ({ startDate, endDate }: any) => {
   return (
     <span className="mk-general-item-sub-title">
