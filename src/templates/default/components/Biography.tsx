@@ -21,19 +21,11 @@ const Biography: FC<Props> = ({
   return (
     <header>
       <div className="mk-biography__header-top">
-        {avatar && (
-          <div className="mk-biography__avatar">
-            <img src={avatar} alt={fullName} />
-          </div>
-        )}
-
-        <div>
           <h1
             className="mk-biography__title"
             dangerouslySetInnerHTML={{ __html: fullNameNewLine }}
           />
           <span className="mk-biography__job-title">{jobTitle}</span>
-        </div>
       </div>
 
       <p className="mk-biography__about">{about}</p>
