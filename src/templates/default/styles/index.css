@@ -9,24 +9,23 @@
   margin: 0;
   color: #333;
   font-size: 1em;
-  margin-bottom: 0;
+  margin-bottom: 0.1em;
 }
 
 .mk-general-item-sub-title {
   color: #777;
   display: block;
   font-size: 1em;
-  margin-bottom: 0;
+  margin-bottom: 0.1em;
   text-decoration: none;
   display: inline-block;
 }
 
 .mk-item-wrapper__title {
   margin: 0;
-  color: #333;
+  color: #808080;
   font-size: 1.3em;
-  font-weight: 900;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .mk-item-wrapper__children {
@@ -63,21 +62,20 @@
   margin-top: 0;
   line-height: 1;
   font-size: 3em;
-  font-weight: 900;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.25em;
   transform: translateX(-2px);
 }
 
 .mk-biography__job-title {
   display: block;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .mk-biography__about {
-  margin: 0;
-  color: #777;
+  color: #a2a4a6;
   font-size: 1em;
   line-height: 1.8;
+  margin-top: 0.25em;
 }
 
 @media (max-width: 920px) {
