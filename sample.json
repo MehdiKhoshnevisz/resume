@@ -3,8 +3,7 @@
     "firstName": "John",
     "lastName": "Doe",
     "jobTitle": "Senior Software Engineer",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet.",
-    "avatar": "https://visittomalta.com/wp-content/uploads/2020/06/avatar-4.jpg"
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
   },
 
   "contact": {
@@ -28,23 +27,17 @@
   "experiences": [
     {
       "company": "Google",
-      "type": "Full-time",
       "position": "Senior Software Engineer",
       "startDate": "Jan 2020",
       "endDate": "",
-      "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System.",
-      "website": "https://www.google.com",
-      "skills": ["C++", "C#", "Javascript"]
+      "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System."
     },
     {
       "company": "Apple Company",
-      "type": "Full-time",
       "position": "Technical lead",
       "startDate": "Jun 2019",
       "endDate": "Feb 2020",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://www.apple.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"]
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
     }
   ],
 
