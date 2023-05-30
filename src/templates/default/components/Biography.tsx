@@ -5,7 +5,6 @@ type Props = {
   lastName?: string;
   jobTitle: string;
   about: string;
-  avatar?: string;
 };
 
 const Biography: FC<Props> = ({
@@ -13,7 +12,6 @@ const Biography: FC<Props> = ({
   lastName,
   jobTitle,
   about,
-  avatar,
 }) => {
   const fullName = `${firstName} ${lastName || ""}`;
   const fullNameNewLine = `${firstName} <br /> ${lastName || ""}`;
