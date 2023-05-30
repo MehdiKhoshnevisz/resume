@@ -4,9 +4,10 @@ import Skills from "./Skills";
 
 import cleanURL from "@/utils/cleanURL";
 
+const urlIcon = require('../styles/url.png')
+
 type Props = {
   name: string;
-  type?: string;
   website?: string;
   startDate: string;
   endDate?: string;
@@ -14,14 +15,13 @@ type Props = {
   skills?: string[];
 };
 
-const Name = ({ name, type }: any) => (
+const Name = ({ name, website }: any) => (
   <h3 className="mk-general-item-title">
-    {name}{" "}
-    {type && (
-      <span style={{ color: "#aaa", fontWeight: "normal", fontSize: "0.8em" }}>
-        {type}
-      </span>
-    )}
+    {name}
+    {website && (
+    <a href={website} target="_blank">
+      <img src={urlIcon} width={14} style={{verticalAlign: 'middle', marginLeft: '0.5em', marginBottom: '0.1em'}}/>
+    </a>)}
   </h3>
 );
 
@@ -66,7 +66,6 @@ const Description = ({ description }: any) => {
 
 const Project: FC<Props> = ({
   name,
-  type,
   website,
   startDate,
   endDate,
@@ -74,10 +73,9 @@ const Project: FC<Props> = ({
   skills,
 }) => (
   <div>
-    <Name name={name} type={type} />
+    <Name name={name} website={website}/>
     <Date startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
-    {website && <Website website={website} />}
     {skills && (
       <div style={{ marginTop: "0.5em" }}>
         <Skills list={skills} size="sm" />
