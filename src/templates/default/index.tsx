@@ -8,7 +8,7 @@ import Socials from "./components/Socials";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Biography from "./components/Biography";
-import Exprience from "./components/Exprience";
+import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Languages from "./components/Languages";
 import ItemWrapper from "./components/ItemWrapper";
@@ -77,9 +77,9 @@ const DefaultTemplate: FC = () => {
 
       {isExistExperiences && (
         <>
-          <ItemWrapper title="Work Exprience">
+          <ItemWrapper title="Experience">
             {experiences.map((item: any, index: number) => {
-              return <Exprience {...item} key={index} />;
+              return <Experience {...item} key={index} />;
             })}
           </ItemWrapper>
 

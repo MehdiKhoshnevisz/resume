@@ -35,7 +35,7 @@ const Description = ({ description }: any) => (
   </p>
 );
 
-const Exprience: FC<Props> = ({
+const Experience: FC<Props> = ({
   company,
   position,
   startDate,
@@ -49,4 +49,4 @@ const Exprience: FC<Props> = ({
   </div>
 );
 
-export default Exprience;
+export default Experience;
