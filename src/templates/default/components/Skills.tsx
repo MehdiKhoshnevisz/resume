@@ -14,11 +14,8 @@ const Skills: FC<Props> = ({ list, size }) => {
   let border = "1px solid #333";
 
   if (size === "sm") {
-    border = "";
-    padding = "0";
-    lineHeight = 1;
     fontSize = "0.7em";
-    fontWeight = "normal";
+    fontWeight = "500";
     marginRight = "0.7em";
   }
 
