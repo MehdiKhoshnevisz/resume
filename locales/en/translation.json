@@ -71,7 +71,7 @@
       "website": "https://basalam.com",
       "skills": [
         "JavaScript",
-        "Cascading Style Sheets (CSS)",
+        "CSS",
         "Responsive",
         "Vue.js",
         "Nuxt.js",
@@ -126,9 +126,17 @@
     {
       "name": "Simple Resume Builder",
       "type": "Open-source",
-      "description": "Simple and minimal resume builder with react and typescript",
+      "description": "Simple and minimal resume builder with React,Typescript and Github pages",
       "website": "https://github.com/MehdiKhoshnevisz/resume",
-      "skills": [],
+      "skills": [
+        "Github",
+        "CSS3",
+        "React",
+        "JSX",
+        "TypeScript",
+        "i18n",
+        "github-pages"
+      ],
       "startDate": "May 2022",
       "endDate": ""
     },
@@ -137,16 +145,16 @@
       "type": "Open-source",
       "description": "splash plugin for vue js",
       "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
-      "skills": [],
+      "skills": ["Github", "CSS", "Vue", "npm"],
       "startDate": "Jun 2020",
       "endDate": ""
     },
     {
       "name": "Personal Website (imehdi.dev)",
       "type": "Personal and Open-source",
-      "description": "Personal website with React js",
+      "description": "Personal website with React",
       "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "JSX"],
+      "skills": ["Github", "CSS3", "React", "JSX", "i18n", "Vercel"],
       "startDate": "April 2022",
       "endDate": ""
     },
@@ -156,18 +164,17 @@
       "description": "a platform to connect painters and artisans",
       "website": "https://rangisho.com",
       "skills": [
-        "Cascading Style Sheets (CSS)",
+        "Freelance Project",
+        "CSS",
         "Responsive",
-        "Remote Teamwork",
         "Git",
-        "ECMAScript",
         "Scss",
         "BEM",
         "Laravel-mix",
+        "ECMAScript",
         "jQuery",
         "Gitlab",
-        "Webpack",
-        "Teamwork"
+        "Webpack"
       ],
       "startDate": "Jul 2021",
       "endDate": "Oct 2021"
@@ -177,20 +184,9 @@
       "type": "Freelance",
       "description": "Website for a company that sells books in Qom",
       "website": "http://ketabeqom.com/",
-      "skills": ["jQuery", "CSS3", "Responsive", "Remote Teamwork"],
+      "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
       "startDate": "Apr 2018",
       "endDate": "Jul 2018"
-    }
-  ],
-
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Limited Working proficiency"
-    },
-    {
-      "language": "Persian",
-      "fluency": "Native"
     }
   ],
 
