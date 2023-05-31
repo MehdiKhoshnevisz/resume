@@ -18,14 +18,13 @@ const Socials: FC<Props> = ({ list }) => {
         <div className="mk-link-list" key={index}>
           <img src={icon} className="mk-link-list__icon" alt=" " />
           <h3 className="mk-general-item-title" style={{ marginRight: ".3em" }}>
-            {item.name}
+            <a
+              className="mk-general-item-title mk-link-list__url"
+              href={item.url}
+            >
+              {item.name}
+            </a>
           </h3>
-          <a
-            href={item.url}
-            className="mk-general-item-sub-title mk-link-list__url "
-          >
-            {cleanURL(item.url)}
-          </a>
         </div>
       );
 

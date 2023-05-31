@@ -51,13 +51,14 @@ const DefaultTemplate: FC = () => {
     <main id="app">
       {isExistBio && (
         <>
-          <Biography {...bio} /> <LineSeparator />
+          <Biography {...bio} />
+          <LineSeparator />
         </>
       )}
 
       {isExistContact && (
         <>
-          <ItemWrapper row>
+          <ItemWrapper row="between">
             <Contact {...contact} />
           </ItemWrapper>
 
@@ -122,7 +123,7 @@ const DefaultTemplate: FC = () => {
       )}
 
       {isExistSocials && (
-        <ItemWrapper title="Socials">
+        <ItemWrapper row="start">
           <Socials list={socials} />
         </ItemWrapper>
       )}

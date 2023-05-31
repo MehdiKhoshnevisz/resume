@@ -63,8 +63,8 @@
 }
 
 .mk-link-list__icon {
-  width: 0.9em;
-  height: 0.9em;
+  width: 1em;
+  height: 1em;
   margin-right: 0.5em;
   filter: grayscale(1);
 }
@@ -121,5 +121,9 @@
 
   .mk-item-wrapper__children--row > * {
     flex: 1 1 100%;
+  }
+
+  .mk-item-wrapper__children--row-between {
+    display: block;
   }
 }
