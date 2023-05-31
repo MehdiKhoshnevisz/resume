@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import Biography from "./components/Biography";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Languages from "./components/Languages";
 import ItemWrapper from "./components/ItemWrapper";
 import LineSeparator from "./components/LineSeparator";
 
@@ -34,9 +33,6 @@ const DefaultTemplate: FC = () => {
 
   const projects: object[] = t("projects", { returnObjects: true });
   const isExistProjects = i18n.exists("projects");
-
-  const languages: object[] = t("languages", { returnObjects: true });
-  const isExistLanguages = i18n.exists("languages");
 
   const socials: object[] = t("socials", { returnObjects: true });
   const isExistSocials = i18n.exists("socials");
@@ -106,16 +102,6 @@ const DefaultTemplate: FC = () => {
             {education.map((item: any, index: number) => {
               return <Education {...item} key={index} />;
             })}
-          </ItemWrapper>
-
-          <LineSeparator />
-        </>
-      )}
-
-      {isExistLanguages && (
-        <>
-          <ItemWrapper title="Languages">
-            <Languages list={languages} />
           </ItemWrapper>
 
           <LineSeparator />
