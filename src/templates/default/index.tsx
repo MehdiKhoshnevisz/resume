@@ -66,16 +66,6 @@ const DefaultTemplate: FC = () => {
         </>
       )}
 
-      {isExistSkills && (
-        <>
-          <ItemWrapper title="Skills">
-            <Skills list={skills} />
-          </ItemWrapper>
-
-          <LineSeparator />
-        </>
-      )}
-
       {isExistExperiences && (
         <>
           <ItemWrapper title="Experience">
@@ -88,11 +78,11 @@ const DefaultTemplate: FC = () => {
         </>
       )}
 
-      {isExistEducation && (
+      {isExistProjects && (
         <>
-          <ItemWrapper title="Education">
-            {education.map((item: any, index: number) => {
-              return <Education {...item} key={index} />;
+          <ItemWrapper title="Projects">
+            {projects.map((item: any, index: number) => {
+              return <Project {...item} key={index} />;
             })}
           </ItemWrapper>
 
@@ -100,11 +90,21 @@ const DefaultTemplate: FC = () => {
         </>
       )}
 
-      {isExistProjects && (
+      {isExistSkills && (
         <>
-          <ItemWrapper title="Projects">
-            {projects.map((item: any, index: number) => {
-              return <Project {...item} key={index} />;
+          <ItemWrapper title="Skills">
+            <Skills list={skills} />
+          </ItemWrapper>
+
+          <LineSeparator />
+        </>
+      )}
+
+      {isExistEducation && (
+        <>
+          <ItemWrapper title="Education">
+            {education.map((item: any, index: number) => {
+              return <Education {...item} key={index} />;
             })}
           </ItemWrapper>
 
