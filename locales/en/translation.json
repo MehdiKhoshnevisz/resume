@@ -3,34 +3,30 @@
     "firstName": "Mehdi",
     "lastName": "Khoshnevis",
     "jobTitle": "Front-End Developer",
-    "about": "I've been working for more than 4 years as a front-end developer. I worked in small and large-scale companies with different products. Knowledgeable in development, debugging and maintenance process. Proficient in an assortment of technologies, including Javascript, Vue and React. Familiar with UI/UX principles and best practices. I'm a self-starter and I'm always learning new things. I'm always looking for new challenges and trying to improve my skills."
+    "about": "I've been working for more than 5 years as a Front-End developer. Throughout my career, I have worked on a wide range of projects, from small websites to large-scale applications, and have consistently delivered high-quality solutions that exceed client expectations. Whether working independently or as part of a team, I am committed to delivering outstanding work on time and within budget."
   },
 
   "contact": {
     "phone": "+98 910 965 7619",
     "email": "mkhnsz1996@gmail.com",
     "website": "https://imehdi.dev",
-    "location": "Anywhere"
+    "location": "Iran, Qom"
   },
 
   "skills": [
     "HTML5",
     "CSS3",
     "SCSS",
-    "Responsive",
-    "Bootstrap",
-    "Tailwind CSS",
     "Javascript",
-    "TypeScript",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Responsive",
     "Vuejs",
     "Vuetify",
     "Nuxtjs",
     "Reactjs",
-    "JSX",
+    "Vite",
     "Git",
-    "Github",
-    "NPM",
-    "Webpack",
     "Clean Code",
     "Pixel Perfect",
     "API REST"
@@ -42,7 +38,7 @@
       "position": "Senior Front-End Developer",
       "startDate": "Sep 2021",
       "endDate": "",
-      "description": "Started working as a full-time remote software developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with different and international colleagues around the world.",
+      "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with international colleagues around the world.",
       "website": "https://buzzjective.com",
       "skills": [
         "JavaScript",
@@ -93,7 +89,7 @@
       ]
     },
     {
-      "company": "Navac Asia",
+      "company": "Navac",
       "position": "Junior Web Developer",
       "startDate": "Jul 2016",
       "endDate": "Aug 2017",
@@ -124,7 +120,23 @@
 
   "projects": [
     {
-      "name": "Simple Resume Builder",
+      "name": "Media Editor",
+      "type": "Freelance",
+      "description": "This project is about create a media by dragging elements in the canvas to create and show user social media templates",
+      "website": "http://70.35.197.229",
+      "skills": [
+        "Freelance Project",
+        "CSS3",
+        "React",
+        "JSX",
+        "TypeScript",
+        "i18n"
+      ],
+      "startDate": "May 2022",
+      "endDate": ""
+    },
+    {
+      "name": "Resume Builder",
       "type": "Open-source",
       "description": "Simple and minimal resume builder with React,Typescript and Github pages",
       "website": "https://github.com/MehdiKhoshnevisz/resume",
@@ -161,7 +173,7 @@
     {
       "name": "Rangisho",
       "type": "Freelance",
-      "description": "a platform to connect painters and artisans",
+      "description": "a platform to connect painters and customers to sell and buy paint servcies",
       "website": "https://rangisho.com",
       "skills": [
         "Freelance Project",
@@ -182,7 +194,7 @@
     {
       "name": "Online Qom Bookstore",
       "type": "Freelance",
-      "description": "Website for a company that sells books in Qom",
+      "description": "Website for Book's publishers in Qom city",
       "website": "http://ketabeqom.com/",
       "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
       "startDate": "Apr 2018",
@@ -202,10 +214,6 @@
     {
       "name": "Stackoverflow",
       "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
-    },
-    {
-      "name": "Unsplash",
-      "url": "https://unsplash.com/@mehdi_khoshnevisz"
     }
   ]
 }
