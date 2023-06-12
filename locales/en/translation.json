@@ -1,109 +1,219 @@
 {
   "bio": {
-    "firstName": "John",
-    "lastName": "Doe",
-    "jobTitle": "Senior Software Engineer",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet repellat ipsam repudiandae explicabo ratione aliquid, quo maxime ab unde distinctio nihil quod iure at ad, tempora odit mollitia. Amet."
+    "firstName": "Mehdi",
+    "lastName": "Khoshnevis",
+    "jobTitle": "Front-End Developer",
+    "about": "I've been working for more than 5 years as a Front-End developer. Throughout my career, I have worked on a wide range of projects, from small websites to large-scale applications, and have consistently delivered high-quality solutions that exceed client expectations. Whether working independently or as part of a team, I am committed to delivering outstanding work on time and within budget."
   },
 
   "contact": {
-    "phone": "+49 30 909313146",
-    "email": "your_mail@example.com",
-    "website": "https://example.com",
-    "location": "Berlin, Germany"
+    "phone": "+98 910 965 7619",
+    "email": "mkhnsz1996@gmail.com",
+    "website": "https://imehdi.dev",
+    "location": "Iran, Qom"
   },
 
   "skills": [
     "HTML5",
     "CSS3",
     "SCSS",
-    "Bootstrap",
     "Javascript",
-    "Reactjs",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Responsive",
     "Vuejs",
-    "Nodejs"
+    "Vuetify",
+    "Nuxtjs",
+    "Reactjs",
+    "Vite",
+    "Git",
+    "Clean Code",
+    "Pixel Perfect",
+    "API REST"
   ],
 
   "experiences": [
     {
-      "company": "Google",
-      "position": "Senior Software Engineer",
-      "startDate": "Jan 2020",
+      "company": "Buzzjective ",
+      "position": "Senior Front-End Developer",
+      "startDate": "Sep 2021",
       "endDate": "",
-      "description": "Started and scaled design team to 6 product designers and Implemented a web application desgin System."
+      "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with international colleagues around the world.",
+      "website": "https://buzzjective.com",
+      "skills": [
+        "JavaScript",
+        "Responsive",
+        "Vue.js",
+        "Vuetify",
+        "Remote Teamwork",
+        "Git",
+        "ECMAScript",
+        "Scss",
+        "BEM",
+        "Tailwind CSS",
+        "Docker",
+        "Testing",
+        "Micro-frontend",
+        "Gitlab",
+        "Teamwork"
+      ]
     },
     {
-      "company": "Apple Company",
-      "position": "Technical lead",
-      "startDate": "Jun 2019",
-      "endDate": "Feb 2020",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget."
+      "company": "Basalam",
+      "position": "Front-End Developer",
+      "startDate": "Jan 2018",
+      "endDate": "Jun 2021",
+      "description": "Experience of being in a large-scale startup with a high number of users. I worked with experienced designers, back-end developers, and product managers. I was responsible for code review, develop and maintenance front-end part. Also I developed services like ADS (ads.basalam.com) and Karbalad (karbalad.basalam.com).",
+      "website": "https://basalam.com",
+      "skills": [
+        "JavaScript",
+        "CSS",
+        "Responsive",
+        "Vue.js",
+        "Nuxt.js",
+        "Remote Teamwork",
+        "Bootstrap",
+        "Git",
+        "ECMAScript",
+        "Reactjs",
+        "Nextjs",
+        "Scss",
+        "CSS BEM",
+        "Laravel-mix",
+        "GraphQL",
+        "jQuery",
+        "Gitlab",
+        "blade",
+        "Webpack",
+        "Teamwork"
+      ]
+    },
+    {
+      "company": "Navac",
+      "position": "Junior Web Developer",
+      "startDate": "Jul 2016",
+      "endDate": "Aug 2017",
+      "description": "I've started development journey and learned many things about web development.",
+      "website": "https://navac.asia",
+      "skills": [
+        "JavaScript",
+        "Cascading Style Sheets (CSS)",
+        "Responsive",
+        "HTML5",
+        "Bootstrap",
+        "AngularJS",
+        "jQuery",
+        "Teamwork"
+      ]
     }
   ],
 
   "education": [
     {
-      "school": "University of Cambridge",
-      "degree": "Bachelor of Science",
-      "field": "Computer Science",
-      "startDate": "Sep 2019",
-      "endDate": "Jun 2021"
+      "school": "Shahab Danesh University",
+      "degree": "Bachelor's Degree",
+      "field": "Information Technology",
+      "startDate": "2014",
+      "endDate": "2018"
     }
   ],
 
   "projects": [
     {
-      "name": "Your Project Name 1",
-      "type": "Open-source",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://example.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2019",
-      "endDate": "May 2020"
+      "name": "Media Editor",
+      "type": "Freelance",
+      "description": "This project is about create a media by dragging elements in the canvas to create and show user social media templates",
+      "website": "http://70.35.197.229",
+      "skills": [
+        "Freelance Project",
+        "CSS3",
+        "React",
+        "JSX",
+        "TypeScript",
+        "i18n"
+      ],
+      "startDate": "May 2022",
+      "endDate": ""
     },
     {
-      "name": "Your Project Name 2",
-      "type": "Freelance",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae tincidunt congue, nisl nunc egestas nisi, euismod aliquet nisl nunc eget.",
-      "website": "https://another-example.com",
-      "skills": ["HTML5", "CSS3", "Javascript", "Reactjs", "Nodejs"],
-      "startDate": "Jun 2021",
+      "name": "Resume Builder",
+      "type": "Open-source",
+      "description": "Simple and minimal resume builder with React,Typescript and Github pages",
+      "website": "https://github.com/MehdiKhoshnevisz/resume",
+      "skills": [
+        "Github",
+        "CSS3",
+        "React",
+        "JSX",
+        "TypeScript",
+        "i18n",
+        "github-pages"
+      ],
+      "startDate": "May 2022",
       "endDate": ""
+    },
+    {
+      "name": "Vue Splash",
+      "type": "Open-source",
+      "description": "splash plugin for vue js",
+      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
+      "skills": ["Github", "CSS", "Vue", "npm"],
+      "startDate": "Jun 2020",
+      "endDate": ""
+    },
+    {
+      "name": "Personal Website (imehdi.dev)",
+      "type": "Personal and Open-source",
+      "description": "Personal website with React",
+      "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
+      "skills": ["Github", "CSS3", "React", "JSX", "i18n", "Vercel"],
+      "startDate": "April 2022",
+      "endDate": ""
+    },
+    {
+      "name": "Rangisho",
+      "type": "Freelance",
+      "description": "a platform to connect painters and customers to sell and buy paint servcies",
+      "website": "https://rangisho.com",
+      "skills": [
+        "Freelance Project",
+        "CSS",
+        "Responsive",
+        "Git",
+        "Scss",
+        "BEM",
+        "Laravel-mix",
+        "ECMAScript",
+        "jQuery",
+        "Gitlab",
+        "Webpack"
+      ],
+      "startDate": "Jul 2021",
+      "endDate": "Oct 2021"
+    },
+    {
+      "name": "Online Qom Bookstore",
+      "type": "Freelance",
+      "description": "Website for Book's publishers in Qom city",
+      "website": "http://ketabeqom.com/",
+      "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
+      "startDate": "Apr 2018",
+      "endDate": "Jul 2018"
     }
   ],
 
   "socials": [
     {
       "name": "Github",
-      "url": "https://github.com/johndoe"
+      "url": "https://github.com/MehdiKhoshnevisz"
     },
     {
       "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/johndoe"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/johndoe"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/johndoe"
-    },
-    {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/johndoe"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
-    },
-    {
-      "name": "Medium",
-      "url": "https://medium.com/@johndoe"
+      "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
     },
     {
       "name": "Stackoverflow",
-      "url": "https://stackoverflow.com/users/12345"
+      "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
     }
   ]
 }
