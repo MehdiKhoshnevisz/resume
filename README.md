@@ -6,7 +6,7 @@ This project was bootstraped by [**Reacjs library**](https://reactjs.org/) and [
 
 <br/>
 
-# Requirements 😷
+# Requirements
 You should have installed **nodejs**, **npm**, and (of course) **git** on your machine.
 
 title         | version
@@ -19,7 +19,7 @@ git           | latest
 
 <br/>
 
-# How can I use it? 🤔 (SETP by STEP)
+# How can I use it? (SETP by STEP)
 1. Fork this repo (by click on ``Fork`` button)
 2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME>```)
 3. Run command ```npm install```
@@ -41,7 +41,7 @@ You should create your [Github Page](https://pages.github.com/) by doing these s
 1. Go to your repo settings (by clicking on **Settings** tab)
 2. Click on **Pages** tab in the left sidebar.
 3. Below the **Source** title, select ```gh-pages``` branch and save it.
-4. Yayy! 🥳
+4. Yayy!
 
 Now you can see your online resume here: ```https://<YOUR_GITHUB_ACCOUNT>.github.io/<YOUR_FORKED_REPO_NAME>```\
 For example: https://mehdikhoshnevisz.github.io/resume
@@ -50,7 +50,7 @@ For example: https://mehdikhoshnevisz.github.io/resume
 
 <br/>
 
-# Donation 💵
+# Donation
 If you like this project and want to support me to make more projects like this, you can support me with SOL coin.\
 my SOLANA wallet: ```4BjqDB5hGmZVkiRuBa5JkhceLVaTokYg4Gqe4fkV6Lby```.\
 Also you can [Buy Me a Coffee](https://www.buymeacoffee.com/imehdi) :)
