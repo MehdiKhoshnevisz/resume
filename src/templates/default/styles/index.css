@@ -7,7 +7,7 @@
 
 .mk-general-item-title {
   margin: 0;
-  color: #333;
+  color: #242424;
   font-size: 1em;
   margin-bottom: 0.1em;
 }
@@ -70,22 +70,24 @@
 }
 
 .mk-biography__title {
-  color: #333;
+  color: #242424;
   margin-top: 0;
   line-height: 1;
   font-size: 3em;
-  margin-bottom: 0.25em;
+  font-weight: normal;
+  margin-bottom: 0.15em;
   transform: translateX(-2px);
 }
 
 .mk-biography__job-title {
   display: block;
+  color: #4d4d4d;
   font-size: 1.1em;
 }
 
 .mk-biography__about {
-  color: #808080;
-  font-size: 1em;
+  color: #4d4d4d;
+  font-size: 0.9em;
   line-height: 1.8;
   margin-top: 0.25em;
 }
