@@ -2,9 +2,7 @@ import { FC } from "react";
 
 import Skills from "./Skills";
 
-import cleanURL from "@/utils/cleanURL";
-
-const urlIcon = require('../styles/url.png')
+const urlIcon = require("../styles/url.png");
 
 type Props = {
   name: string;
@@ -19,9 +17,18 @@ const Name = ({ name, website }: any) => (
   <h3 className="mk-general-item-title">
     {name}
     {website && (
-    <a href={website} target="_blank">
-      <img src={urlIcon} width={14} style={{verticalAlign: 'middle', marginLeft: '0.5em', marginBottom: '0.1em'}}/>
-    </a>)}
+      <a href={website} target="_blank">
+        <img
+          src={urlIcon}
+          width={14}
+          style={{
+            verticalAlign: "middle",
+            marginLeft: "0.5em",
+            marginBottom: "0.1em",
+          }}
+        />
+      </a>
+    )}
   </h3>
 );
 
@@ -37,10 +44,12 @@ const Description = ({ description }: any) => {
   return (
     <p
       style={{
+        fontSize: "1em",
+        listStyle: "none",
         padding: 0,
         margin: 0,
-        color: "#333",
-        fontSize: "1em",
+        lineHeight: 2,
+        color: "#4D4D4D",
       }}
     >
       {description}
@@ -57,7 +66,7 @@ const Project: FC<Props> = ({
   skills,
 }) => (
   <div>
-    <Name name={name} website={website}/>
+    <Name name={name} website={website} />
     <Date startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
     {skills && (
