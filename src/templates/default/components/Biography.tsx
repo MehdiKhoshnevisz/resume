@@ -24,12 +24,7 @@ const Biography: FC<Props> = ({ firstName, lastName, jobTitle, about }) => {
             className="mk-biography__title"
             dangerouslySetInnerHTML={{ __html: fullName }}
           />
-          <div
-            style={{
-              display: "flex",
-              alignItems: "baseline",
-            }}
-          >
+          <div className="mk-general-row" style={{ alignItems: "baseline" }}>
             <span
               className="mk-biography__job-title"
               style={{ marginRight: "1em" }}
@@ -37,7 +32,7 @@ const Biography: FC<Props> = ({ firstName, lastName, jobTitle, about }) => {
               {jobTitle}
             </span>
             {isExistContact && (
-              <div style={{ display: "flex", gap: "1em" }}>
+              <div className="mk-general-row">
                 <Contact {...contact} />
               </div>
             )}
