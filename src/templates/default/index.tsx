@@ -6,7 +6,6 @@ import "./styles/index.css";
 import Skills from "./components/Skills";
 import Socials from "./components/Socials";
 import Project from "./components/Project";
-import Contact from "./components/Contact";
 import Biography from "./components/Biography";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
@@ -18,9 +17,6 @@ const DefaultTemplate: FC = () => {
 
   const bio: any = t("bio", { returnObjects: true });
   const isExistBio = i18n.exists("bio");
-
-  const contact: any = t("contact", { returnObjects: true });
-  const isExistContact = i18n.exists("contact");
 
   const skills: string[] = t("skills", { returnObjects: true });
   const isExistSkills = i18n.exists("skills");
@@ -48,16 +44,6 @@ const DefaultTemplate: FC = () => {
       {isExistBio && (
         <>
           <Biography {...bio} />
-          <LineSeparator />
-        </>
-      )}
-
-      {isExistContact && (
-        <>
-          <ItemWrapper row="between">
-            <Contact {...contact} />
-          </ItemWrapper>
-
           <LineSeparator />
         </>
       )}
