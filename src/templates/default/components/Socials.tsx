@@ -17,7 +17,10 @@ const Socials: FC<Props> = ({ list }) => {
       const listItem = (
         <div className="mk-link-list" key={index}>
           <img src={icon} className="mk-link-list__icon" alt=" " />
-          <h3 className="mk-general-item-title" style={{ marginRight: ".3em" }}>
+          <h3
+            className="mk-general-item-title"
+            style={{ fontSize: ".7em", marginRight: ".3em" }}
+          >
             <a
               className="mk-general-item-title mk-link-list__url"
               href={item.url}
