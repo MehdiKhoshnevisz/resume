@@ -55,7 +55,7 @@ const Experience: FC<Props> = ({
   description,
 }) => (
   <div style={{ width: "100%" }}>
-    <div style={{ display: "flex", marginBottom: "0.2em" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", marginBottom: "0.2em" }}>
       <Company title={company} />
       <Position title={position} />
     </div>
