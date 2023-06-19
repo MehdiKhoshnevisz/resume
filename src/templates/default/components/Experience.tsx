@@ -9,14 +9,25 @@ type Props = {
 };
 
 const Company = ({ title }: any) => (
-  <h3 className="mk-general-item-title">
+  <h3
+    className="mk-general-item-title mk-experience-item-title"
+    style={{ marginRight: "0.75em" }}
+  >
     {title}{" "}
   </h3>
 );
 
-const Position = ({ title, startDate, endDate }: any) => (
+const Position = ({ title }: any) => (
+  <span
+    className="mk-general-item-title mk-experience-item-title"
+    style={{ color: "#989898" }}
+  >
+    {title}
+  </span>
+);
+
+const Date = ({ startDate, endDate }: any) => (
   <span className="mk-general-item-sub-title">
-    {title} &nbsp; <span style={{ fontSize: "0.9em" }}>|</span> &nbsp;{" "}
     {startDate} - {endDate || "Present"}
   </span>
 );
@@ -28,7 +39,8 @@ const Description = ({ description }: any) => (
       listStyle: "none",
       padding: 0,
       margin: 0,
-      color: "#333",
+      lineHeight: 2,
+      color: "#4D4D4D",
     }}
   >
     {description}
@@ -43,8 +55,11 @@ const Experience: FC<Props> = ({
   description,
 }) => (
   <div style={{ width: "100%" }}>
-    <Company title={company} />
-    <Position title={position} startDate={startDate} endDate={endDate} />
+    <div style={{ display: "flex", marginBottom: "0.2em" }}>
+      <Company title={company} />
+      <Position title={position} />
+    </div>
+    <Date startDate={startDate} endDate={endDate} />
     {description && <Description description={description} />}
   </div>
 );
