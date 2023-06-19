@@ -5,31 +5,43 @@
   letter-spacing: 0.04em;
 }
 
+.mk-general-row {
+  gap: 1em;
+  display: flex;
+}
+
 .mk-general-item-title {
   margin: 0;
   color: #242424;
   font-size: 1em;
+  font-size: 1.5em;
   margin-bottom: 0.1em;
 }
 
+.mk-experience-item-title {
+  font-size: 1.5em;
+}
+
 .mk-general-item-sub-title {
-  color: #777;
+  color: #4d4d4d;
   display: block;
-  font-size: 1em;
-  margin-bottom: 0.1em;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
   text-decoration: none;
   display: inline-block;
 }
 
 .mk-item-wrapper__title {
   margin: 0;
-  color: #808080;
-  font-size: 1.3em;
-  margin-bottom: 1em;
+  color: #4d4d4d;
+  font-size: 0.7em;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 .mk-item-wrapper__children {
-  gap: 1em;
+  gap: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,22 +85,21 @@
   color: #242424;
   margin-top: 0;
   line-height: 1;
-  font-size: 3em;
-  font-weight: normal;
-  margin-bottom: 0.15em;
+  font-size: 3.5em;
+  margin-bottom: 0.2em;
   transform: translateX(-2px);
 }
 
 .mk-biography__job-title {
   display: block;
   color: #4d4d4d;
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 
 .mk-biography__about {
   color: #4d4d4d;
-  font-size: 0.9em;
-  line-height: 1.8;
+  font-size: 1em;
+  line-height: 2;
   margin-top: 0.25em;
 }
 
@@ -113,6 +124,12 @@
   .mk-link-list__icon {
     width: 1em;
     height: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .mk-general-row {
+    display: block;
   }
 }
 
