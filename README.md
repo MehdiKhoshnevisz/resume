@@ -31,7 +31,7 @@ git           | latest
 
 > NOTE 2: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
 
-> NOTE 3: If you lose your deployed JSON file in any case, you can easily find your JSON file in ```gh-pages``` and then ```locales``` folder in your repo.
+> NOTE 3: If you lose your deployed JSON file in any case, you can easily find your JSON file in ```gh-pages``` branch and then ```locales``` folder in your repo.
 
 <br/>
 
