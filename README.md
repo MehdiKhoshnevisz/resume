@@ -23,14 +23,15 @@ git           | latest
 1. Fork this repo (by click on ``Fork`` button)
 2. Clone your forked repo (```git clone https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_FORKED_REPO_NAME>```)
 3. Run command ```npm install```
-4. (You can skip step 5,6 and just type ```npm run dev```)
-5. Create the translation file with the path ```locales/en/translation.json``` in ```public``` directory.
-6. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
-7. Run command ```npm run deploy``` to build and deploy it in your github page.
+4. Create the translation file with the path ```locales/en/translation.json``` in ```public``` directory.
+5. Copy content of `sample.json` in the ```translation.json``` then edit and save the file.
+6. Run command ```npm run deploy``` to build and deploy it on your GitHub page.
 
 > NOTE 1: You can run ```npm start``` after step 5 to see the preview in your localhost.
 
 > NOTE 2: Everytime you edit the ```translation.json``` file, You should deploy your changes with ```npm run deploy```.
+
+> NOTE 3: If you lose your deployed JSON file in any case, you can easily find your JSON file in ```gh-pages``` and then ```locales``` folder in your repo.
 
 <br/>
 
