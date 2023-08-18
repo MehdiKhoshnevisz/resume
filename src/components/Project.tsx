@@ -14,18 +14,14 @@ type Props = {
 };
 
 const Name = ({ name, website }: any) => (
-  <h3 className="mk-general-item-title">
+  <h3 className="text-primary text-2xl font-bold mb-2">
     {name}
     {website && (
       <a href={website} target="_blank">
         <img
           src={urlIcon}
-          width={14}
-          style={{
-            verticalAlign: "middle",
-            marginLeft: "0.5em",
-            marginBottom: "0.1em",
-          }}
+          width={16}
+          className="inline-block align-middle ml-3"
         />
       </a>
     )}
@@ -42,16 +38,7 @@ const Date = ({ startDate, endDate }: any) => {
 
 const Description = ({ description }: any) => {
   return (
-    <p
-      style={{
-        fontSize: "1em",
-        listStyle: "none",
-        padding: 0,
-        margin: 0,
-        lineHeight: 2,
-        color: "#4D4D4D",
-      }}
-    >
+    <p className="text-primary text-base font-light leading-loose m-0 p-0">
       {description}
     </p>
   );

@@ -1,25 +1,20 @@
 import { FC } from "react";
 
 const Footer: FC = () => (
-  <footer
-    style={{
-      textAlign: "center",
-      padding: "2em 0 1em 0",
-    }}
-  >
-    <span style={{ color: "#333", fontSize: "0.9em", fontWeight: 300 }}>
+  <footer className="text-center py-8 px-4">
+    <p className="text-dark font-light text-sm">
       Made with{" "}
-      <span style={{ verticalAlign: "middle" }} title="keyboard">
+      <span className="align-middle" title="keyboard">
         ⌨️
       </span>{" "}
       by{" "}
       <a
-        href="https://imehdi.dev"
-        style={{ textDecoration: "none", color: "#333", fontWeight: "bold" }}
+        href="https://github.com/MehdiKhoshnevisz/"
+        className="no-underline font-bold text-dark"
       >
         Mehdi
       </a>
-    </span>
+    </p>
   </footer>
 );
 

@@ -1,5 +1,5 @@
 import "./i18n";
-import "./index.css";
+import "./index.scss";
 import App from "./App";
 
 const createRoot = require("react-dom/client").createRoot;

@@ -9,7 +9,7 @@ type Props = {
 };
 
 const School = ({ school }: any) => (
-  <h3 className="mk-general-item-title">{school}</h3>
+  <h3 className="text-primary text-2xl font-bold">{school}</h3>
 );
 
 const Degree = ({ degree }: any) => {
@@ -22,7 +22,10 @@ const Field = ({ field }: any) => {
 
 const Date = ({ startDate, endDate }: any) => {
   return (
-    <span className="mk-general-item-sub-title" style={{ display: "block" }}>
+    <span
+      className="text-primary text-base font-light leading-loose"
+      style={{ display: "block" }}
+    >
       {startDate} - {endDate || "Present"}
     </span>
   );
