@@ -17,10 +17,11 @@
       "HTML5",
       "CSS3",
       "SCSS",
-      "Javascript",
-      "Tailwind CSS",
       "Bootstrap",
+      "Tailwind CSS",
       "Responsive",
+      "Javascript",
+      "TypeScript",
       "Vuejs",
       "Vuetify",
       "Nuxtjs",
@@ -29,6 +30,7 @@
       "Git",
       "Clean Code",
       "Pixel Perfect",
+      "GraphQl",
       "API REST"
     ],
   
