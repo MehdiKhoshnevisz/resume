@@ -1,170 +1,170 @@
 {
-  "bio": {
-    "firstName": "Mehdi",
-    "lastName": "Khoshnevis",
-    "jobTitle": "Front-End Developer",
-    "about": "I've been working for more than 5 years as a Front-End developer. Throughout my career, I have worked on a wide range of projects, from small websites to large-scale applications. Whether working independently or as part of a team, I am committed to delivering outstanding work on time."
-  },
-
-  "contact": {
-    "phone": "+98 910 965 7619",
-    "email": "mkhnsz1996@gmail.com",
-    "website": "https://imehdi.dev",
-    "location": ""
-  },
-
-  "skills": [
-    "HTML5",
-    "CSS3",
-    "SCSS",
-    "Javascript",
-    "Tailwind CSS",
-    "Bootstrap",
-    "Responsive",
-    "Vuejs",
-    "Vuetify",
-    "Nuxtjs",
-    "Reactjs",
-    "Vite",
-    "Git",
-    "Clean Code",
-    "Pixel Perfect",
-    "API REST"
-  ],
-
-  "experiences": [
-    {
-      "company": "Buzzjective ",
-      "position": "Senior Front-End Developer",
-      "startDate": "Sep 2021",
-      "endDate": "",
-      "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with international colleagues around the world.",
-      "website": "https://buzzjective.com"
+    "bio": {
+      "firstName": "Mehdi",
+      "lastName": "Khoshnevis",
+      "jobTitle": "Front-End Developer",
+      "about": "I've been working for more than 5 years as a Front-End developer. Throughout my career, I have worked on a wide range of projects, from small websites to large-scale applications. Whether working independently or as part of a team, I am committed to delivering outstanding work on time."
     },
-    {
-      "company": "Basalam",
-      "position": "Front-End Developer",
-      "startDate": "Jan 2018",
-      "endDate": "Jun 2021",
-      "description": "Experience of being in a large-scale startup with a high number of users. I worked with experienced designers, developers, and product managers. I was responsible for code review, implementing, and maintaining the front-end part. Also I developed services like ADS (ads.basalam.com) and Karbalad (karbalad.basalam.com).",
-      "website": "https://basalam.com"
+  
+    "contact": {
+      "phone": "+98 910 965 7619",
+      "email": "mkhnsz1996@gmail.com",
+      "website": "https://imehdi.dev",
+      "location": ""
     },
-    {
-      "company": "Navac",
-      "position": "Junior Web Developer",
-      "startDate": "Jul 2016",
-      "endDate": "Aug 2017",
-      "description": "I've started front-end development journey and have gained a lot of experience in front-end.",
-      "website": "https://navac.asia"
-    }
-  ],
-
-  "education": [
-    {
-      "school": "Shahab Danesh University",
-      "degree": "Bachelor's Degree",
-      "field": "Information Technology",
-      "startDate": "2014",
-      "endDate": "2018"
-    }
-  ],
-
-  "projects": [
-    {
-      "name": "Media Editor",
-      "type": "Freelance",
-      "description": "This project is about creating media by dragging elements on the canvas to create and show social media templates.",
-      "website": "http://70.35.197.229",
-      "skills": [
-        "Freelance Project",
-        "CSS3",
-        "React",
-        "JSX",
-        "TypeScript",
-        "i18n"
-      ],
-      "startDate": "May 2022",
-      "endDate": ""
-    },
-    {
-      "name": "Resume Builder",
-      "type": "Open-source",
-      "description": "Simple and minimal resume builder with React,Typescript and Github pages just by editing a JSON file.",
-      "website": "https://github.com/MehdiKhoshnevisz/resume",
-      "skills": [
-        "Github",
-        "CSS3",
-        "React",
-        "JSX",
-        "TypeScript",
-        "i18n",
-        "github-pages"
-      ],
-      "startDate": "May 2022",
-      "endDate": ""
-    },
-    {
-      "name": "Personal Website (imehdi.dev)",
-      "type": "Personal and Open-source",
-      "description": "Personal website implemented by React and deployed on vercel.",
-      "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
-      "skills": ["Github", "CSS3", "React", "JSX", "i18n", "Vercel"],
-      "startDate": "April 2022",
-      "endDate": ""
-    },
-    {
-      "name": "Vue Splash",
-      "type": "Open-source",
-      "description": "Vuejs plugin published on npm registery to display splash before loading server data.",
-      "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
-      "skills": ["Github", "CSS", "Vue", "npm"],
-      "startDate": "Jun 2020",
-      "endDate": ""
-    },
-    {
-      "name": "Rangisho",
-      "type": "Freelance",
-      "description": "a platform to connect painters and customers to sell and buy paint servcies.",
-      "website": "https://rangisho.com",
-      "skills": [
-        "Freelance Project",
-        "CSS",
-        "Responsive",
-        "Git",
-        "Scss",
-        "BEM",
-        "Laravel-mix",
-        "ECMAScript",
-        "jQuery",
-        "Gitlab",
-        "Webpack"
-      ],
-      "startDate": "Jul 2021",
-      "endDate": "Oct 2021"
-    },
-    {
-      "name": "Online Qom Bookstore",
-      "type": "Freelance",
-      "description": "Website for Book's publishers in Qom city implemented by jQuery.",
-      "website": "http://ketabeqom.com/",
-      "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
-      "startDate": "Apr 2018",
-      "endDate": "Jul 2018"
-    }
-  ],
-
-  "socials": [
-    {
-      "name": "Github",
-      "url": "https://github.com/MehdiKhoshnevisz"
-    },
-    {
-      "name": "Linkedin",
-      "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
-    },
-    {
-      "name": "Stackoverflow",
-      "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
-    }
-  ]
-}
+  
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "Javascript",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Responsive",
+      "Vuejs",
+      "Vuetify",
+      "Nuxtjs",
+      "Reactjs",
+      "Vite",
+      "Git",
+      "Clean Code",
+      "Pixel Perfect",
+      "API REST"
+    ],
+  
+    "experiences": [
+      {
+        "company": "Buzzjective ",
+        "position": "Senior Front-End Developer",
+        "startDate": "Sep 2021",
+        "endDate": "",
+        "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with international colleagues around the world.",
+        "website": "https://buzzjective.com"
+      },
+      {
+        "company": "Basalam",
+        "position": "Front-End Developer",
+        "startDate": "Jan 2018",
+        "endDate": "Jun 2021",
+        "description": "Experience of being in a large-scale startup with a high number of users. I worked with experienced designers, developers, and product managers. I was responsible for code review, implementing, and maintaining the front-end part. Also I developed services like ADS (ads.basalam.com) and Karbalad (karbalad.basalam.com).",
+        "website": "https://basalam.com"
+      },
+      {
+        "company": "Navac",
+        "position": "Junior Web Developer",
+        "startDate": "Jul 2016",
+        "endDate": "Aug 2017",
+        "description": "I've started front-end development journey and have gained a lot of experience in front-end.",
+        "website": "https://navac.asia"
+      }
+    ],
+  
+    "education": [
+      {
+        "school": "Shahab Danesh University",
+        "degree": "Bachelor's Degree",
+        "field": "Information Technology",
+        "startDate": "2014",
+        "endDate": "2018"
+      }
+    ],
+  
+    "projects": [
+      {
+        "name": "Media Editor",
+        "type": "Freelance",
+        "description": "This project is about creating media by dragging elements on the canvas to create and show social media templates.",
+        "website": "http://70.35.197.229",
+        "skills": [
+          "Freelance Project",
+          "CSS3",
+          "React",
+          "JSX",
+          "TypeScript",
+          "i18n"
+        ],
+        "startDate": "May 2022",
+        "endDate": ""
+      },
+      {
+        "name": "Resume Builder",
+        "type": "Open-source",
+        "description": "Simple and minimal resume builder with React,Typescript and Github pages just by editing a JSON file.",
+        "website": "https://github.com/MehdiKhoshnevisz/resume",
+        "skills": [
+          "Github",
+          "CSS3",
+          "React",
+          "JSX",
+          "TypeScript",
+          "i18n",
+          "github-pages"
+        ],
+        "startDate": "May 2022",
+        "endDate": ""
+      },
+      {
+        "name": "Personal Website (imehdi.dev)",
+        "type": "Personal and Open-source",
+        "description": "Personal website implemented by React and deployed on vercel.",
+        "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
+        "skills": ["Github", "CSS3", "React", "JSX", "i18n", "Vercel"],
+        "startDate": "April 2022",
+        "endDate": ""
+      },
+      {
+        "name": "Vue Splash",
+        "type": "Open-source",
+        "description": "Vuejs plugin published on npm registery to display splash before loading server data.",
+        "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
+        "skills": ["Github", "CSS", "Vue", "npm"],
+        "startDate": "Jun 2020",
+        "endDate": ""
+      },
+      {
+        "name": "Rangisho",
+        "type": "Freelance",
+        "description": "a platform to connect painters and customers to sell and buy paint servcies.",
+        "website": "https://rangisho.com",
+        "skills": [
+          "Freelance Project",
+          "CSS",
+          "Responsive",
+          "Git",
+          "Scss",
+          "BEM",
+          "Laravel-mix",
+          "ECMAScript",
+          "jQuery",
+          "Gitlab",
+          "Webpack"
+        ],
+        "startDate": "Jul 2021",
+        "endDate": "Oct 2021"
+      },
+      {
+        "name": "Online Qom Bookstore",
+        "type": "Freelance",
+        "description": "Website for Book's publishers in Qom city implemented by jQuery.",
+        "website": "http://ketabeqom.com/",
+        "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
+        "startDate": "Apr 2018",
+        "endDate": "Jul 2018"
+      }
+    ],
+  
+    "socials": [
+      {
+        "name": "Github",
+        "url": "https://github.com/MehdiKhoshnevisz"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
+      },
+      {
+        "name": "Stackoverflow",
+        "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
+      }
+    ]
+  }
