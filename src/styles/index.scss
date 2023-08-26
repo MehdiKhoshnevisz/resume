@@ -1,49 +1,34 @@
 #app {
-  margin: auto;
-  max-width: 920px;
-  padding: 2em 0;
+  @apply max-w-4xl m-auto py-8;
   letter-spacing: 0.04em;
 }
 
-.mk-general-row {
-  gap: 1em;
-  display: flex;
-}
-
 .mk-general-item-title {
-  margin: 0;
-  color: #242424;
-  font-size: 1.5em;
-  margin-bottom: 0.1em;
-}
-
-.mk-experience-item-title {
-  font-size: 1.5em;
+  @apply mb-0 text-primary text-xl font-bold;
 }
 
 .mk-general-item-sub-title {
-  color: #4d4d4d;
-  display: block;
-  font-size: 0.9em;
-  margin-bottom: 0.5em;
+  @apply text-primary block text-sm mb-1;
   text-decoration: none;
-  display: inline-block;
 }
 
 .mk-item-wrapper__title {
-  margin: 0;
-  color: #4d4d4d;
-  font-size: 0.7em;
-  margin-bottom: 1.5em;
+  @apply text-primary text-opacity-75 font-semibold text-sm mb-8;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
-.mk-item-wrapper__children {
-  gap: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.mk-item-wrapper--flex {
+  @apply md:flex flex-wrap gap-8;
+
+  &__item {
+    width: calc(50% - 2rem);
+
+    @media (max-width: 520px) {
+      @apply mb-4;
+      width: 100%;
+    }
+  }
 }
 
 .mk-item-wrapper__children--row-between {
@@ -56,11 +41,6 @@
   gap: 1em;
   display: flex;
   justify-content: flex-start;
-}
-
-.mk-item-wrapper__children > * {
-  flex: 1 1 auto;
-  width: calc(50% - 1em);
 }
 
 .mk-link-list {
@@ -78,28 +58,6 @@
   height: 1em;
   margin-right: 0.5em;
   filter: grayscale(1);
-}
-
-.mk-biography__title {
-  color: #242424;
-  margin-top: 0;
-  line-height: 1;
-  font-size: 3.5em;
-  margin-bottom: 0.2em;
-  transform: translateX(-2px);
-}
-
-.mk-biography__job-title {
-  display: block;
-  color: #4d4d4d;
-  font-size: 1.15em;
-}
-
-.mk-biography__about {
-  color: #4d4d4d;
-  font-size: 1em;
-  line-height: 2;
-  margin-top: 0.25em;
 }
 
 @media (max-width: 920px) {
@@ -123,12 +81,6 @@
   .mk-link-list__icon {
     width: 1em;
     height: 1em;
-  }
-}
-
-@media (max-width: 768px) {
-  .mk-general-row {
-    display: block;
   }
 }
 

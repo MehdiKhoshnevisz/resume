@@ -1,15 +1,13 @@
 import { FC } from "react";
 
+import ResumePage from "@/pages/resume";
 import Footer from "@/components/Footer";
-import DefaultTemplate from "@/templates/default";
 
-const App: FC = () => {
-  return (
-    <>
-      <DefaultTemplate />
-      <Footer />
-    </>
-  );
-};
+const App: FC = () => (
+  <>
+    <ResumePage />
+    <Footer />
+  </>
+);
 
 export default App;

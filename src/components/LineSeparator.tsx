@@ -2,11 +2,10 @@ import { FC } from "react";
 
 const LineSeparator: FC = () => (
   <hr
+    className="my-8 border-none"
     style={{
-      margin: "1.5em 0",
-      background: "#F5F5F5",
-      border: "none",
       height: "1.5px",
+      background: "#F5F5F5",
     }}
   />
 );

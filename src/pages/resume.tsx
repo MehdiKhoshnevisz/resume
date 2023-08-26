@@ -1,18 +1,18 @@
 import { FC, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import "./styles/index.css";
+import Skills from "@/components/Skills";
+import Socials from "@/components/Socials";
+import Project from "@/components/Project";
+import Biography from "@/components/Biography";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import ItemWrapper from "@/components/ItemWrapper";
+import LineSeparator from "@/components/LineSeparator";
 
-import Skills from "./components/Skills";
-import Socials from "./components/Socials";
-import Project from "./components/Project";
-import Biography from "./components/Biography";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import ItemWrapper from "./components/ItemWrapper";
-import LineSeparator from "./components/LineSeparator";
+import "@/styles/index.scss";
 
-const DefaultTemplate: FC = () => {
+const ResumePage: FC = () => {
   const { i18n, t, ready } = useTranslation();
 
   const bio: any = t("bio", { returnObjects: true });
@@ -63,9 +63,15 @@ const DefaultTemplate: FC = () => {
       {isExistProjects && (
         <>
           <ItemWrapper title="Projects">
-            {projects.map((item: any, index: number) => {
-              return <Project {...item} key={index} />;
-            })}
+            <div className="mk-item-wrapper--flex">
+              {projects.map((item: any, index: number) => {
+                return (
+                  <div className="mk-item-wrapper--flex__item">
+                    <Project {...item} key={index} />
+                  </div>
+                );
+              })}
+            </div>
           </ItemWrapper>
 
           <LineSeparator />
@@ -95,7 +101,7 @@ const DefaultTemplate: FC = () => {
       )}
 
       {isExistSocials && (
-        <ItemWrapper row="start">
+        <ItemWrapper>
           <Socials list={socials} />
         </ItemWrapper>
       )}
@@ -103,4 +109,4 @@ const DefaultTemplate: FC = () => {
   );
 };
 
-export default DefaultTemplate;
+export default ResumePage;

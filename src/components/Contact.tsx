@@ -1,7 +1,5 @@
 import { FC } from "react";
 
-import cleanURL from "@/utils/cleanURL";
-
 type Props = {
   phone: string;
   email: string;
@@ -15,10 +13,9 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={website}
-          className="mk-general-item-sub-title"
-          style={{ fontSize: "0.9em" }}
+          className="inline-block text-primary text-sm mb-3 md:mb-0"
         >
-          {cleanURL(website)}
+          imehdi.dev
         </a>
       </div>
     )}
@@ -27,8 +24,7 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={`mailto:${email}`}
-          className="mk-general-item-sub-title"
-          style={{ fontSize: "0.9em" }}
+          className="inline-block text-primary text-sm mb-3 md:mb-0"
         >
           {email}
         </a>
@@ -39,8 +35,7 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={`tel:${phone}`}
-          className="mk-general-item-sub-title"
-          style={{ fontSize: "0.9em" }}
+          className="inline-block text-primary text-sm mb-3 md:mb-0"
         >
           {phone}
         </a>

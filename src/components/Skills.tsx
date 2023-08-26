@@ -16,19 +16,11 @@ const Skills: FC<Props> = ({ list, size }) => {
   return (
     <div style={{ lineHeight }}>
       {list.map((item: string, index: number) => (
+        // TODO: a lot of class :))
         <span
           key={index}
-          style={{
-            border: "1px solid #989898",
-            borderRadius: "1em",
-            marginRight: "0.5em",
-            marginBottom: "0.5em",
-            padding: "0.1em 0.65em",
-            color: "#4D4D4D",
-            fontSize: fontSize,
-            display: "inline-block",
-            verticalAlign: "middle",
-          }}
+          className="text-primary border border-primary border-opacity-60 inline-block align-middle rounded-full mr-1.5 mb-2 py-0.5 px-2.5"
+          style={{ fontSize: fontSize }}
         >
           {item}
         </span>
