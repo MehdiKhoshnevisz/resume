@@ -17,7 +17,6 @@
       "HTML5",
       "CSS3",
       "SCSS",
-      "Bootstrap",
       "Tailwind CSS",
       "Responsive",
       "Javascript",
@@ -26,7 +25,10 @@
       "Vuetify",
       "Nuxtjs",
       "Reactjs",
+      "Nextjs",
+      "Redux",
       "MUI",
+      "NextUI",
       "Vite",
       "Git",
       "Clean Code",
@@ -37,11 +39,19 @@
   
     "experiences": [
       {
+        "company": "Hami Sharif University",
+        "position": "Software Developer",
+        "startDate": "Jan 2024",
+        "endDate": "",
+        "description": "Working as a software developer to develop and maintain software applications with React and Angular as part-time developer. This company operates under the supervision of Sharif University of Technology in Tehran.",
+        "website": "https://buzzjective.com"
+      },
+      {
         "company": "Buzzjective ",
         "position": "Senior Front-End Developer",
         "startDate": "Sep 2021",
-        "endDate": "",
-        "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. I'm working on the front-end part of the project and communicating with international colleagues around the world.",
+        "endDate": "Nov 2023",
+        "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. Worked on the front-end part of the project and communicating with international colleagues around the world.",
         "website": "https://buzzjective.com"
       },
       {
@@ -80,8 +90,10 @@
         "website": "http://70.35.197.229",
         "skills": [
           "Freelance Project",
-          "CSS3",
+          "Tailwind CSS",
+          "MUI",
           "React",
+          "Redux",
           "JSX",
           "TypeScript",
           "i18n"
