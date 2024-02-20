@@ -27,6 +27,7 @@
       "Reactjs",
       "Nextjs",
       "Redux",
+      "ReactQuery",
       "MUI",
       "NextUI",
       "Vite",
@@ -84,6 +85,39 @@
   
     "projects": [
       {
+        "name": "Yarino",
+        "type": "Freelance",
+        "description": "Persian community of Mentors and Learners to connect together (like adplist)",
+        "website": "",
+        "skills": [
+          "Freelance Project",
+          "Nextjs",
+          "React",
+          "NextUI",
+          "Tailwind CSS",
+          "ReactQuery"
+        ],
+        "startDate": "Feb 2024",
+        "endDate": ""
+      },
+      {
+        "name": "AlSafari",
+        "type": "Freelance",
+        "description": "Flight reservation (like Alibaba) for Dubai clients implement with Nextjs",
+        "website": "",
+        "skills": [
+          "Freelance Project",
+          "Nextjs",
+          "MUI",
+          "Styled-Components",
+          "React",
+          "ReactQuery",
+          "TypeScript"
+        ],
+        "startDate": "Jan 2024",
+        "endDate": ""
+      },
+      {
         "name": "Media Editor",
         "type": "Freelance",
         "description": "This project is about creating media by dragging elements on the canvas to create and show social media templates.",
@@ -91,15 +125,15 @@
         "skills": [
           "Freelance Project",
           "Tailwind CSS",
+          "ReactKonva",
+          "Canvas",
           "MUI",
           "React",
           "Redux",
-          "JSX",
-          "TypeScript",
           "i18n"
         ],
         "startDate": "May 2022",
-        "endDate": ""
+        "endDate": "July 2022"
       },
       {
         "name": "Resume Builder",
@@ -116,15 +150,6 @@
           "github-pages"
         ],
         "startDate": "May 2022",
-        "endDate": ""
-      },
-      {
-        "name": "Personal Website (imehdi.dev)",
-        "type": "Personal and Open-source",
-        "description": "Personal website implemented by React and deployed on vercel.",
-        "website": "https://github.com/MehdiKhoshnevisz/imehdi.dev",
-        "skills": ["Github", "CSS3", "React", "JSX", "i18n", "Vercel"],
-        "startDate": "April 2022",
         "endDate": ""
       },
       {
