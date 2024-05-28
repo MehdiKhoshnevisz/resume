@@ -9,7 +9,7 @@
     "contact": {
       "phone": "+98 910 965 7619",
       "email": "mkhnsz1996@gmail.com",
-      "website": "https://imehdi.dev",
+      "website": "",
       "location": "Tehran"
     },
   
@@ -40,11 +40,19 @@
   
     "experiences": [
       {
+        "company": "Filimo School",
+        "position": "Senior Front-End Developer",
+        "startDate": "Apr 2024",
+        "endDate": "June 2024",
+        "description": "Responsible for implementing campaigns, maintain and refactoring filimo school project core.",
+        "website": "https://hamisystem.ir"
+      },
+      {
         "company": "Hami Sharif",
         "position": "Software Developer",
         "startDate": "Jan 2024",
         "endDate": "",
-        "description": "Working as a software developer to develop and maintain software applications with React and Angular as part-time developer. This company operates under the supervision of Sharif University of Technology in Tehran.",
+        "description": "Working as a software developer to develop and maintain software applications with Reactjs and Nextjs as part-time developer. This company operates under the supervision of Sharif University of Technology in Tehran.",
         "website": "https://hamisystem.ir"
       },
       {
@@ -87,8 +95,8 @@
       {
         "name": "Yarino",
         "type": "Freelance",
-        "description": "Persian community of Mentors and Learners to connect together (like adplist)",
-        "website": "",
+        "description": "Persian community of Mentors and Mentees to connect together (like adplist)",
+        "website": "https://yarino.liara.run/",
         "skills": [
           "Freelance Project",
           "Nextjs",
@@ -104,7 +112,7 @@
         "name": "AlSafari",
         "type": "Freelance",
         "description": "Flight reservation (like Alibaba) for Dubai clients implement with Nextjs",
-        "website": "",
+        "website": "https://alsafari.iq",
         "skills": [
           "Freelance Project",
           "Nextjs",
@@ -165,7 +173,7 @@
         "name": "Rangisho",
         "type": "Freelance",
         "description": "a platform to connect painters and customers to sell and buy paint servcies.",
-        "website": "https://rangisho.com",
+        "website": "https://rangisho.vercel.app",
         "skills": [
           "Freelance Project",
           "CSS",
@@ -181,15 +189,6 @@
         ],
         "startDate": "Jul 2021",
         "endDate": "Oct 2021"
-      },
-      {
-        "name": "Online Qom Bookstore",
-        "type": "Freelance",
-        "description": "Website for Book's publishers in Qom city implemented by jQuery.",
-        "website": "http://ketabeqom.com/",
-        "skills": ["Freelance Project", "jQuery", "CSS3", "Responsive"],
-        "startDate": "Apr 2018",
-        "endDate": "Jul 2018"
       }
     ],
   
