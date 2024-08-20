@@ -13,7 +13,7 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={website}
-          className="inline-block text-primary text-sm mb-3 md:mb-0"
+          className="inline-block text-slate-500 text-base mb-3 md:mb-0"
         >
           imehdi.dev
         </a>
@@ -24,7 +24,7 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={`mailto:${email}`}
-          className="inline-block text-primary text-sm mb-3 md:mb-0"
+          className="inline-block text-slate-500 text-base mb-3 md:mb-0"
         >
           {email}
         </a>
@@ -35,7 +35,7 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
       <div>
         <a
           href={`tel:${phone}`}
-          className="inline-block text-primary text-sm mb-3 md:mb-0"
+          className="inline-block text-slate-500 text-base mb-3 md:mb-0"
         >
           {phone}
         </a>
@@ -44,7 +44,9 @@ const Contact: FC<Props> = ({ phone, email, website, location }) => (
 
     {location && (
       <div>
-        <span className="mk-general-item-sub-title">{location}</span>
+        <span className="inline-block text-slate-500 text-base mb-6 md:mb-0">
+          {location}
+        </span>
       </div>
     )}
   </>

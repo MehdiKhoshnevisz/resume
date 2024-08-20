@@ -20,12 +20,12 @@ const Biography: FC<Props> = ({ firstName, lastName, jobTitle, about }) => {
     <header>
       <div>
         <h1
-          className="text-dark text-5xl font-bold -translate-x-1 mb-4"
+          className="text-dark text-6xl font-bold -translate-x-1 mb-4"
           dangerouslySetInnerHTML={{ __html: fullName }}
         />
 
         <div className="md:flex gap-4 items-baseline">
-          <span className="block text-primary text-lg mr-2 mb-2 md:mb-2">
+          <span className="block text-slate-700 font-bold text-2xl mr-2 mb-2 md:mb-2">
             {jobTitle}
           </span>
 
@@ -36,8 +36,11 @@ const Biography: FC<Props> = ({ firstName, lastName, jobTitle, about }) => {
           )}
         </div>
       </div>
-
-      <p className="text-primary leading-loose">{about}</p>
+      {/* TODO: Need to reactor to parse correctly */}
+      <p
+        className="text-slate-700 text-xl leading-loose"
+        dangerouslySetInnerHTML={{ __html: about }}
+      ></p>
     </header>
   );
 };

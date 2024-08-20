@@ -16,7 +16,7 @@ const Socials: FC<Props> = ({ list }) => {
 
       const listItem = (
         <a
-          className="flex items-center mr-4 mb-4 md:mb-0 text-base"
+          className="flex items-center mr-4 mb-4 md:mb-0 text-slate-700 font-bold"
           href={item.url}
           key={index}
         >

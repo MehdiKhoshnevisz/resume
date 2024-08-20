@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Footer: FC = () => (
   <footer className="text-center py-8 px-4">
-    <p className="text-dark font-light text-sm">
+    <p className="text-slate-900 font-light text-sm">
       Made with{" "}
       <span className="align-middle" title="keyboard">
         ⌨️

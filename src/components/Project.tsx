@@ -14,7 +14,7 @@ type Props = {
 };
 
 const Name = ({ name, website }: any) => (
-  <h3 className="text-primary text-2xl font-bold mb-2">
+  <h3 className="text-slate-900 text-3xl font-bold mb-2">
     {name}
     {website && (
       <a href={website} target="_blank">
@@ -30,7 +30,7 @@ const Name = ({ name, website }: any) => (
 
 const Date = ({ startDate, endDate }: any) => {
   return (
-    <span className="mk-general-item-sub-title">
+    <span className="text-slate-500 block text-base mb-1">
       {startDate} - {endDate || "Present"}
     </span>
   );
@@ -38,7 +38,7 @@ const Date = ({ startDate, endDate }: any) => {
 
 const Description = ({ description }: any) => {
   return (
-    <p className="text-primary text-base font-light leading-loose m-0 p-0">
+    <p className="text-slate-800 text-lg font-light leading-relaxed m-0 p-0 mb-3">
       {description}
     </p>
   );

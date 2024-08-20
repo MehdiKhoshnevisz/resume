@@ -9,23 +9,23 @@ type Props = {
 };
 
 const Company = ({ title }: any) => (
-  <h3 className="mb-0 text-primary text-2xl font-bold mr-4">{title}</h3>
+  <h3 className="mb-0 text-slate-900 text-3xl font-black  mr-4">{title}</h3>
 );
 
 const Position = ({ title }: any) => (
-  <span className="mb-0 text-primary text-2xl font-extralight text-opacity-50">
+  <span className="mb-0 text-slate-500 text-3xl font-extralight text-opacity-50">
     {title}
   </span>
 );
 
 const Date = ({ startDate, endDate }: any) => (
-  <span className="text-primary block text-sm mb-1">
+  <span className="text-slate-500 block text-base mb-1">
     {startDate} - {endDate || "Present"}
   </span>
 );
 
 const Description = ({ description }: any) => (
-  <p className="text-primary text-base font-light leading-loose m-0 p-0">
+  <p className="text-slate-800 text-lg font-medium leading-relaxed m-0 p-0">
     {description}
   </p>
 );

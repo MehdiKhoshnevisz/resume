@@ -10,7 +10,7 @@ const Skills: FC<Props> = ({ list, size }) => {
   let fontSize = "1em";
 
   if (size === "sm") {
-    fontSize = "0.7em";
+    fontSize = "0.8em";
   }
 
   return (
@@ -19,7 +19,7 @@ const Skills: FC<Props> = ({ list, size }) => {
         // TODO: a lot of class :))
         <span
           key={index}
-          className="text-primary border border-primary border-opacity-60 inline-block align-middle rounded-full mr-1.5 mb-2 py-0.5 px-2.5"
+          className="text-slate-600 border border-slate-800 border-opacity-70 inline-block align-middle rounded-full mr-1.5 mb-2 py-0.5 px-2.5 font-semibold"
           style={{ fontSize: fontSize }}
         >
           {item}
