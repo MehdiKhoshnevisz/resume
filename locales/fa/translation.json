@@ -1,41 +1,36 @@
 {
     "bio": {
-      "firstName": "Mehdi",
-      "lastName": "Khoshnevis",
-      "jobTitle": "Front-End Developer",
-      "about": "I've been working for +5 years as a Front-End developer.<br />  My journey began in the dynamic world of startups, where I learned about agile methodologies, collaborative problem-solving and communicating with tech, design and product teams.<br />  I am passionate about latest web technologies and trends, continuously exploring new frameworks and tools to push the boundaries of what's possible in front-end development."
+      "firstName": "مهدی",
+      "lastName": "خوشنویس‌زاده",
+      "jobTitle": "توسعه‌دهنده فرانت",
+      "about": "بیشتر از ۵ سال هست که در این حوزه مشغول به کار هستم و با شرکت های کوچک و بزرگ فراوانی فعالیت کرده ام لورم لورم لورم."
     },
   
     "contact": {
-      "phone": "+98 910 965 7619",
+      "phone": "۰۹۱۰۹۶۵۷۶۱۹",
       "email": "mkhnsz1996@gmail.com",
       "website": "",
-      "location": "Tehran"
+      "location": "تهران"
     },
   
     "skills": [
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
       "SCSS",
       "Tailwind CSS",
       "Responsive",
       "Javascript",
       "TypeScript",
       "Vuejs",
-      "Vuex",
-      "Pinia",
       "Vuetify",
       "Nuxtjs",
       "Reactjs",
       "Nextjs",
       "Redux",
-      "Zustand",
       "ReactQuery",
       "MUI",
       "NextUI",
-      "AntDesign",
       "Vite",
-      "Webpack",
       "Git",
       "Clean Code",
       "Pixel Perfect",
@@ -45,32 +40,32 @@
   
     "experiences": [
       {
-        "company": "Filimo School",
-        "position": "Senior Front-End Developer",
-        "startDate": "Apr 2024",
-        "endDate": "June 2024",
-        "description": "Responsible for maintaining and refactoring filimo school project core and components, implementing campaigns, optimizing and improving performace.",
-        "website": "https://www.filimo.school"
+        "company": "فیلیمو مدرسه",
+        "position": "توسعه‌دهنده فرانت - سنیور",
+        "startDate": "اسفند ۱۴۰۲",
+        "endDate": "اردیبهشت ۱۴۰۳",
+        "description": "مسئولیت پیاده‌سازی و نگهداری از کدهای فرانت پروژه فیلیمومدرسه و پیاده‌سازی لندینگ‌",
+        "website": "https://hamisystem.ir"
       },
       {
-        "company": "Buzzjective",
-        "position": "Software Developer",
+        "company": "بازجکتیو",
+        "position": "توسعه‌دهنده فرانت - سنیور",
         "startDate": "Sep 2021",
         "endDate": "Nov 2023",
-        "description": "Started working as a full-time remote software developer at Buzzjective based in Berlin. I was responsible for implementing new features in web and panel pages, hunting bugs in product and try to fix them, writing e2e tests and onboarding new colleagues. It was my first experience working with non-persian and forien product and team, which helped me a lot to improve my English speaking.",
+        "description": "Started working as a full-time remote front-end developer at Buzzjective based in Berlin. Worked on the front-end part of the project and communicating with international colleagues around the world.",
         "website": "https://buzzjective.com"
       },
       {
-        "company": "Basalam",
-        "position": "Front-End Developer",
+        "company": "باسلام",
+        "position": "توسعه‌دهنده فرانت",
         "startDate": "Jan 2018",
         "endDate": "Jun 2021",
-        "description": "Experience of being in a startup with a high number of users and +300 team members. Being in different functional and cross-fucntional teams to achive the team goals. I was responsible for code review of Basalam products (incudes ADS, KARBALAD and VENDOR), implementing, and maintaining the front-end page and features (like spinning wheel, shopping cart, product page, ...) and a lot of campaigns. Also tryed to develop and own products like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com) and Vendors (vendor.basalam.com).",
+        "description": "Experience of being in a large-scale startup with a high number of users. I worked with experienced designers, developers, and product managers. I was responsible for code review, implementing, and maintaining the front-end part. Also I developed services like ADS (ads.basalam.com) and Karbalad (karbalad.basalam.com).",
         "website": "https://basalam.com"
       },
       {
-        "company": "Navac",
-        "position": "Junior Web Developer",
+        "company": "ناوک",
+        "position": "توسعه‌دهنده فرانت - جونیور",
         "startDate": "Jul 2016",
         "endDate": "Aug 2017",
         "description": "I've started front-end development journey and have gained a lot of experience in front-end.",
@@ -80,19 +75,19 @@
   
     "education": [
       {
-        "school": "Shahab Danesh University",
-        "degree": "Bachelor's Degree",
-        "field": "Information Technology",
-        "startDate": "2014",
-        "endDate": "2018"
+        "school": "دانشگاه شهاب دانش",
+        "degree": "کارشناسی",
+        "field": "فناوری اطلاعات",
+        "startDate": "۱۳۹۸",
+        "endDate": "۱۳۹۳"
       }
     ],
   
     "projects": [
       {
-        "name": "Yarino",
-        "type": "Freelance",
-        "description": "Persian community of Mentors and Mentees to connect together (like adplist) to reserving a meet or joining to an event.",
+        "name": "یارینو",
+        "type": "فریلنسر",
+        "description": "Persian community of Mentors and Mentees to connect together (like adplist)",
         "website": "https://yarino.liara.run/",
         "skills": [
           "Freelance Project",
@@ -106,7 +101,7 @@
         "endDate": ""
       },
       {
-        "name": "AlSafari",
+        "name": "الصفاری",
         "type": "Freelance",
         "description": "Flight reservation (like Alibaba) for Dubai clients implement with Nextjs",
         "website": "https://alsafari.iq",
@@ -123,7 +118,7 @@
         "endDate": ""
       },
       {
-        "name": "Media Editor",
+        "name": "مدیا ادیتور",
         "type": "Freelance",
         "description": "This project is about creating media by dragging elements on the canvas to create and show social media templates.",
         "website": "http://70.35.197.229",
@@ -141,7 +136,7 @@
         "endDate": "July 2022"
       },
       {
-        "name": "Resume Builder",
+        "name": "رزومه‌ساز",
         "type": "Open-source",
         "description": "Simple and minimal resume builder with React,Typescript and Github pages just by editing a JSON file.",
         "website": "https://github.com/MehdiKhoshnevisz/resume",
@@ -167,7 +162,7 @@
         "endDate": ""
       },
       {
-        "name": "Rangisho",
+        "name": "رنگی‌شو",
         "type": "Freelance",
         "description": "a platform to connect painters and customers to sell and buy paint servcies.",
         "website": "https://rangisho.vercel.app",
