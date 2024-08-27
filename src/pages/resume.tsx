@@ -63,10 +63,10 @@ const ResumePage: FC = () => {
       {isExistProjects && (
         <>
           <ItemWrapper title="Projects">
-            <div className="mk-item-wrapper--flex">
+            <div className="grid grid-cols-12 gap-4">
               {projects.map((item: any, index: number) => {
                 return (
-                  <div className="mk-item-wrapper--flex__item">
+                  <div className="col-span-12 lg:col-span-4">
                     <Project {...item} key={index} />
                   </div>
                 );
