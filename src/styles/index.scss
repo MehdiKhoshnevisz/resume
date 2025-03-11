@@ -60,6 +60,16 @@
   filter: grayscale(1);
 }
 
+.mk-experience-description {
+  ul {
+    list-style: disc;
+    li {
+      margin: 0 1.5rem;
+      padding: 0.25rem;
+    }
+  }
+}
+
 @media (max-width: 920px) {
   #app {
     padding: 2em 1.5em;

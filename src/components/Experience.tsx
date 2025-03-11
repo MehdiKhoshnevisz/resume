@@ -24,10 +24,12 @@ const Date = ({ startDate, endDate }: any) => (
   </span>
 );
 
+/* TODO: Need to reactor to parse correctly */
 const Description = ({ description }: any) => (
-  <p className="text-slate-800 text-lg font-medium leading-relaxed m-0 p-0">
-    {description}
-  </p>
+  <p
+    className="mk-experience-description text-slate-800 text-lg font-medium leading-relaxed m-0 p-0"
+    dangerouslySetInnerHTML={{ __html: description }}
+  ></p>
 );
 
 const Experience: FC<Props> = ({
