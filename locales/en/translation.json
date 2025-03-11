@@ -1,203 +1,168 @@
 {
-    "bio": {
-      "firstName": "Mehdi",
-      "lastName": "Khoshnevis",
-      "jobTitle": "Front-End Developer",
-      "about": "I've been working as a Front-End Developer for over 5 years. Starting my journey in 2018 during university and began with <b>pure JavaScript</b> and <b>jQuery</b> while working as a trainee.<br/> Later, during my 3 years at Basalam, I worked with various technologies, including <b>React (class-based components)</b>, <b>jQuery</b>, <b>Laravel</b>, and eventually <b>Vue</b> and <b>Nuxt.js</b>, which became my primary stack at the time.<br /> Over 2 years ago, I've decided to focus on learning and building numerous projects using <b>React</b> and <b>Next.js</b> and <b>Typescript</b> which have now become my main stack. This experience has helped me refine my skills in modern front-end development and application architecture.  "
+  "bio": {
+    "firstName": "Mehdi",
+    "lastName": "Khoshnevis",
+    "jobTitle": "Front-End Developer",
+    "about": "With over 5 years of experience in coding and front-end development. Expert in <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and <b>Tailwind</b>. Additionally, I have 2 years of experience working with <b>Vue.js</b> and <b>Nuxt</b>. Passionate about solving UI challenges, writing clean, maintainable, and reusable code while ensuring a DRY architecture. I also have a keen eye for pixel-perfect designs. Staying up to date with the latest technologies and trends to continuously improve my skills and build better solutions."
+  },
+
+  "contact": {
+    "phone": "+98 910 965 7619",
+    "email": "",
+    "website": "",
+    "location": "Tehran"
+  },
+
+  "skills": [
+    "HTML/CSS",
+    "Javascript",
+    "TypeScript",
+    "React",
+    "Nextjs",
+    "Redux",
+    "Zustand",
+    "ReactQuery",
+    "E2E",
+    "Tailwind CSS",
+    "MUI",
+    "HeroUI",
+    "AntDesign",
+    "Styled-Component",
+    "Vite",
+    "Git",
+    "Github",
+    "CI/CD",
+    "GraphQL",
+    "REST"
+  ],
+
+  "experiences": [
+    {
+      "company": "Filimo School",
+      "position": "Senior Front-End Developer",
+      "startDate": "Apr 2024",
+      "endDate": "June 2024",
+      "description": "<ul><li>Maintaining and refactoring the Filimo School project core and components to improve code quality, readability, and scalability.</li><li>Implementing campaigns by taking ownership of front-end execution and collaborating closely with the product and design teams to ensure seamless user experience and brand consistency.</li></ul>",
+      "website": "https://www.filimo.school"
     },
-  
-    "contact": {
-      "phone": "+98 910 965 7619",
-      "email": "mkhnsz1996@gmail.com",
-      "website": "",
-      "location": "Tehran"
+    {
+      "company": "Buzzjective",
+      "position": "Senior Front-End Developer",
+      "startDate": "Sep 2021",
+      "endDate": "Nov 2023",
+      "description": "<ul><li>Worked with an international team based in Berlin, collaborating across different time zones and cultures.</li><li>Worked with the DataGuard.com team, a GDPR compliance platform focused on data privacy and security, ensuring businesses adhere to European data protection regulations. Contributed to security-focused development practices.</li><li>Implemented a design system using microfrontend technology, enabling modular, scalable, and reusable UI components across multiple applications.</li><li>Worked with the Taxmaro.com team, an HR and accounting platform, maintaining and debugging the front-end structure while implementing new features to improve functionality and user experience.</li></ul>",
+      "website": "https://buzzjective.com"
     },
-  
-    "skills": [
-      "SCSS",
-      "Tailwind CSS",
-      "TypeScript",
-      "Vuejs",
-      "Vuex",
-      "Vuetify",
-      "Nuxtjs",
-      "React",
-      "Nextjs",
-      "Redux",
-      "Zustand",
-      "ReactQuery",
-      "MUI",
-      "NextUI",
-      "AntDesign",
-      "Vite",
-      "Clean Code",
-      "Responsive",
-      "Pixel Perfect",
-      "GraphQl"
-    ],
-  
-    "experiences": [
-      {
-        "company": "Filimo School",
-        "position": "Senior Front-End Developer",
-        "startDate": "Apr 2024",
-        "endDate": "June 2024",
-        "description": "I was responsible for maintaining and refactoring Filimo School project core and components, implementing campaigns, optimizing and improving performance.",
-        "website": "https://www.filimo.school"
-      },
-      {
-        "company": "Buzzjective",
-        "position": "Front-End Developer",
-        "startDate": "Sep 2021",
-        "endDate": "Nov 2023",
-        "description": "Started working as a full-time remote software developer at Buzzjective based in Berlin. I was responsible for implementing new features in web and panel pages, hunting bugs in product and trying to fix them, writing e2e tests and onboarding new colleagues. It was my first experience working with Non-Iranian and international product and team, which helped me a lot to improve my English speaking.",
-        "website": "https://buzzjective.com"
-      },
-      {
-        "company": "Basalam",
-        "position": "Front-End Developer",
-        "startDate": "Jan 2018",
-        "endDate": "Jun 2021",
-        "description": "Experience of being in a startup with a high number of users and +300 team members. Being in different functional and cross-fucntional teams to achive the team goals. I was responsible for code review of Basalam products (incudes ADS, KARBALAD and VENDOR), implementing, and maintaining the front-end page and features (like spinning wheel, shopping cart, product page, ...) and a lot of campaigns. Also tried to develop and own products like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com) and Vendors (vendor.basalam.com).",
-        "website": "https://basalam.com"
-      },
-      {
-        "company": "Navac",
-        "position": "Junior Web Developer",
-        "startDate": "Jul 2016",
-        "endDate": "Aug 2017",
-        "description": "I've started front-end development journey and have gained a lot of experience in front-end.",
-        "website": "https://navac.asia"
-      }
-    ],
-  
-    "education": [
-      {
-        "school": "Shahab Danesh University",
-        "degree": "Bachelor's Degree",
-        "field": "Information Technology",
-        "startDate": "2014",
-        "endDate": "2018"
-      }
-    ],
-  
-    "projects": [
-      {
-        "name": "GoftoMeet",
-        "type": "Freelance",
-        "description": "Persian community of mentors and mentees to connect together (like adplist) to reserving a meet or joining to an event.",
-        "website": "https://goftomeet.com",
-        "skills": [
-          "Nextjs",
-          "NextUI",
-          "Zustand",
-          "Tailwind CSS"
-        ],
-        "startDate": "Feb 2024",
-        "endDate": ""
-      },
-      {
-        "name": "Teamo",
-        "type": "Freelance",
-        "description": "a web application to streamline the process of managing employee entry and exit records within a company",
-        "website": "https://teamo.company",
-        "skills": [
-          "Nextjs",
-          "TypeScript",
-          "ReactQuery",
-          "NextUI",
-          "Zustand",
-          "Tailwind CSS",
-          "PWA"
-        ],
-        "startDate": "April 2024",
-        "endDate": "Aug 2024"
-      },
-      {
-        "name": "AlSafari",
-        "type": "Freelance",
-        "description": "Flight and hotel reservation for Dubai clients implement with Nextjs",
-        "website": "https://alsafari.iq",
-        "skills": [
-          "Nextjs",
-          "TypeScript",
-          "ReactQuery",
-          "Styled-Components",
-          "MUI"
-        ],
-        "startDate": "Jan 2024",
-        "endDate": ""
-      },
-      {
-        "name": "Media Editor",
-        "type": "Freelance",
-        "description": "Creating social media posts, presentations, posters, videos, logos and more by dragging elements on the canvas and editing them and save them as a template (like Conva).",
-        "website": "http://70.35.197.229",
-        "skills": [
-          "React",
-          "RTK",
-          "MUI",
-          "Tailwind CSS",
-          "Canvas",
-          "ReactKonva",
-          "i18n"
-        ],
-        "startDate": "May 2022",
-        "endDate": "July 2022"
-      },
-      {
-        "name": "Resume Builder",
-        "type": "Open-source",
-        "description": "Simple and minimal resume builder with React,Typescript and Github pages just by editing a JSON file.",
-        "website": "https://github.com/MehdiKhoshnevisz/resume",
-        "skills": [
-          "Github",
-          "CSS3",
-          "React",
-          "TypeScript",
-          "i18n",
-          "github-pages"
-        ],
-        "startDate": "May 2022",
-        "endDate": ""
-      },
-      {
-        "name": "Vue Splash",
-        "type": "Open-source",
-        "description": "Vuejs plugin published on npm registery to display splash before loading server data.",
-        "website": "https://github.com/MehdiKhoshnevisz/vue-splash",
-        "skills": ["Github", "CSS3", "Vue", "npm", "babel"],
-        "startDate": "Jun 2020",
-        "endDate": ""
-      },
-      {
-        "name": "Rangisho",
-        "type": "Freelance",
-        "description": "a platform to connect painters and customers to sell and buy paint servcies.",
-        "website": "https://rangisho.vercel.app",
-        "skills": [
-          "SCSS",
-          "Laravel-mix",
-          "jQuery",
-          "Webpack"
-        ],
-        "startDate": "Jul 2021",
-        "endDate": "Oct 2021"
-      }
-    ],
-  
-    "socials": [
-      {
-        "name": "Github",
-        "url": "https://github.com/MehdiKhoshnevisz"
-      },
-      {
-        "name": "Linkedin",
-        "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
-      },
-      {
-        "name": "Stackoverflow",
-        "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
-      }
-    ]
-  }
+    {
+      "company": "Basalam",
+      "position": "Front-End Developer",
+      "startDate": "Jan 2018",
+      "endDate": "Jun 2021",
+      "description": "<ul><li>Gained experience in a fast-growing startup with a large user base and a team of over 200 members.</li><li>Collaborated with functional and cross-functional teams to align on goals and drive product success.</li><li>Implemented designs, maintained code, and conducted code reviews for Basalam’s core products and ventures.</li><li>Developed front-end features such as the spinning wheel, shopping cart, product pages, and various marketing campaigns.</li><li>Contributed to the development and ownership of platforms like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com), and Vendor (vendor.basalam.com).</li></ul>",
+      "website": "https://basalam.com"
+    },
+    {
+      "company": "Navac",
+      "position": "Junior Web Developer",
+      "startDate": "Jul 2016",
+      "endDate": "Aug 2017",
+      "description": "I started my front-end development journey by learning HTML, CSS, and JavaScript, which allowed me to build interactive and responsive web pages. I also explored jQuery to enhance UI interactions and simplify DOM manipulation. Through hands-on experience, I developed a strong foundation in creating dynamic web applications.",
+      "website": "https://navac.asia"
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Shahab Danesh University",
+      "degree": "Bachelor's Degree",
+      "field": "Information Technology",
+      "startDate": "2014",
+      "endDate": "2018"
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "GoftoMeet",
+      "type": "Freelance",
+      "description": "A Persian community platform connecting mentors and mentees, similar to ADPList, enabling users to schedule meetings and join events.",
+      "website": "https://goftomeet.com",
+      "skills": ["Nextjs", "NextUI", "Zustand", "Tailwind CSS"],
+      "startDate": "Feb 2024",
+      "endDate": "Nov 2025"
+    },
+    {
+      "name": "Teamo",
+      "type": "Freelance",
+      "description": "Web application for efficiently managing employee entry and exit records within a company.",
+      "website": "https://teamo.company",
+      "skills": [
+        "Nextjs",
+        "TypeScript",
+        "ReactQuery",
+        "NextUI",
+        "Zustand",
+        "Tailwind CSS",
+        "PWA"
+      ],
+      "startDate": "April 2024",
+      "endDate": "Aug 2024"
+    },
+    {
+      "name": "AlSafari",
+      "type": "Freelance",
+      "description": "Flight and hotel reservation for Dubai clients implement with Nextjs",
+      "website": "https://alsafari.iq",
+      "skills": [
+        "Nextjs",
+        "TypeScript",
+        "ReactQuery",
+        "Styled-Component",
+        "MUI"
+      ],
+      "startDate": "Jan 2024",
+      "endDate": "Dec 2024"
+    },
+    {
+      "name": "Media Editor",
+      "type": "Freelance",
+      "description": "A platform for creating social media posts, presentations, posters, videos, logos, and more by dragging elements onto a canvas, editing them, and saving them as templates, similar to Canva.",
+      "website": "http://70.35.197.229",
+      "skills": [
+        "React",
+        "RTK",
+        "MUI",
+        "Tailwind CSS",
+        "Canvas",
+        "ReactKonva",
+        "i18n"
+      ],
+      "startDate": "May 2022",
+      "endDate": "July 2022"
+    },
+    {
+      "name": "Rangisho",
+      "type": "Freelance",
+      "description": "A platform connecting painters and customers for buying and selling painting services.",
+      "website": "https://rangisho.vercel.app",
+      "skills": ["SCSS", "Laravel-mix", "jQuery", "Webpack"],
+      "startDate": "Jul 2021",
+      "endDate": "Oct 2021"
+    }
+  ],
+
+  "socials": [
+    {
+      "name": "Github",
+      "url": "https://github.com/MehdiKhoshnevisz"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/mehdi-khoshnevisz/"
+    },
+    {
+      "name": "Stackoverflow",
+      "url": "https://stackoverflow.com/users/13455258/mehdi-khoshnevis"
+    }
+  ]
+}
