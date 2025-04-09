@@ -42,6 +42,7 @@
       "position": "Senior Front-End Developer",
       "startDate": "Apr 2024",
       "endDate": "June 2024",
+      "dateDifference": "3 months",
       "description": "<ul><li>Maintaining and refactoring the Filimo School project core and components to improve code quality, readability, and scalability.</li><li>Implementing campaigns by taking ownership of front-end execution and collaborating closely with the product and design teams to ensure seamless user experience and brand consistency.</li></ul>",
       "website": "https://www.filimo.school"
     },
@@ -50,6 +51,7 @@
       "position": "Senior Front-End Developer",
       "startDate": "Sep 2021",
       "endDate": "Nov 2023",
+      "dateDifference": "2 years and 2 months",
       "description": "<ul><li>Worked with an international team based in Berlin, collaborating across different time zones and cultures.</li><li>Worked with the DataGuard.com team, a GDPR compliance platform focused on data privacy and security, ensuring businesses adhere to European data protection regulations. Contributed to security-focused development practices.</li><li>Implemented a design system using microfrontend technology, enabling modular, scalable, and reusable UI components across multiple applications.</li><li>Worked with the Taxmaro.com team, an HR and accounting platform, maintaining and debugging the front-end structure while implementing new features to improve functionality and user experience.</li></ul>",
       "website": "https://buzzjective.com"
     },
@@ -58,6 +60,7 @@
       "position": "Front-End Developer",
       "startDate": "Jan 2018",
       "endDate": "Jun 2021",
+      "dateDifference": "3 years and 5 months",
       "description": "<ul><li>Gained experience in a fast-growing startup with a large user base and a team of over 200 members.</li><li>Collaborated with functional and cross-functional teams to align on goals and drive product success.</li><li>Implemented designs, maintained code, and conducted code reviews for Basalam’s core products and ventures.</li><li>Developed front-end features such as the spinning wheel, shopping cart, product pages, and various marketing campaigns.</li><li>Contributed to the development and ownership of platforms like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com), and Vendor (vendor.basalam.com).</li></ul>",
       "website": "https://basalam.com"
     },
@@ -66,6 +69,7 @@
       "position": "Junior Web Developer",
       "startDate": "Jul 2016",
       "endDate": "Aug 2017",
+      "dateDifference": "1 year",
       "description": "I started my front-end development journey by learning HTML, CSS, and JavaScript, which allowed me to build interactive and responsive web pages. I also explored jQuery to enhance UI interactions and simplify DOM manipulation. Through hands-on experience, I developed a strong foundation in creating dynamic web applications.",
       "website": "https://navac.asia"
     }
@@ -122,23 +126,6 @@
       ],
       "startDate": "Jan 2024",
       "endDate": "Dec 2024"
-    },
-    {
-      "name": "Media Editor",
-      "type": "Freelance",
-      "description": "A platform for creating social media posts, presentations, posters, videos, logos, and more by dragging elements onto a canvas, editing them, and saving them as templates, similar to Canva.",
-      "website": "http://70.35.197.229",
-      "skills": [
-        "React",
-        "RTK",
-        "MUI",
-        "Tailwind CSS",
-        "Canvas",
-        "ReactKonva",
-        "i18n"
-      ],
-      "startDate": "May 2022",
-      "endDate": "July 2022"
     },
     {
       "name": "Rangisho",
