@@ -95,23 +95,7 @@
       "startDate": "Feb 2024",
       "endDate": "Nov 2025"
     },
-    {
-      "name": "Teamo",
-      "type": "Freelance",
-      "description": "Web application for efficiently managing employee entry and exit records within a company.",
-      "website": "https://teamo.company",
-      "skills": [
-        "Nextjs",
-        "TypeScript",
-        "ReactQuery",
-        "NextUI",
-        "Zustand",
-        "Tailwind CSS",
-        "PWA"
-      ],
-      "startDate": "April 2024",
-      "endDate": "Aug 2024"
-    },
+
     {
       "name": "AlSafari",
       "type": "Freelance",
