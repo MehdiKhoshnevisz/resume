@@ -6,6 +6,7 @@ type Props = {
   startDate: string;
   endDate?: string;
   description?: string;
+  dateDifference?: string;
 };
 
 const Company = ({ title }: any) => (
@@ -13,14 +14,15 @@ const Company = ({ title }: any) => (
 );
 
 const Position = ({ title }: any) => (
-  <span className="mb-0 text-slate-500 text-3xl font-extralight text-opacity-50">
+  <span className="mb-0 text-slate-600 text-3xl font-extralight text-opacity-50">
     {title}
   </span>
 );
 
-const Date = ({ startDate, endDate }: any) => (
+const Date = ({ startDate, endDate, dateDifference }: any) => (
   <span className="text-slate-500 block text-base mb-1">
-    {startDate} - {endDate || "Present"}
+    {startDate} - {endDate || "Present"}{" "}
+    {dateDifference ? `(${dateDifference})` : ""}
   </span>
 );
 
@@ -38,13 +40,18 @@ const Experience: FC<Props> = ({
   startDate,
   endDate,
   description,
+  dateDifference,
 }) => (
   <div className="mb-8" style={{ width: "100%" }}>
     <div className="flex flex-wrap mb-2">
       <Company title={company} />
       <Position title={position} />
     </div>
-    <Date startDate={startDate} endDate={endDate} />
+    <Date
+      startDate={startDate}
+      endDate={endDate}
+      dateDifference={dateDifference}
+    />
     {description && <Description description={description} />}
   </div>
 );
