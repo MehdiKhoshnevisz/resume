@@ -3,12 +3,12 @@
     "firstName": "Mehdi",
     "lastName": "Khoshnevis",
     "jobTitle": "Front-End Developer",
-    "about": "With over 5 years of experience in coding and front-end development. Expert in <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and <b>Tailwind</b>. Additionally, I have 2 years of experience working with <b>Vue.js</b> and <b>Nuxt</b>. Passionate about solving UI challenges, writing clean, maintainable, and reusable code while ensuring a DRY architecture. I also have a keen eye for pixel-perfect designs. Staying up to date with the latest technologies and trends to continuously improve my skills and build better solutions."
+    "about": "With over 5 years of experience in coding and front-end development. Expert in <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and <b>Tailwind</b>. Additionally, I have experience working with <b>Vue.js</b> and <b>Nuxt</b>. Passionate about solving UI challenges, writing clean, maintainable, and reusable code while ensuring a DRY architecture. I also have a keen eye for pixel-perfect designs. Staying up to date with the latest technologies and trends to continuously improve my skills and build better solutions."
   },
 
   "contact": {
     "phone": "+98 910 965 7619",
-    "email": "",
+    "email": "mkhnsz1996@gmail.com",
     "website": "",
     "location": "Tehran"
   },
@@ -22,28 +22,41 @@
     "Redux",
     "Zustand",
     "ReactQuery",
-    "E2E",
+    "Vue",
+    "Nuxt",
     "Tailwind CSS",
+    "Vutify",
     "MUI",
     "HeroUI",
     "AntDesign",
     "Styled-Component",
     "Vite",
+    "E2E",
+    "Playwright",
     "Git",
     "Github",
     "CI/CD",
+    "Docker",
     "GraphQL",
-    "REST"
+    "REST API"
   ],
 
   "experiences": [
+    {
+      "company": "Freelancer",
+      "position": "Senior Front-End Developer",
+      "startDate": "June 2024",
+      "dateDifference": "+1 year",
+      "description": "<ul><li>I've been working as a freelance front-end developer up to now, building modern, responsive web applications using technologies like React, Next.js, TypeScript, Tailwind, Hero UI, Material UI and Ant Design. I focus on clean UI/UX design, performance, and maintainable code.</ul>",
+      "website": ""
+    },
     {
       "company": "Filimo School",
       "position": "Senior Front-End Developer",
       "startDate": "Apr 2024",
       "endDate": "June 2024",
       "dateDifference": "3 months",
-      "description": "<ul><li>Maintaining and refactoring the Filimo School project core and components to improve code quality, readability, and scalability.</li><li>Implementing campaigns by taking ownership of front-end execution and collaborating closely with the product and design teams to ensure seamless user experience and brand consistency.</li></ul>",
+      "description": "<ul><li>Maintaining and refactoring the Filimo School project core and components to improve code quality, readability, and scalability.</li><li>Implementing campaigns by taking ownership of front-end execution and collaborating closely with the product and design teams to ensure seamless user experience and brand consistency.</li><li>Stack: Next, React, Redux, Styled-Component, Sass</li></ul>",
       "website": "https://www.filimo.school"
     },
     {
@@ -52,7 +65,7 @@
       "startDate": "Sep 2021",
       "endDate": "Nov 2023",
       "dateDifference": "2 years and 2 months",
-      "description": "<ul><li>Worked with an international team based in Berlin, collaborating across different time zones and cultures.</li><li>Worked with the DataGuard.com team, a GDPR compliance platform focused on data privacy and security, ensuring businesses adhere to European data protection regulations. Contributed to security-focused development practices.</li><li>Implemented a design system using microfrontend technology, enabling modular, scalable, and reusable UI components across multiple applications.</li><li>Worked with the Taxmaro.com team, an HR and accounting platform, maintaining and debugging the front-end structure while implementing new features to improve functionality and user experience.</li></ul>",
+      "description": "<ul><li>Worked with an international team based in Berlin, collaborating across different time zones and cultures.</li><li>Worked with the DataGuard.com team, a GDPR compliance platform focused on data privacy and security, ensuring businesses adhere to European data protection regulations. Contributed to security-focused development practices.</li><li>Implemented a design system using microfrontend technology, enabling modular, scalable, and reusable UI components across multiple applications.</li><li>Worked with the Taxmaro.com team, an HR and accounting platform, maintaining and debugging the front-end structure while implementing new features to improve functionality and user experience.</li><li>Stack: Vue, Vuetify, Vuex, Sass, Storybook, Micro-Frontend, E2E(Playwright)</li></ul>",
       "website": "https://buzzjective.com"
     },
     {
@@ -61,17 +74,8 @@
       "startDate": "Jan 2018",
       "endDate": "Jun 2021",
       "dateDifference": "3 years and 5 months",
-      "description": "<ul><li>Gained experience in a fast-growing startup with a large user base and a team of over 200 members.</li><li>Collaborated with functional and cross-functional teams to align on goals and drive product success.</li><li>Implemented designs, maintained code, and conducted code reviews for Basalam’s core products and ventures.</li><li>Developed front-end features such as the spinning wheel, shopping cart, product pages, and various marketing campaigns.</li><li>Contributed to the development and ownership of platforms like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com), and Vendor (vendor.basalam.com).</li></ul>",
+      "description": "<ul><li>Gained experience in a fast-growing startup with a large user base and a team of over 200 members.</li><li>Collaborated with functional and cross-functional teams to align on goals and drive product success.</li><li>Implemented designs, maintained code, and conducted code reviews for Basalam’s core products and ventures.</li><li>Developed front-end features such as the spinning wheel, shopping cart, product pages, and various marketing campaigns.</li><li>Contributed to the development and ownership of platforms like ADS (ads.basalam.com), Karbalad (karbalad.basalam.com), and Vendor (vendor.basalam.com).</li><li>Stack: Nuxt, Vue, Vuetify, Sass, jQuery</li></ul>",
       "website": "https://basalam.com"
-    },
-    {
-      "company": "Navac",
-      "position": "Junior Web Developer",
-      "startDate": "Jul 2016",
-      "endDate": "Aug 2017",
-      "dateDifference": "1 year",
-      "description": "I started my front-end development journey by learning HTML, CSS, and JavaScript, which allowed me to build interactive and responsive web pages. I also explored jQuery to enhance UI interactions and simplify DOM manipulation. Through hands-on experience, I developed a strong foundation in creating dynamic web applications.",
-      "website": "https://navac.asia"
     }
   ],
 
@@ -89,13 +93,12 @@
     {
       "name": "GoftoMeet",
       "type": "Freelance",
-      "description": "A Persian community platform connecting mentors and mentees, similar to ADPList, enabling users to schedule meetings and join events.",
+      "description": "Persian community platform connecting mentors and mentees, similar to ADPList, enabling users to schedule meetings and join events.",
       "website": "https://goftomeet.com",
       "skills": ["Nextjs", "NextUI", "Zustand", "Tailwind CSS"],
       "startDate": "Feb 2024",
       "endDate": "Nov 2025"
     },
-
     {
       "name": "AlSafari",
       "type": "Freelance",
@@ -114,7 +117,7 @@
     {
       "name": "Rangisho",
       "type": "Freelance",
-      "description": "A platform connecting painters and customers for buying and selling painting services.",
+      "description": "a platform to connect painters and customers for buying and selling painting services.",
       "website": "https://rangisho.vercel.app",
       "skills": ["SCSS", "Laravel-mix", "jQuery", "Webpack"],
       "startDate": "Jul 2021",
